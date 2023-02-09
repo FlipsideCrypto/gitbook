@@ -169,6 +169,8 @@ Tag\_type 'wallet' is for tags pertaining to the token contents of an address.&#
 | eth billionaire                  | address has an ETH balance of at least $1,000,000,000                                                                       | Ethereum    |
 | eth millionaire                  | address has an ETH balance of at least $1,000,000                                                                           | Ethereum    |
 | eth top 1%                       | address has an ETH balance in the top 1% of all ETH holders                                                                 | Ethereum    |
+| optimism airdrop 1 recipient     | addresses that received the first optimism airdrop                                                                          | Optimism    |
+| optimism airdrop 2 recipient     | addresses that received the second optimism airdrop                                                                         | Optimism    |
 | token billionaire                | address has a non-eth token  balance of at least $1,000,000,000                                                             | Ethereum    |
 | token millionaire                | address has a non-eth token balance of at least $1,000,000                                                                  | Ethereum    |
 | token top 1%                     | address has a non-eth token balance in the top 1% of all non-eth token holders                                              | Ethereum    |
