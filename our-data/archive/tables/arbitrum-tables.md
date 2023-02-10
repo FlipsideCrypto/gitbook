@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Arbitrum Tables
 
 Documentation for \`arbitrum\` tables can be found [here](https://flipsidecrypto.github.io/arbitrum-models/#!/overview).

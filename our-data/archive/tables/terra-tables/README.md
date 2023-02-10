@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Terra Tables
 
 ## Background of Terra

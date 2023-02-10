@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # FLOW Tables
 
 The [Flow blockchain](https://www.onflow.org/primer) is a fast, decentralized blockchain that enhances the development of decentralized applications and NFTs. Like other blockchains, Flow has its own native currency, known as FLOW. FLOW is the reserve asset used to pay transaction costs and staking on the network.

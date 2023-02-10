@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Polygon Tables
 
 **Blockchain:** [Polygon](https://polygon.technology/)

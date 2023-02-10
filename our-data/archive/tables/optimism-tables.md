@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Optimism Tables
 
 Documentation for `optimism` tables can be found [here](https://flipsidecrypto.github.io/optimism-models/#!/overview).

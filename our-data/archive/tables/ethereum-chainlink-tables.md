@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Ethereum Chainlink Tables
 
 Documentation for `ethereum.chainlink` tables can be found here:

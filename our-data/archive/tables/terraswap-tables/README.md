@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Terraswap Tables
 
 From the [Terraswap docs](https://docs.terraswap.io/) : "Terraswap is a Uniswap-inspired automated market-maker (AMM) protocol implemented with smart contracts on the Terra blockchain."

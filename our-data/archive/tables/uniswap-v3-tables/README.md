@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Uniswap V3 Tables
 
 **Blockchain:** [Ethereum](https://ethereum.org/en/)

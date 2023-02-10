@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Crosschain Tables
 
 These tables contain data from multiple blockchains. The following tables are available in the Crosschain schema:\

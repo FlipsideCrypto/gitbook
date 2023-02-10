@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # THORChain Tables
 
 **Blockchain:** [THORChain](https://thorchain.org/)

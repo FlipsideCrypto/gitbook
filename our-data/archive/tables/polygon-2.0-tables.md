@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Polygon 2.0 Tables
 
 Documentation for \`polygon\` tables can be found [here](https://flipsidecrypto.github.io/polygon-models/#!/overview).

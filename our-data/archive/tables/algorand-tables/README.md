@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Algorand Tables
 
 The Algorand tables schema are based on the [Algorand indexer](https://github.com/algorand/indexer/releases/tag/2.8.0). Algorand tables are available in [the Flipside app](https://app.flipsidecrypto.com/velocity) as the `algorand` schema. The tables are built based on the algorand asset, app, account,  block, and transaction information.

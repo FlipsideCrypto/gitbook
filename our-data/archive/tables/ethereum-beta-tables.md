@@ -1,7 +1,8 @@
 ---
 description: >-
-  These tables are subject to change without notice! Do not use these for
-  dashboards or important analysis.
+  [Legacy Documentation, Not Maintained, For Reference Only] These tables are
+  subject to change without notice! Do not use these for dashboards or important
+  analysis.
 ---
 
 # Ethereum Beta Tables

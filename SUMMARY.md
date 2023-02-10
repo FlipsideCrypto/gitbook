@@ -2,6 +2,10 @@
 
 * [Welcome to Flipside!](README.md)
 
+## Our App
+
+* [Markdown Reference](our-app/markdown-reference.md)
+
 ## Our Data
 
 * [Data Table Documentation](our-data/data-table-documentation.md)

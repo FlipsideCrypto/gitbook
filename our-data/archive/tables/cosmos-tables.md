@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Cosmos Tables
 
 ### **Current Cosmos Tables**

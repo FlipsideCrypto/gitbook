@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # AAVE Tables
 
 AAVE is a lending platform, somewhat similar in scope and design to Compound. As a result we have a similar design schema for this project. Feedback remains very welcome as much of this data remains very beta!

@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Astroport Tables
 
 Astroport is an automated market-maker (AMM) protocol on the Terra blockchain.&#x20;

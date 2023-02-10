@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Avalanche Tables
 
 Documentation for \`avalanche\` tables can be found [here](https://flipsidecrypto.github.io/avalanche-models/#!/overview).

@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Ethereum Maker DAO Tables
 
 Documentation for the curated Ethereum Maker DAO Tables are included in [the Ethereum Core DBT documentation](https://flipsidecrypto.github.io/ethereum-models/#!/overview/ethereum\_models) under the following path in the sidebar: Projects/Ethereum\_models/models/gold/maker

@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # BSC Tables
 
 Documentation for \`bsc\` tables can be found [`here`](https://flipsidecrypto.github.io/bsc-models/#!/overview).

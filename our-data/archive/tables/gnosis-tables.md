@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Gnosis Tables
 
 Documentation for \`gnosis\` tables can be found [here](https://flipsidecrypto.github.io/gnosis-models/#!/overview).

@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Data Updates
 
 **Join our** [**Discord**](https://discord.gg/ZmU3jQuu6W) **for recent data updates.**&#x20;

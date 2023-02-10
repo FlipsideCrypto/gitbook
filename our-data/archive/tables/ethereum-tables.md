@@ -1,3 +1,7 @@
+---
+description: '[Legacy Documentation, Not Maintained, For Reference Only]'
+---
+
 # Ethereum Tables
 
 Documentation for `Ethereum_core` tables can be found [here](https://flipsidecrypto.github.io/ethereum-models/#!/overview).&#x20;

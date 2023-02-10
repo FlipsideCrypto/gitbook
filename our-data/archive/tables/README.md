@@ -1,7 +1,8 @@
 ---
 description: >-
-  This section provides documentation on the schemas and design decisions behind
-  every queryable table.
+  [Legacy Documentation, Not Maintained, For Reference Only] This section
+  provides documentation on the schemas and design decisions behind every
+  queryable table.
 ---
 
 # Legacy Table Documentation
