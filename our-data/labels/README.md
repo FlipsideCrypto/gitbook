@@ -65,7 +65,7 @@ event_from_address_name
 
 ## Contribute to our labels
 
-To submit a label to our labels tables, go to our [label submission form](https://science.flipsidecrypto.xyz/add-a-label/) and follow the steps there to submit a label. We will review all submitted labels and add accurate labels to our tables. \
+To contribute to our labels, go to our [label submission form](https://science.flipsidecrypto.xyz/add-a-label/) and follow the steps there to submit a label. We will review all submitted labels and add accurate labels to our tables. \
 \
 Be sure to add a discord handle so we can reach out to you if there are any issues with your submitted labels.&#x20;
 
