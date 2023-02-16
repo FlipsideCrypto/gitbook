@@ -8,15 +8,11 @@ description: >-
 
 Labels identify known addresses that are associated with a CEX, DEX, NFT project, liquidity pool, or other entity.&#x20;
 
-How are labels different from tags?\
-\
-Labels are a "source of truth" added by Flipside core contributors across all chains.\
-\
-Each known address receives only one label. Not every address has a label.
+How are labels different from tags? Labels are a "source of truth" added by Flipside core contributors across all chains. Each known address receives only one label. Not every address has a label.
 
-``[`crosschain.core.address_labels` table docs](../archive/tables/crosschain-tables/crosschain-address-labels.md)
+## Contribute to our labels
 
-
+To contribute to our labels, go to our [label submission form](https://science.flipsidecrypto.xyz/add-a-label/) and follow the steps there to submit a label. We will review all submitted labels and add accurate labels to our tables. Be sure to add a discord handle so we can reach out to you if there are any questions!
 
 ## Label Types
 
@@ -63,9 +59,5 @@ event_from_label
 event_from_address_name
 ```
 
-## Contribute to our labels
 
-To contribute to our labels, go to our [label submission form](https://science.flipsidecrypto.xyz/add-a-label/) and follow the steps there to submit a label. We will review all submitted labels and add accurate labels to our tables. \
-\
-Be sure to add a discord handle so we can reach out to you if there are any issues with your submitted labels.&#x20;
 

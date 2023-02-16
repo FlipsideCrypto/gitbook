@@ -4,6 +4,9 @@
 
 ## Our App
 
+* [App Overview](our-app/app-overview.md)
+* [App Walkthrough](our-app/app-walkthrough.md)
+* [Keyboard Shortcuts](our-app/keyboard-shortcuts.md)
 * [Markdown Reference](our-app/markdown-reference.md)
 
 ## Our Data
