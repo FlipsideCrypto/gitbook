@@ -4,8 +4,13 @@
 
 ## Our App
 
-* [App Overview](our-app/app-overview.md)
-* [App Walkthrough](our-app/app-walkthrough.md)
+* [Getting Started](our-app/getting-started.md)
+* [Getting Around the App](our-app/getting-around-the-app/README.md)
+  * [Discover](our-app/getting-around-the-app/discover.md)
+  * [My Work](our-app/getting-around-the-app/my-work.md)
+  * [Query Editor](our-app/getting-around-the-app/query-editor.md)
+  * [Dashboard Editor](our-app/getting-around-the-app/dashboard-editor.md)
+  * [Profiles](our-app/getting-around-the-app/profiles.md)
 * [Keyboard Shortcuts](our-app/keyboard-shortcuts.md)
 * [Markdown Reference](our-app/markdown-reference.md)
 
@@ -15,6 +20,7 @@
 * [Using Snowflake SQL](our-data/using-snowflake-sql.md)
 * [Writing Efficient Queries](our-data/writing-efficient-queries.md)
 * [Data Modeling Approach](our-data/data-models.md)
+* [Contract Decoding & ABIs](our-data/contract-decoding-and-abis.md)
 * [Tags](our-data/featured-tags-and-sql-examples/README.md)
   * [How to Add Your Own Tags](our-data/featured-tags-and-sql-examples/how-to-add-your-own-tags.md)
 * [Labels](our-data/labels/README.md)

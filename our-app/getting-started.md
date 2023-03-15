@@ -1,8 +1,8 @@
 ---
-description: How to get started with the Flipside data app.
+description: How to get started querying data with the Flipside data app.
 ---
 
-# App Walkthrough
+# Getting Started
 
 ### Step 1: Create an account.
 
