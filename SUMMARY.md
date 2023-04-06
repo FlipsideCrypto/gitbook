@@ -226,6 +226,9 @@
       * [Positions](our-data/archive/tables/uniswap-v3-tables/positions.md)
       * [LP Actions](our-data/archive/tables/uniswap-v3-tables/lp-actions.md)
   * [Algorand Tutorials](our-data/archive/algorand-tutorials.md)
+* [Misc](our-data/misc/README.md)
+  * [Data Roadmap](our-data/misc/data-roadmap.md)
+  * [Table Freshness Targets](our-data/misc/table-freshness-targets.md)
 
 ## ShroomDK (SDK)
 
