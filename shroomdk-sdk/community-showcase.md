@@ -20,6 +20,7 @@ _Add your work by submitting a_ [_pull request_](https://github.com/FlipsideCryp
 | [Osmosis Liquidity Whales](https://jordiruspira-osmosis-liquidity-providers-osmosis-lprs-78acun.streamlitapp.com/) | Explore top liquidity providers and LP holdings.  | [@RuspiTorpi](https://twitter.com/RuspiTorpi/)                                       | Python ([source](https://github.com/jordiruspira/osmosis\_liquidity\_providers/)) |
 | [Thorsight](https://thorsight.playwo.de/)                                                                          | Track your ThorChain LP positions performance.    | [@Playwo](https://twitter.com/Playwo\_)                                              | C# & Angular ([source](https://github.com/PoolPirate/Thorsight))                  |
 | [NFT OnChained Trading View](https://nft.onchained.com/tradingviewchartsALL)                                       | Compare trading metrics for NFTs.                 | [@OnChainedCom](https://twitter.com/OnChainedCom)                                    |                                                                                   |
+| [CyberKongz Data](https://www.ckdata.xyz/)                                                                         | In-depth CyberKongz NFT and ecosystem analytics.  | [@banterlytics](https://twitter.com/banterlytics)                                    | Python                                                                            |
 
 ## Data Science & Analytics
 
