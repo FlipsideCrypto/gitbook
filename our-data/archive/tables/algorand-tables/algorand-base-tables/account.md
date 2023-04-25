@@ -4,7 +4,7 @@ The account table contains all address within the Algorand Ecosystem.
 
 ## Table Schema
 
-****
+
 
 | Field            | Type   | Description                                                                                    |
 | ---------------- | ------ | ---------------------------------------------------------------------------------------------- |

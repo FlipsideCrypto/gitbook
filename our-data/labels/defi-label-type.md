@@ -4,7 +4,7 @@ The `defi` label type represents addresses used for minting.
 
 `label_type` = `defi`
 
-``
+
 
 ### Label Subtypes
 

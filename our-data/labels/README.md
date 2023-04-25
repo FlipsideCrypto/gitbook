@@ -18,16 +18,16 @@ To contribute to our labels, go to our [label submission form](https://science.f
 
 There are 10 label types within any blockchain.
 
-1. ****[**cex** (Centralized Exchange)](cex-label-type.md)
-2. ****[**dex** (Decentralized Exchange)](dex-label-type.md)
-3. ****[**operator** (Chain Operations)](operator-label-type.md)
-4. ****[**chadmin** (Chain Administration)](chadmin-label-type.md)
-5. ****[**defi** (Decentralized Finance Applications)](defi-label-type.md)
-6. ****[**nft** (NonFungible Token Contracts & Applications)](nft-label-type.md)
-7. ****[**layer2** (Layer 2 Dapps)](layer2-label-type.md)
-8. ****[**dapp** (Decentralized Applications)](other-label-type.md)
-9. ****[**token** (Token Contracts)](token-label-type.md)
-10. ****[**flotsam** (Junk or Other)](flotsam-label-type.md)
+1. [**cex** (Centralized Exchange)](cex-label-type.md)
+2. [**dex** (Decentralized Exchange)](dex-label-type.md)
+3. [**operator** (Chain Operations)](operator-label-type.md)
+4. [**chadmin** (Chain Administration)](chadmin-label-type.md)
+5. [**defi** (Decentralized Finance Applications)](defi-label-type.md)
+6. [**nft** (NonFungible Token Contracts & Applications)](nft-label-type.md)
+7. [**layer2** (Layer 2 Dapps)](layer2-label-type.md)
+8. [**dapp** (Decentralized Applications)](other-label-type.md)
+9. [**token** (Token Contracts)](token-label-type.md)
+10. [**flotsam** (Junk or Other)](flotsam-label-type.md)
 
 See [the Crosschain schema](../archive/tables/crosschain-tables/crosschain-address-labels.md) for the table containing all labeled addresses.&#x20;
 

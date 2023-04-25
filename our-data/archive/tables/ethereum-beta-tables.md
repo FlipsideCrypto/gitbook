@@ -11,4 +11,4 @@ Please report bugs in discord as you find them, and know we are already working 
 
 Links to the `ethereum.beta` tables can be found here:
 
-``[`beta.fact_decoded_logs`](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum\_models.beta\_\_fact\_decoded\_logs)``
+[`beta.fact_decoded_logs`](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum\_models.beta\_\_fact\_decoded\_logs)

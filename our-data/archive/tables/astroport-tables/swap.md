@@ -10,7 +10,7 @@ This swaps table contains the information for swap behavior, it involves the sen
 
 ## Table Schema
 
-****
+
 
 | Field               | Type      | Description                                                                          |
 | ------------------- | --------- | ------------------------------------------------------------------------------------ |

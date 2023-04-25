@@ -141,7 +141,7 @@ Retrieve all records up to the 1,000,000 row limit.
 
 {% tabs %}
 {% tab title="Python" %}
-**All Results in List** _via_ [_jokersden_](https://github.com/jokersden)__
+**All Results in List** _via_ [_jokersden_](https://github.com/jokersden)
 
 If the number of records are not known, you can do this to dynamically find out the number of pages that you have to query.
 
@@ -161,9 +161,9 @@ for i in range(10):  # There will be max 10 pages at default 100k per page & 1M 
 
 ```
 
-__
 
-****\
+
+\
 **All Results to Pandas DataFrame** via [0xdatawolf](https://www.twitter.com/0xdatawolf)
 
 ```python

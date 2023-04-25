@@ -26,8 +26,8 @@ library(shroomDK)
 ## Auto Paginate Query
 
 **auto\_paginate\_query()**\
-****\
-****The easiest way to use shroomDK is to simply auto paginate a query to return (up to) 1 Million rows in 1 function call. This function will attempt to report useful errors and warnings; but if results are not as expected, follow the traditional create\_query\_token() %>% get\_query\_from\_token() %>% clean\_query() pipeline.\
+\
+The easiest way to use shroomDK is to simply auto paginate a query to return (up to) 1 Million rows in 1 function call. This function will attempt to report useful errors and warnings; but if results are not as expected, follow the traditional create\_query\_token() %>% get\_query\_from\_token() %>% clean\_query() pipeline.\
 \
 Documentation can be viewed within RStudio with `?auto_paginate_query` for new packages you may need to restart R to get to the documentation. It is summarized here:
 

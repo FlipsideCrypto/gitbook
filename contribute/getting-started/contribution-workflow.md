@@ -8,10 +8,10 @@
    * Data models iterate through different “layers”. Generally speaking these are bronze, silver, and core. How these layers interact is defined in [Model Standards](../model-standards/).
 2. Create model file within the proper layer and naming convention
    * Naming convention for file is `<layer name>__<table name>.sql`
-   * Example for silver layer: **** `./models/silver/silver__my_new_table.sql`
+   * Example for silver layer:  `./models/silver/silver__my_new_table.sql`
 3. Create a corresponding .yml file
    * This should hold any model/column descriptions and tests for the model/columns
-   * Example for silver layer: **** `./models/silver/silver__my_new_table.yml`
+   * Example for silver layer:  `./models/silver/silver__my_new_table.yml`
 4. Start writing SQL code
    * Write code in Snowflake Web UI (Snowsight):  [https://app.snowflake.com/us-east-1/vna27887](https://app.snowflake.com/us-east-1/vna27887)
    * Snowsight documentation:  [https://docs.snowflake.com/en/user-guide/ui-snowsight.html](https://docs.snowflake.com/en/user-guide/ui-snowsight.html)

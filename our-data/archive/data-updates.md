@@ -41,5 +41,5 @@ The new Ethereum schema will be **ethereum\_core**. Ethereum was one of the firs
 Timeline:\
 \- April 18, 2022 - Eth Week! New Schema exposed for all users. All bounties will have to use ethereum\_core schema.\
 \
-__
+
 

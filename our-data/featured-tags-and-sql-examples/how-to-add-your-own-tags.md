@@ -70,8 +70,8 @@ If you have a static list of addresses that need a tag, a DBT seed file is the b
 Please see our [Github](https://github.com/FlipsideCrypto/crosschain-models) for how to upload your own DBT seed files.\
 \
 **3. I know what I want but I don't know how to tag**\
-****\
-****Flipside has a very active community and extraordinarily helpful employees. Reach out to the community, or to @gto, in Discord and someone will help you set up your tags.&#x20;
+\
+Flipside has a very active community and extraordinarily helpful employees. Reach out to the community, or to @gto, in Discord and someone will help you set up your tags.&#x20;
 
 
 
@@ -134,7 +134,7 @@ limit 100
 ```
 
 will return a list of addresses that were active _in the last 7 days!_\
-__We can also use the start and end dates to find addresses that were active in a date range! A query such as:
+We can also use the start and end dates to find addresses that were active in a date range! A query such as:
 
 ```
 select 

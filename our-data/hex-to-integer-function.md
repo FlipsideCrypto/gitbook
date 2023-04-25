@@ -4,15 +4,15 @@ description: >-
   with raw EVM event logs and transactions.
 ---
 
-# Hex to Integer Function
+# Hex-to-Integer Function
 
 **Function name**: ethereum.public.udf\_hex\_to\_int()
 
-****
+
 
 **What is it used for**: converts hex values into integer
 
-****
+
 
 **When to use**:&#x20;
 
@@ -20,7 +20,7 @@ When working with raw event logs and data inside the fact\_transactions and fact
 
 Often you will want to convert these values into integers to get the decoded values. For example, in our Example 2 below, decoding the hex value gives us the NFT token ID. Note that you can use this function is relevant for any EVM data and is not limited to Ethereum data only.&#x20;
 
-****
+
 
 **How to use**:
 
@@ -48,7 +48,7 @@ We can rearrange the data above to what we see on Etherscan in the screenshot be
 000000000000000000000000b932a70a57673d89f4acffbe830e8ed7f75fb9e0\
 0000000000000000000000000000000000000000000000000000000000001ffb
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-09-14 at 10.33.11 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2022-09-14 at 10.33.11 AM.png" alt=""><figcaption></figcaption></figure>
 
 We can use the substr function to get the string that is associated with ‘auctionId’.
 
@@ -70,4 +70,4 @@ from ethereum.core.fact_transactions
 
 This would result in 8187 which is consistent with using the decode button on Etherscan as shown in the screenshot below.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-09-14 at 10.33.24 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2022-09-14 at 10.33.24 AM.png" alt=""><figcaption></figcaption></figure>

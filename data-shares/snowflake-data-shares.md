@@ -8,7 +8,7 @@ description: >-
 
 Snowflake data shares give you access to the entirety of Flipside's on-chain databases in your own Snowflake environment.
 
-This is the best option for teams that want to incorporate large amounts of historical data, near real-time data, or want to join Flipside's data with their own internal data, all without **** ever managing any nodes or complex data pipelines.
+This is the best option for teams that want to incorporate large amounts of historical data, near real-time data, or want to join Flipside's data with their own internal data, all without ever managing any nodes or complex data pipelines.
 
 Flipside covers the cost of the storage, and you only pay when you run a query (_via Snowflake compute costs_).&#x20;
 

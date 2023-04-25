@@ -115,7 +115,7 @@ There are many ways to customize a dashboard — you can add text boxes, charts
 
 For now, we'll stick to the basics — let's give this dashboard a name! Click the default assigned name (the date and time the dashboard was created) and name it something appropriate like "NFT Mint Volume Walkthrough".
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 8.20.15 PM.png" alt=""><figcaption><p>Click the big timestamp and name it something appropriate.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 8.20.15 PM (1).png" alt=""><figcaption><p>Click the big timestamp and name it something appropriate.</p></figcaption></figure>
 
 Make any other changes you see fit:
 
@@ -150,5 +150,5 @@ Congrats — you've published!
 
 * **Edit your profile** — add contact information, customize your avatar and background image.
 * **Get inspired** — go back to Discover and scope out the trending work: filter by a project you're interested in, and see what the best analysts in crypto are making on Flipside. Oh, and if you see something you like, be sure to hit that ❤️ button — "likes" impact the rankings and you'll help more people see good work by voting for things you enjoy.
-* **Check out bounties** — there are a few [Flipside bounties](https://app.gitbook.com/s/q3ZsciVeKRUUcuezp6ax/rpc/data-types/sqlstatement) left, but the new stuff is mostly at [MetricsDAO](https://metricsdao.xyz/) — check it out, accept a challenge, submit your work, and get paid!
+* **Check out bounties** — there are a few [Flipside bounties](http://localhost:5000/s/q3ZsciVeKRUUcuezp6ax/rpc/data-types/sqlstatement) left, but the new stuff is mostly at [MetricsDAO](https://metricsdao.xyz/) — check it out, accept a challenge, submit your work, and get paid!
 

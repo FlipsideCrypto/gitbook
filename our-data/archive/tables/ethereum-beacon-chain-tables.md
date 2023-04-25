@@ -10,6 +10,6 @@ The public Github repo with source code is [here](https://github.com/FlipsideCry
 
 Quick Links to Table Docs:
 
-* ``[`fact_blocks`](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum\_models.beacon\_chain\_\_fact\_blocks)``
-* ``[`fact_deposits`](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum\_models.beacon\_chain\_\_fact\_deposits)``
-* ``[`fact_attestations`](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum\_models.beacon\_chain\_\_fact\_attestations)``
+* [`fact_blocks`](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum\_models.beacon\_chain\_\_fact\_blocks)
+* [`fact_deposits`](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum\_models.beacon\_chain\_\_fact\_deposits)
+* [`fact_attestations`](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum\_models.beacon\_chain\_\_fact\_attestations)

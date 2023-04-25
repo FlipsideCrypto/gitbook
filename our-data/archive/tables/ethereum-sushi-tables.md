@@ -10,6 +10,6 @@ The public Github repo with Ethereum Maker DAO model source code is similarly in
 \
 Quick Links to Table Docs:
 
-* ``[`ez_swaps`](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum\_models.sushi\_\_ez\_swaps)``
+* [`ez_swaps`](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum\_models.sushi\_\_ez\_swaps)
 * &#x20; [ez\_lending](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum\_models.sushi\_\_ez\_lending)
 * &#x20; [ez\_borrowing](https://flipsidecrypto.github.io/ethereum-models/#!/model/model.ethereum\_models.sushi\_\_ez\_borrowing)

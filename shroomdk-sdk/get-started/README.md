@@ -32,7 +32,7 @@ Explore our data in the [Flipside app](https://app.flipsidecrypto.com/), check o
 
 Introduce yourself in the SDK [Discord](https://discord.gg/ZmU3jQuu6W) channels, ask questions and share what you're working on.:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Dedicated ShroomDK channels in our Discord host a vibrant community of creators.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Dedicated ShroomDK channels in our Discord host a vibrant community of creators.</p></figcaption></figure>
 
 ## 5. Share your work
 

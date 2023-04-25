@@ -23,7 +23,7 @@ A table is materialized as incremental via the model config. Flipside does this 
 * [`incremental_strategy`](https://docs.getdbt.com/docs/build/incremental-models#about-incremental\_strategy) determines the build approach. On Snowflake, the default is `merge` but you may also see `delete+insert`
 * [`unique_key`](https://docs.getdbt.com/reference/resource-configs/unique\_key) is a required parameter, regardless of incremental or table, but is used in the `incremental_strategy` to identify records.
 
-When creating models with incremental __ materialization, we need to write an incremental logic within the model. It is important for the incremental logic to be based on `_inserted_timestamp` __ and not on the __ `block_timestamp`_._ This is important especially when the data encounters gaps on certain dates. This enables the model to heal itself because gaps are associated with __ `block_timestamp` __ and when they get-inserted later, they get captured by _`_inserted_timestamp`._
+When creating models with incremental materialization, we need to write an incremental logic within the model. It is important for the incremental logic to be based on `_inserted_timestamp` and not on the `block_timestamp`_._ This is important especially when the data encounters gaps on certain dates. This enables the model to heal itself because gaps are associated with `block_timestamp` and when they get-inserted later, they get captured by _`_inserted_timestamp`._
 
 ```sql
  {% raw %}

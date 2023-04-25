@@ -31,5 +31,5 @@ Flipside refreshes data across three dimensions fact tables, dim tables, and ez 
 | Polygon    | decoded\_event\_logs     | 2.5 hours                      |
 | Solana     | Fact + Dim               | 40 Minutes                     |
 | Solana     | Ez                       | 1 hour                         |
-| Terra      | Fact + Dim + Ez          | 45 minutes                     |
+| Terra      | Fact + Dim + Ez          | 24 hours                       |
 | Thorchain  | Fact + Dim + Ez          | 2 hours                        |

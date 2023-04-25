@@ -12,7 +12,7 @@ Swaps table contains the information for swap behavior, it involves the sender (
 
 ## Table Schema
 
-****
+
 
 | Field               | Type      | Description                                                                          |
 | ------------------- | --------- | ------------------------------------------------------------------------------------ |

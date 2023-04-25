@@ -66,7 +66,7 @@ Now, that you've found a dashboard you're interested in. Let's cover some tips t
 
 Here are some ways you can interact with a dashboard:
 
-* **Sort:** sort a result table by clicking on the column header. ****&#x20;
+* **Sort:** sort a result table by clicking on the column header. &#x20;
 * **Apply parameters:** if you're viewing a dashboard with parameters available, you can adjust those to see the data you care about. For example, you can set date ranges to narrow in on a time period you're interested in.
 * **View a different tab:** Click on the different tabs to see the different "pages" of a dashboard.
 * **Check the query:** if you're curious about a query behind a chart, simply click on the chart title to view it.
@@ -74,7 +74,7 @@ Here are some ways you can interact with a dashboard:
 
 
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-03-12 at 7.26.41 PM (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-03-12 at 7.26.41 PM.png" alt=""><figcaption></figcaption></figure>
 * **Refresh:** Click the 🔁 button on the top right corner to run all the queries powering this dashboard to see the latest information.
 * **Like:** if you liked what you saw, hit the ❤️ button — "likes" impact the rankings and you'll help more people see good work by voting for things you enjoy.
 * **Share:** found something interesting, share it with your community on Twitter!
