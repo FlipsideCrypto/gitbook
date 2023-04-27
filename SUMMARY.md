@@ -13,6 +13,7 @@
   * [Profiles](our-app/getting-around-the-app/profiles.md)
 * [Keyboard Shortcuts](our-app/keyboard-shortcuts.md)
 * [Markdown Reference](our-app/markdown-reference.md)
+* [✨Top 8✨ Dashboard Rewards](our-app/top-8-dashboard-rewards.md)
 
 ## Our Data
 
