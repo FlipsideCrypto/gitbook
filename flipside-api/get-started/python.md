@@ -8,7 +8,7 @@ _**To skip the walkthrough and go straight to dedicated API Documentation,**_ [_
 
 **Python 3.7 and above, is required to use `flipside`**
 
-_If you don't already have an API Key get one for free_ [_here in Flipside's Data Studio_](https://flipsidecrypto.xyz/sdk)_._
+_If you don't already have an API Key get one for free_ [_here in Flipside's Data Studio_](https://flipsidecrypto.xyz/account/api-keys)_._
 
 ```
 pip install flipside
