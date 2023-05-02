@@ -236,6 +236,7 @@
 * [Getting Started](flipside-api/get-started/README.md)
   * [Python SDK](flipside-api/get-started/python.md)
   * [API](flipside-api/get-started/rest-api.md)
+  * [🚦 Rate Limits](flipside-api/get-started/rate-limits.md)
   * [🏗 JS/TS SDK](flipside-api/get-started/js-ts-sdk.md)
   * [🏗 R SDK](flipside-api/get-started/r-sdk.md)
   * [Archive](flipside-api/get-started/archive/README.md)

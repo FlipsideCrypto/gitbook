@@ -167,9 +167,7 @@ record_count = query_result_set.run_stats.record_count
 print(f"This query took ${elapsed_seconds} seconds to run and returned {record_count} records from the database.")
 ```
 
-### 🚦 Rate Limits
 
-There is no rate limit per API Key, however, every query execution second, above the free tier will be billed.
 
 ### 🙈 Error Handling
 
