@@ -1,6 +1,14 @@
-# JavaScript / TypeScript
+# \[LEGACY] JavaScript / TypeScript
+
+{% hint style="danger" %}
+_The JS/TS SDK is currently undergoing an upgrade to be compatible with V2 of Flipside's API. Until that update rolls out, the JS/TS SDK can only be used by legacy ShroomDK users._
+
+_**For Legacy ShroomDK users:** once the upgrade is complete you will be able to seamlessly upgrade to the latest version of the SDK without any changes to your existing code._&#x20;
+{% endhint %}
 
 [![](https://github.com/flipsidecrypto/sdk/actions/workflows/ci\_js.yml/badge.svg)](https://github.com/flipsidecrypto/sdk/actions/workflows/ci\_js.yml/badge.svg)
+
+_**To skip the walkthrough and go straight to dedicated API Documentation,**_ [_**click here**_](https://api-docs.flipsidecrypto.xyz/)_**.**_
 
 ### 💾 Install the SDK
 

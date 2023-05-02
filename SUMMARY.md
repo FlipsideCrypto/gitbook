@@ -231,17 +231,19 @@
   * [Data Roadmap](our-data/misc/data-roadmap.md)
   * [Table Freshness Targets](our-data/misc/table-freshness-targets.md)
 
-## ShroomDK (SDK)
+## Flipside API
 
-* [Getting Started](shroomdk-sdk/get-started/README.md)
-  * [JavaScript / TypeScript](shroomdk-sdk/get-started/javascript-typescript.md)
-  * [Python](shroomdk-sdk/get-started/python.md)
-  * [R](shroomdk-sdk/get-started/r.md)
-  * [REST API](shroomdk-sdk/get-started/rest-api.md)
-* [Example Code](shroomdk-sdk/examples.md)
-* [Templates & Walkthroughs](shroomdk-sdk/templates-and-walkthroughs.md)
-* [Rate Limits](shroomdk-sdk/rate-limits.md)
-* [Community Showcase](shroomdk-sdk/community-showcase.md)
+* [Getting Started](flipside-api/get-started/README.md)
+  * [Python SDK](flipside-api/get-started/python.md)
+  * [API](flipside-api/get-started/rest-api.md)
+  * [🏗 JS/TS SDK](flipside-api/get-started/js-ts-sdk.md)
+  * [🏗 R SDK](flipside-api/get-started/r-sdk.md)
+  * [Archive](flipside-api/get-started/archive/README.md)
+    * [\[LEGACY\] JavaScript / TypeScript](flipside-api/get-started/archive/javascript-typescript.md)
+    * [\[LEGACY\] R](flipside-api/get-started/archive/r.md)
+* [Example Code](flipside-api/examples.md)
+* [Templates & Walkthroughs](flipside-api/templates-and-walkthroughs.md)
+* [Community Showcase](flipside-api/community-showcase.md)
 
 ## Contribute to Our Data <a href="#contribute" id="contribute"></a>
 

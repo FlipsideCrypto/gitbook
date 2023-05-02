@@ -1,26 +1,30 @@
-# Python
+# Python SDK
 
 [![Python Continuous Testing](https://github.com/FlipsideCrypto/sdk/actions/workflows/ci\_python.yml/badge.svg)](https://github.com/FlipsideCrypto/sdk/actions/workflows/ci\_python.yml)
 
+_**To skip the walkthrough and go straight to dedicated API Documentation,**_ [_**click here**_](https://api-docs.flipsidecrypto.xyz/)_**.**_
+
 ### 💾 Install the SDK
 
-**Python 3.7 and above, is required to use `shroomdk`**
+**Python 3.7 and above, is required to use `flipside`**
 
-_If you don't already have an API Key mint one_ [_here_](https://sdk.flipsidecrypto.xyz)_._
+_If you don't already have an API Key get one for free_ [_here in Flipside's Data Studio_](https://flipsidecrypto.xyz/sdk)_._
 
 ```
-pip install shroomdk
+pip install flipside
 ```
-
-####
 
 ### 🦾 Getting Started
 
-```python
-from shroomdk import ShroomDK
+{% hint style="warning" %}
+_**For legacy ShroomDK users:** you can still import ShroomDK from flipside: i.e. `from flipside import ShroomDK`_
+{% endhint %}
 
-# Initialize `ShroomDK` with your API Key
-sdk = ShroomDK("<YOUR_API_KEY>")
+```python
+from flipside import Flipside
+
+# Initialize `Flipside` with your API Key
+sdk = Flipside("<YOUR_API_KEY>")
 
 # Parameters can be passed into SQL statements 
 # via native string interpolation
@@ -46,25 +50,23 @@ for record in query_result_set.records:
     print(f"${nft_address} minted for {mint_price_eth}ETH (${mint_price_usd})")
 ```
 
-####
+
 
 ### The Details
-
-
 
 **Executing a Query**
 
 When executing a query the following parameters can be passed into the `query` method on the `ShroomDK` object:
 
-| Argument                 | Description                                                                        | Default Value   |
-| ------------------------ | ---------------------------------------------------------------------------------- | --------------- |
-| sql                      | The sql string to execute                                                          | None (required) |
-| ttl\_minutes             | The number of minutes to cache the query results                                   | 60              |
-| cached                   | An override on the query result cache. A value of false will re-execute the query. | True            |
-| timeout\_minutes         | The number of minutes until your query run times out                               | 20              |
-| retry\_interval\_seconds | The number of seconds to wait between polls to the server                          | 1               |
-| page\_size               | The number of rows/records to return                                               | 100,000         |
-| page\_number             | The page number to return (starts at 1)                                            | 1               |
+| Argument                 | Description                                                                                                                                                                                                                                                                                        | Default Value   |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| sql                      | The sql string to execute                                                                                                                                                                                                                                                                          | None (required) |
+| max\_age\_minutes        | The the max age of results you are willing to accept before a query is re-executed. For example: if set to 15, you are willing to accept cached results that were generated within the last 15 minutes, if not a query execution is triggered. A value of 0 will always trigger a query execution. | 0               |
+| ttl\_minutes             | The number of minutes to save the results of your query.                                                                                                                                                                                                                                           | 30              |
+| timeout\_minutes         | The number of minutes until your query run times out                                                                                                                                                                                                                                               | 20              |
+| retry\_interval\_seconds | The number of seconds to wait between polls to the server                                                                                                                                                                                                                                          | 1               |
+| page\_size               | The number of rows/records to return                                                                                                                                                                                                                                                               | 100,000         |
+| page\_number             | The page number to return (starts at 1)                                                                                                                                                                                                                                                            | 1               |
 
 Let's create a query to retrieve all NFTs minted by an address:
 
@@ -87,7 +89,7 @@ Now let's execute the query and retrieve the first 5 rows of the result set. Not
 query_result_set = sdk.query(
     sql,
     ttl_minutes=60,
-    cached=True,
+    max_age_minutes=0,
     timeout_minutes=20,
     retry_interval_seconds=1,
     page_size=5,
@@ -95,31 +97,29 @@ query_result_set = sdk.query(
 )
 ```
 
-**Caching**
+**Caching (max\_age\_minutes)**
 
-The results of this query will be cached for 60 minutes, given the `ttl_minutes` parameter is set to 60.
+The results of this query will be saved for 60 minutes, given the `ttl_minutes` the parameter is set to 60.
+
+However, note the `max_age_minutes` parameter. This parameter controls whether the query itself is re-executed on subsequent calls to `sdk.query`. The `max_age_minutes` parameter instructs the API how many minutes you are willing to accept cached results up to before a new query execution is triggered.&#x20;
+
+If `max_age_minutes` is set to 0, every call to `sdk.query` will re-execute the query and will count against your query\_seconds. If `max_age_minutes` is set to 15, subsequent calls to `sdk.query` will not re-execute for up to 15 minutes, because there are results available less than 15 minutes old.
+
+
 
 **📄 Pagination**
 
-If we wanted to retrieve the next 5 rows of the query result set simply increment the `page_number` to 2 and run:
+If we wanted to retrieve the next 5 rows of the query result set simply increment the `page_number` to 2 and use the `get_query_results` function:
 
 ```python
-query_result_set = sdk.query(
-    sql,
-    ttl_minutes=60,
-    cached=True,
-    timeout_minutes=20,
-    retry_interval_seconds=1,
-    page_size=5,
-    page_number=2
+page2_results = sdk.get_query_results(
+    query_result_set.query_id,
+    page_number=2,
+    page_size=100
 )
 ```
 
-_Note! This will not use up your daily query quota since the query results are cached (in accordance with the TTL) and we're not re-running the SQL just retrieving a slice of the overall result set._
-
-All query runs can return a maximum of 1,000,000 rows and a maximum of 100k records can be returned in a single page.
-
-More details on pagination can be found [here](https://docs.flipsidecrypto.com/shroomdk-sdk/query-pagination).
+All query runs can return a maximum of 1 GB and a maximum of 100k records can be returned in a single page.
 
 Now let's examine the query result object that's returned.
 
@@ -167,15 +167,9 @@ record_count = query_result_set.run_stats.record_count
 print(f"This query took ${elapsed_seconds} seconds to run and returned {record_count} records from the database.")
 ```
 
-####
-
 ### 🚦 Rate Limits
 
-Every API key is subject to a rate limit over a moving 5-minute window, as well as an aggregate daily limit.\
-\
-If the limit is reached in a 5-minute period, the sdk will exponentially back-off and retry the query up to the `timeout_minutes` parameter set when calling the `query` method.
-
-####
+There is no rate limit per API Key, however, every query execution second, above the free tier will be billed.
 
 ### 🙈 Error Handling
 
@@ -189,8 +183,8 @@ The SDK implements the following errors that can be handled when calling the `qu
 
 Occurs when you have exceeded the rate limit for creating/running new queries. Example:
 
-```
-from shroomdk.errors import QueryRunRateLimitError
+```python
+from flipside.errors import QueryRunRateLimitError
 
 try:
     sdk.query(sql)
@@ -202,8 +196,8 @@ except QueryRunRateLimitError as e:
 
 Occurs when your query has exceeded the `timeout_minutes` parameter passed into the `query` method. Example:
 
-```
-from shroomdk.errors import QueryRunTimeoutError
+```python
+from flipside.errors import QueryRunTimeoutError
 
 try:
     sdk.query(sql, timeout_minutes=10)
@@ -215,8 +209,8 @@ except QueryRunTimeoutError as e:
 
 Occurs when your query fails to compile/run due to malformed SQL statements. Example:
 
-```
-from shroomdk.errors import QueryRunExecutionError
+```python
+from flipside.errors import QueryRunExecutionError
 
 try:
     sdk.query(sql)
@@ -230,8 +224,8 @@ except QueryRunExecutionError as e:
 
 `ServerError` - occurs when there is a server-side error that cannot be resolved. This typically indicates an issue with Flipside Crypto's query engine API. If the issue persists please contact support in the Flipside Crypto discord server.
 
-```
-from shroomdk.errors import ServerError
+```python
+from flipside.errors import ServerError
 
 try:
     sdk.query(sql)
@@ -241,17 +235,17 @@ except ServerError as e:
 
 
 
-**User Error**
+**API Error**
 
-`UserError` - occurs when you, the user, submit a bad request to the API. This often occurs when an invalid API Key is used and the SDK is unable to authenticate.
+`ApiError` - this typically occurs when you, the user, submit a bad request to the API. This often occurs when an invalid API Key is used, or invalid object IDs are requested.
 
-```
-from shroomdk.errors import UserError
+```python
+from flipside.errors import ApiError
 
 try:
     sdk.query(sql)
-except UserError as e:
-    print(f"a user error has occurred: {e.message}")
+except ApiError as e:
+    print(f"an api error has occurred: {e.message}")
 ```
 
 
@@ -261,7 +255,7 @@ except UserError as e:
 `SDKError` - this error is raised when a generic client-side error occurs that cannot be accounted for by the other errors. SDK level errors should be reported [here](https://github.com/FlipsideCrypto/sdk/issues) as a Github Issue with a full stack-trace and detailed steps to reproduce.
 
 ```
-from shroomdk.errors import SDKError
+from flipside.errors import SDKError
 
 try:
     sdk.query(sql)

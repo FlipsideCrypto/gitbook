@@ -2,13 +2,17 @@
 description: The R programming language is a great fit for analysis of flipsidecrypto data!
 ---
 
-# R
+# \[LEGACY] R
 
-ShroomDK's R package simplifies access to the Flipside Crypto ShroomDK REST API. More details on ShroomDK available at [sdk.flipsidecrypto.xyz/shroomdk](https://sdk.flipsidecrypto.xyz/shroomdk).
+{% hint style="danger" %}
+_The R SDK is currently undergoing an upgrade to be compatible with V2 of Flipside's API. Until that update rolls out, the R SDK can only be used by legacy ShroomDK users._
 
-### How to get your own ShroomDK API Key
+_**For Legacy ShroomDK users:** once the upgrade is complete you will be able to seamlessly upgrade to the latest version of the SDK without any changes to your existing code._&#x20;
+{% endhint %}
 
-ShroomDK API Keys are NFTs on the Ethereum blockchain. They are free to mint (not counting Ethereum gas) and new mints are available each day. Alternatively you can buy the NFT on any NFT Marketplace where listed (e.g., OpenSea).
+
+
+_**To skip the walkthrough and go straight to dedicated API Documentation,**_ [_**click here**_](https://api-docs.flipsidecrypto.xyz/)_**.**_
 
 ### How to Install
 
@@ -40,7 +44,7 @@ Documentation can be viewed within RStudio with `?auto_paginate_query` for new p
 | maxrows     | Flipside Crypto ShroomDK maximum rows in query, default 1,000,000                                         |
 | value       | <p>data frame of up to 1M rows, <br>see ?<code>clean_query</code> for more details on  column classes</p> |
 
-For detailed examples using exclusively auto\_paginate\_query() see the [Examples](../examples.md).
+For detailed examples using exclusively auto\_paginate\_query() see the [Examples](../../examples.md).
 
 ```
 # example
