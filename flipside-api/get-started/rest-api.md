@@ -29,7 +29,7 @@ The following call to the API will queue up the execution of a query. If results
 
 
 ```bash
-curl --location -g '{{host}}/json-rpc' \
+curl --location -g 'https://api-v2.flipsidecrypto.xyz/json-rpc' \
 --header 'Content-Type: application/json' \
 --header 'x-api-key: {{api_key}}' \
 --data '{
@@ -85,7 +85,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("{{host}}/json-rpc", requestOptions)
+fetch("https://api-v2.flipsidecrypto.xyz/json-rpc", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
@@ -97,7 +97,7 @@ fetch("{{host}}/json-rpc", requestOptions)
 import requests
 import json
 
-url = "{{host}}/json-rpc"
+url = "https://api-v2.flipsidecrypto.xyz/json-rpc"
 
 payload = json.dumps({
   "jsonrpc": "2.0",
@@ -154,7 +154,7 @@ params = "{
   ],
   \"id\": 1
 }"
-res <- postForm("{{host}}/json-rpc", .opts=list(postfields = params, httpheader = headers, followlocation = TRUE), style = "httppost")
+res <- postForm("https://api-v2.flipsidecrypto.xyz/json-rpc", .opts=list(postfields = params, httpheader = headers, followlocation = TRUE), style = "httppost")
 cat(res)
 ```
 {% endtab %}
@@ -169,7 +169,7 @@ This endpoint takes as input a query run id returned by the `createQueryRun` rpc
 {% tabs %}
 {% tab title="cURL Example" %}
 ```bash
-curl --location -g '{{host}}/json-rpc' \
+curl --location -g 'https://api-v2.flipsidecrypto.xyz/json-rpc' \
 --header 'Content-Type: application/json' \
 --header 'x-api-key: {{api_key}}' \
 --data '{
@@ -209,7 +209,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("{{host}}/json-rpc", requestOptions)
+fetch("https://api-v2.flipsidecrypto.xyz/json-rpc", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
@@ -221,7 +221,7 @@ fetch("{{host}}/json-rpc", requestOptions)
 import requests
 import json
 
-url = "{{host}}/json-rpc"
+url = "https://api-v2.flipsidecrypto.xyz/json-rpc"
 
 payload = json.dumps({
   "jsonrpc": "2.0",
@@ -262,7 +262,7 @@ params = "{
   ],
   \"id\": 1
 }"
-res <- postForm("{{host}}/json-rpc", .opts=list(postfields = params, httpheader = headers, followlocation = TRUE), style = "httppost")
+res <- postForm("https://api-v2.flipsidecrypto.xyz/json-rpc", .opts=list(postfields = params, httpheader = headers, followlocation = TRUE), style = "httppost")
 cat(res)
 ```
 {% endtab %}
@@ -277,7 +277,7 @@ This endpoint takes as input a query run id used in the previous two steps.
 {% tabs %}
 {% tab title="cURL Example" %}
 ```bash
-curl --location -g '{{host}}/json-rpc' \
+curl --location -g 'https://api-v2.flipsidecrypto.xyz/json-rpc' \
 --header 'Content-Type: application/json' \
 --header 'x-api-key: {{api_key}}' \
 --data '{
@@ -327,7 +327,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("{{host}}/json-rpc", requestOptions)
+fetch("https://api-v2.flipsidecrypto.xyz/json-rpc", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
@@ -339,7 +339,7 @@ fetch("{{host}}/json-rpc", requestOptions)
 import requests
 import json
 
-url = "{{host}}/json-rpc"
+url = "https://api-v2.flipsidecrypto.xyz/json-rpc"
 
 payload = json.dumps({
   "jsonrpc": "2.0",
@@ -390,7 +390,7 @@ params = "{
   ],
   \"id\": 1
 }"
-res <- postForm("{{host}}/json-rpc", .opts=list(postfields = params, httpheader = headers, followlocation = TRUE), style = "httppost")
+res <- postForm("https://api-v2.flipsidecrypto.xyz/json-rpc", .opts=list(postfields = params, httpheader = headers, followlocation = TRUE), style = "httppost")
 cat(res)
 ```
 {% endtab %}
