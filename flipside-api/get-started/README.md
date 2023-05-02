@@ -10,7 +10,7 @@ _**To skip the walkthrough and go straight to dedicated API Documentation,**_ [_
 
 ## 1. Get Your Key
 
-Go to the [Flipside Data Studio](https://flipsidecrypto.xyz/sdk) and click "API" to get your API key.
+Go to the [Flipside Data Studio](https://flipsidecrypto.xyz/account/api-keys) and click "API" to get your API key.
 
 ## 2. Choose your SDK
 
