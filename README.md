@@ -12,7 +12,7 @@ description: >-
 Analyze blockchain data, visualize it, and share a dashboard instantly. \
 Ideal for: data exploration, analytical storytelling, comprehensive dashboard-building.\
 \
-🍄 **Flipside API**: [sdk.flipsidecrypto.xyz](https://sdk.flipsidecrypto.xyz/)\
+🍄 **Flipside API**: [flipsidecrypto.xyz/account/api-keys](https://flipsidecrypto.xyz/account/api-keys)\
 Skip the app, and submit queries directly from your dev or data science environment.\
 Ideal for: building a custom analytics app, constructing a trading model, or using Flipside data in R or Python for data science work.\
 \
