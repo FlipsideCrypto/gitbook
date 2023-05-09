@@ -41,7 +41,10 @@ This is where you input your SQL + Run it. Here are some features of the query p
 * **Select & Run:** select and highlight any part of your code to only run that snippet to see the "Selection Result" in the results panel.&#x20;
 *   **Parameterized Queries:** implement variables in certain parts of your code instead of hard-coding values like contract addresses, symbols, or date ranges. These values are also adjustable from the dashboard, letting readers interact with your dashboard by entering values they care about.&#x20;
 
-    To insert a parameter, you can click the "+ Parameter" button or simply type `{{parameter_name}}` and manage your parameters at the bottom of the query panel.&#x20;
+    * To insert a parameter, you can click the "+ Parameter" button or simply type `{{parameter_name}}` and manage your parameters at the bottom of the query panel.&#x20;
+    * To add a select list of values for your end user to choose from, include a comma-separated list in the default values. This will show up as a dropdown list on your dashboard. See an example below:
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-05-09 at 10.28.39 AM.png" alt=""><figcaption><p>Comma-separated list as a dropdown in your dashboard.</p></figcaption></figure>
 * **Auto-Format:** make your query more readable by using the auto-format button!
 
 

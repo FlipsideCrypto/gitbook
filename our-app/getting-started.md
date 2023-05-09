@@ -51,26 +51,22 @@ Pro tips for data exploration:
 
 
 
-### Step 4: **Write your query → run it → see results**  &#x20;
+### Step 4: **Write your query → Run it → See results**  &#x20;
 
-Now let's run a query from that table. Here's one you can use, that gets the top 8 NFT projects on Ethereum by total ETH spent on mints in the past week:
+Now let's run a query from ethereum.core.ez\_nft\_sales. Here's one you can use, that gets the top 8 NFT platforms on Ethereum by total sales in the past 30 days:
 
 ```sql
-select 
-  project_name,
-  round(sum(mint_price_eth * nft_count),0) as eth_spent
-from ethereum.core.ez_nft_mints
-where project_name is not null 
-  and nft_count > 0
-  and nft_count is not null
-  and project_name not in ('uniswap')
-  and block_timestamp > current_date - interval '7 days'
-group by 1
-order by eth_spent desc
+select
+  platform_name,
+  count(*) as sales_count
+from ethereum.core.ez_nft_sales
+where block_timestamp > current_date - interval '30 days'
+group by platform_name
+order by sales_count desc
 limit 8
 ```
 
-Paste that into the code editor (and modify it if you like: maybe change the "limit" and get top 10 instead of 8, or change the "interval" get total mints from past month instead of week?) and you're ready to go.
+Paste that into the code editor (and modify it if you like: maybe change the "limit" and get top 10 instead of 8, or change the "interval" to get total sales from the past week instead of month?) and you're ready to go.
 
 To run your query, you can hit the big blue "play" button in the top right-hand corner, or use a keyboard shortcut:
 
@@ -79,21 +75,21 @@ To run your query, you can hit the big blue "play" button in the top right-hand 
 
 After a few moments, you should see your results appear in the Results Panel — you've got data!
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 4.37.13 PM.png" alt=""><figcaption><p>Your screen should look something like this at this point.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-05 at 10.46.18 AM.png" alt=""><figcaption><p>Your screen should look something like this at this point.</p></figcaption></figure>
 
 ###
 
 ### Step 5: **Visualize the data!**
 
-Let's take a look at what the table above is telling us! Click **"New Chart"** on the bottom of the screen to fire up the chart builder. For this example, we'll choose **Bar** chart from the chart type menu, then set a few options to get started:
+Let's take a look at what the table above is telling us! Click **"Add Chart"** on the bottom of the screen to fire up the chart builder. For this example, we'll choose **Bar** chart from the chart type menu, then set a few options to get started:
 
-* for X Axis, select "PROJECT\_NAME"
-* for Y Axis (Bar) select "ETH\_SPENT"
-* for Group By Value select "PROJECT\_NAME
+* for X Axis, select "PLATFORM\_NAME"
+* for Y Axis (Bar), select "SALES\_COUNT"
+* for Group By Value, select "PLATFORM\_NAME"
 
 Your screen should look something like this:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 4.49.04 PM.png" alt=""><figcaption><p>You've got a chart!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-05 at 10.56.44 AM.png" alt=""><figcaption><p>You've got a chart!</p></figcaption></figure>
 
 ###
 
@@ -101,11 +97,11 @@ Your screen should look something like this:
 
 Now that you have your results and a basic chart, you can tie everything together by creating a dashboard. Click the "add to dashboard" icon in the chart panel, then click "+ New Dashboard" to get started:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 8.15.17 PM.png" alt=""><figcaption><p>"Add to dashboard" is the quickest way to get a new chart into a dashboard.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-05 at 10.58.57 AM.png" alt=""><figcaption><p>"Add to dashboard" is the quickest way to get a new chart into a dashboard.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 8.16.45 PM.png" alt=""><figcaption><p>This interface lets you find an existing dashboard to add your chart to, or instantly create at new one.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 8.16.45 PM.png" alt=""><figcaption><p>This interface lets you find an existing dashboard to add your chart to, or instantly create a new one.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 8.29.30 PM.png" alt=""><figcaption><p>Your new dashboard is ready to edit! It should look something like this.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-05 at 11.06.13 AM.png" alt=""><figcaption><p>Your new dashboard is ready to edit! It should look something like this.</p></figcaption></figure>
 
 ###
 
@@ -113,9 +109,9 @@ Now that you have your results and a basic chart, you can tie everything togethe
 
 There are many ways to customize a dashboard — you can add text boxes, charts, tables, and images to your dashboard to showcase what you've discovered, resize and arrange them as you see fit, and even organize them in tabs.&#x20;
 
-For now, we'll stick to the basics — let's give this dashboard a name! Click the default assigned name (the date and time the dashboard was created) and name it something appropriate like "NFT Mint Volume Walkthrough".
+For now, we'll stick to the basics — let's give this dashboard a name! Click the default assigned name (the date and time the dashboard was created) and name it something appropriate like "NFT Platform Sales Walkthrough".
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 8.20.15 PM (1).png" alt=""><figcaption><p>Click the big timestamp and name it something appropriate.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-05 at 11.07.51 AM (1).png" alt=""><figcaption><p>Click the big timestamp and name it something appropriate.</p></figcaption></figure>
 
 Make any other changes you see fit:
 

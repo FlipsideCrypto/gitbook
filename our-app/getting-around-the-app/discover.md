@@ -74,7 +74,7 @@ Here are some ways you can interact with a dashboard:
 
 
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-03-12 at 7.26.41 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-05-05 at 11.34.31 AM.png" alt=""><figcaption><p>Click "Fork" to make a copy of the query. </p></figcaption></figure>
 * **Refresh:** Click the 🔁 button on the top right corner to run all the queries powering this dashboard to see the latest information.
 * **Like:** if you liked what you saw, hit the ❤️ button — "likes" impact the rankings and you'll help more people see good work by voting for things you enjoy.
 * **Share:** found something interesting, share it with your community on Twitter!
