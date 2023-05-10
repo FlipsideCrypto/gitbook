@@ -13,7 +13,7 @@ Our data documentation is kept up to date _as changes are deployed_, so check he
 * [Cosmos](https://flipsidecrypto.github.io/cosmos-models/#!/overview)&#x20;
 * Crosschain Data
 * [Ethereum](https://flipsidecrypto.github.io/ethereum-models/#!/overview)
-* Evmos
+* [Evmos](https://flipsidecrypto.github.io/evmos-models/#!/overview)
 * [Flow](https://flipsidecrypto.github.io/flow-models/#!/overview)&#x20;
 * [Gnosis](https://flipsidecrypto.github.io/gnosis-models/#!/overview)
 * [Near](https://flipsidecrypto.github.io/near-models/#!/overview)  
