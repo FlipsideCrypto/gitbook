@@ -38,7 +38,11 @@ Explore our data in the [Flipside Data Studio](https://flipsidecrypto.xyz), chec
 
 Introduce yourself in the SDK [Discord](https://discord.gg/ZmU3jQuu6W) channels, ask questions, and share what you're working on.:
 
+<div align="left">
+
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Dedicated ShroomDK channels in our Discord host a vibrant community of creators.</p></figcaption></figure>
+
+</div>
 
 ## 5. Share your work
 
