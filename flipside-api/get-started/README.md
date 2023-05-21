@@ -14,11 +14,11 @@ Go to the [Flipside Data Studio](https://flipsidecrypto.xyz/account/api-keys) an
 
 ## 2. Choose your SDK
 
-| Language        | Version     | Walkthrough Link                                                                                                                               |
-| --------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| ✅ Python        | 2.0.4       | [Getting Started with Python](python.md)                                                                                                       |
-| ✅ JS/TypeScript | 2.0.0       | [Getting Started with JS/TS](https://app.gitbook.com/o/-LdEn7uFmFX9w2zbU4Eu/s/-LdEnDLYh6Su5z7LbnEZ/\~/changes/420/flipside-api/get-started/js) |
-| 🏗 R            | Coming Soon |                                                                                                                                                |
+| Language        | Version     | Walkthrough Link                                                                                 |
+| --------------- | ----------- | ------------------------------------------------------------------------------------------------ |
+| ✅ Python        | 2.0.4       | [Getting Started with Python](python.md)                                                         |
+| ✅ JS/TypeScript | 2.0.0       | [Getting Started with JS/TS](https://docs.flipsidecrypto.com/flipside-api/get-started/js-ts-sdk) |
+| 🏗 R            | Coming Soon |                                                                                                  |
 
 Want an SDK for another language? Or want to create your own SDK? Please reach out in [Discord](https://discord.gg/ZmU3jQuu6W)!&#x20;
 
