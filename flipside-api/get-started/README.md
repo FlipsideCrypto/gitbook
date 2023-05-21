@@ -14,11 +14,11 @@ Go to the [Flipside Data Studio](https://flipsidecrypto.xyz/account/api-keys) an
 
 ## 2. Choose your SDK
 
-| Language         | Version     | Walkthrough Link                         |
-| ---------------- | ----------- | ---------------------------------------- |
-| ✅ Python         | 1.0.2       | [Getting Started with Python](python.md) |
-| 🏗 JS/TypeScript | Coming Soon |                                          |
-| 🏗 R             | Coming Soon |                                          |
+| Language        | Version     | Walkthrough Link                                                                                                                               |
+| --------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ✅ Python        | 2.0.4       | [Getting Started with Python](python.md)                                                                                                       |
+| ✅ JS/TypeScript | 2.0.0       | [Getting Started with JS/TS](https://app.gitbook.com/o/-LdEn7uFmFX9w2zbU4Eu/s/-LdEnDLYh6Su5z7LbnEZ/\~/changes/420/flipside-api/get-started/js) |
+| 🏗 R            | Coming Soon |                                                                                                                                                |
 
 Want an SDK for another language? Or want to create your own SDK? Please reach out in [Discord](https://discord.gg/ZmU3jQuu6W)!&#x20;
 
@@ -34,7 +34,7 @@ _**For legacy ShroomDK users:** in May of 2023 Flipside released V2 of its API t
 
 Explore our data in the [Flipside Data Studio](https://flipsidecrypto.xyz), check out SDK [code examples](../examples.md), and see what people in our community are [creating](../community-showcase.md).
 
-## 4. Connect & create
+## 4. Connect & Create
 
 Introduce yourself in the SDK [Discord](https://discord.gg/ZmU3jQuu6W) channels, ask questions, and share what you're working on.:
 

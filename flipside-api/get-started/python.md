@@ -62,7 +62,6 @@ When executing a query the following parameters can be passed into the `query` m
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
 | sql                      | The sql string to execute                                                                                                                                                                                                                                                                          | None (required) |
 | max\_age\_minutes        | The the max age of results you are willing to accept before a query is re-executed. For example: if set to 15, you are willing to accept cached results that were generated within the last 15 minutes, if not a query execution is triggered. A value of 0 will always trigger a query execution. | 0               |
-| ttl\_minutes             | The number of minutes to save the results of your query.                                                                                                                                                                                                                                           | 30              |
 | timeout\_minutes         | The number of minutes until your query run times out                                                                                                                                                                                                                                               | 20              |
 | retry\_interval\_seconds | The number of seconds to wait between polls to the server                                                                                                                                                                                                                                          | 1               |
 | page\_size               | The number of rows/records to return                                                                                                                                                                                                                                                               | 100,000         |
@@ -88,7 +87,6 @@ Now let's execute the query and retrieve the first 5 rows of the result set. Not
 ```python
 query_result_set = sdk.query(
     sql,
-    ttl_minutes=60,
     max_age_minutes=0,
     timeout_minutes=20,
     retry_interval_seconds=1,
@@ -97,7 +95,7 @@ query_result_set = sdk.query(
 )
 ```
 
-**Caching (max\_age\_minutes)**
+**Understanding MaxAgeMinutes, aka Caching**
 
 The results of this query will be saved for 60 minutes, given the `ttl_minutes` the parameter is set to 60.
 
@@ -166,8 +164,6 @@ record_count = query_result_set.run_stats.record_count
 
 print(f"This query took ${elapsed_seconds} seconds to run and returned {record_count} records from the database.")
 ```
-
-
 
 ### 🙈 Error Handling
 
@@ -245,8 +241,6 @@ try:
 except ApiError as e:
     print(f"an api error has occurred: {e.message}")
 ```
-
-
 
 **SDK Error**
 
