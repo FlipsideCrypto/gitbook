@@ -2,7 +2,7 @@
 description: Lower-level Direct HTTP Access
 ---
 
-# API
+# API (JSON RPC)
 
 _**To skip the walkthrough and go straight to dedicated API Documentation,**_ [_**click here**_](https://api-docs.flipsidecrypto.xyz/)_**.**_
 

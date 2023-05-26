@@ -3,7 +3,7 @@
 The SDK (and API) expose the ability to request a specific page of the result set by providing both a page number and a dynamically set page size (this means you control the page size).
 
 {% hint style="info" %}
-By default the page size is set to 100,000 rows and, the page number is set to 1. If you don't set the page size and just use the default, always remember to check page stats in case the number of rows in the entire query result set exceeds the default page size. In this case, you'd need to use the pagination examples on this page to gather your complete result set. Also, keep in mind that there is a byte limit on the amount of data that can be returned on a single page. There may be cases where 100,000 rows are too big and you will need to decrease the page size to a lower number. More details on [rate limits around page sizing here](rate-limits.md).&#x20;
+By default the page size is set to 100,000 rows and, the page number is set to 1. If you don't set the page size and just use the default, always remember to check page stats in case the number of rows in the entire query result set exceeds the default page size. In this case, you'd need to use the pagination examples on this page to gather your complete result set. Also, keep in mind that there is a byte limit on the amount of data that can be returned on a single page. There may be cases where 100,000 rows are too big and you will need to decrease the page size to a lower number. More details on [rate limits around page sizing here](../get-started/rate-limits.md).&#x20;
 {% endhint %}
 
 Let's start with the following query to return the last 50k NFT transfers on Ethereum:

@@ -41,7 +41,7 @@ npm install @flipside/sdk
 <pre class="language-python"><code class="lang-python">from flipside import Flipside
 
 # Initialize `Flipside` with your API Key and API Url
-sdk = Flipside("&#x3C;YOUR_API_KEY>", "https://api-v2.flipsidecrypto.xyz")
+flipside = Flipside("&#x3C;YOUR_API_KEY>", "https://api-v2.flipsidecrypto.xyz")
 
 sql = """
 SELECT 
@@ -53,7 +53,7 @@ GROUP BY 1
 """
 <strong>
 </strong># Run the query against Flipside's query engine and await the results
-query_result_set = sdk.query(sql)
+query_result_set = flipside.query(sql)
 </code></pre>
 {% endtab %}
 
@@ -66,14 +66,14 @@ const flipside = new Flipside(
   "https://api-v2.flipsidecrypto.xyz"
 );
 
-<strong>const sql = """
+<strong>const sql = `
 </strong>SELECT 
   date_trunc('hour', block_timestamp) as hour,
   count(distinct tx_hash) as tx_count
 FROM ethereum.core.fact_transactions 
 WHERE block_timestamp >= GETDATE() - interval'7 days'
 GROUP BY 1
-"""
+`
 
 // Send the `Query` to Flipside's query engine and await the results
 const queryResultSet = await flipside.query.run({sql: sql});
