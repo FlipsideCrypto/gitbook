@@ -1,5 +1,5 @@
 ---
-description: Examples of projects people have built with ShroomDK!
+description: Examples of projects people have built with the Flipside SDK!
 ---
 
 # Community Showcase

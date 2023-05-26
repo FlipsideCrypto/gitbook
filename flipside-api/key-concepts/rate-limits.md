@@ -1,4 +1,4 @@
-# 🚦 Rate Limits
+# Rate Limits
 
 **Max Concurrent Queries**
 

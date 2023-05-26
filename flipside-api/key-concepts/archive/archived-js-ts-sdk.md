@@ -1,4 +1,4 @@
-# JS/TS SDK
+# \[ARCHIVED] JS/TS SDK
 
 ![tests](https://github.com/flipsidecrypto/sdk/actions/workflows/ci\_js.yml/badge.svg)
 
@@ -254,9 +254,8 @@ interface SortBy {
 
 Now let's filter the results where `mint_price_usd` is greater than $10
 
-```typescript
-results = await flipside.query.getQueryResults({
-  queryRunId: result.queryId,
+<pre class="language-typescript"><code class="lang-typescript"><strong>results = await flipside.query.getQueryResults({
+</strong>  queryRunId: result.queryId,
   pageNumber: 1,
   pageSize: 1000,
   filters: [
@@ -266,7 +265,7 @@ results = await flipside.query.getQueryResults({
     }
   ]
 })
-```
+</code></pre>
 
 Filters can be applied for: equals, not equals, greater than, greater than or equals to, less than, less than or equals to, like, in, not in. All filters are executed server side over the entire result set.
 

@@ -234,17 +234,25 @@
 
 ## Flipside API
 
-* [Getting Started](flipside-api/get-started/README.md)
-  * [Python SDK](flipside-api/get-started/python.md)
-  * [JS/TS SDK](flipside-api/get-started/js-ts-sdk.md)
-  * [API](flipside-api/get-started/rest-api.md)
-  * [🚦 Rate Limits](flipside-api/get-started/rate-limits.md)
-  * [🏗 R SDK](flipside-api/get-started/r-sdk.md)
-  * [Archive](flipside-api/get-started/archive/README.md)
-    * [\[LEGACY\] R](flipside-api/get-started/archive/r.md)
-* [Example Code](flipside-api/examples.md)
-* [Templates & Walkthroughs](flipside-api/templates-and-walkthroughs.md)
+* [Get Started](flipside-api/getting-started.md)
+* [Concepts & Examples](flipside-api/key-concepts/README.md)
+  * [Run Your First Query](flipside-api/key-concepts/run-your-first-query.md)
+  * [Query Results](flipside-api/key-concepts/query-results.md)
+  * [Pagination](flipside-api/key-concepts/pagination.md)
+  * [Sorting](flipside-api/key-concepts/sorting.md)
+  * [Filtering](flipside-api/key-concepts/filtering.md)
+  * [Query Seconds](flipside-api/key-concepts/query-seconds.md)
+  * [Caching (maxAgeMinutes)](flipside-api/key-concepts/caching-maxageminutes.md)
+  * [Rate Limits](flipside-api/key-concepts/rate-limits.md)
+  * [Errors](flipside-api/key-concepts/errors.md)
+  * [More Examples](flipside-api/key-concepts/templates-and-walkthroughs.md)
+  * [Archive](flipside-api/key-concepts/archive/README.md)
+    * [\[ARCHIVED\] JS/TS SDK](flipside-api/key-concepts/archive/archived-js-ts-sdk.md)
+    * [\[LEGACY\] R](flipside-api/key-concepts/archive/r.md)
+* [API (JSON RPC)](flipside-api/rest-api.md)
+* [SDKs](flipside-api/sdks.md)
 * [Community Showcase](flipside-api/community-showcase.md)
+* [Have Questions?](flipside-api/have-questions.md)
 
 ## Contribute to Our Data <a href="#contribute" id="contribute"></a>
 

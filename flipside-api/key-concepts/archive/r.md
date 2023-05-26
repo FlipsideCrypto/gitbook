@@ -44,7 +44,7 @@ Documentation can be viewed within RStudio with `?auto_paginate_query` for new p
 | maxrows     | Flipside Crypto ShroomDK maximum rows in query, default 1,000,000                                         |
 | value       | <p>data frame of up to 1M rows, <br>see ?<code>clean_query</code> for more details on  column classes</p> |
 
-For detailed examples using exclusively auto\_paginate\_query() see the [Examples](../../examples.md).
+For detailed examples using exclusively auto\_paginate\_query() see the [Examples](broken-reference).
 
 ```
 # example

@@ -6,15 +6,4 @@ description: astroport.pool_reserves
 
 This table provides block by block pool reserve information including total pool shares, pool currencies, and token amounts in Astroport pools.&#x20;
 
-| Field              | Type      | Description                                                                          |
-| ------------------ | --------- | ------------------------------------------------------------------------------------ |
-| `blockchain`       | text      | The blockchain this pool was created on.                                             |
-| `chain_id`         | text      | ID of blockchain to connect to, it can be _columbus-3, columbus-4, columbus-5, etc._ |
-| `block_id`         | number    | The block number that this pool reserve was recorded                                 |
-| `block_timestamp`  | timestamp | The block timestamp that this pool reserve was recorded                              |
-| `contract_address` | address   | The address of the liquidity pool                                                    |
-| `total_share`      | number    | The total amount of shares  in a pool                                                |
-| `token_0_currency` | text      | Token 0 currency                                                                     |
-| `token_0_amount`   | number    | Token 0 amount in pool                                                               |
-| `token_1_currency` | text      | Token 1 currency                                                                     |
-| `token_1_amount`   | number    | Token 1 amount in pool                                                               |
+<table data-header-hidden><thead><tr><th width="227.33333333333331">Field</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><td>Field</td><td>Type</td><td>Description</td></tr><tr><td><code>blockchain</code></td><td>text</td><td>The blockchain this pool was created on.</td></tr><tr><td><code>chain_id</code></td><td>text</td><td>ID of blockchain to connect to, it can be <em>columbus-3, columbus-4, columbus-5, etc.</em></td></tr><tr><td><code>block_id</code></td><td>number</td><td>The block number that this pool reserve was recorded</td></tr><tr><td><code>block_timestamp</code></td><td>timestamp</td><td>The block timestamp that this pool reserve was recorded</td></tr><tr><td><code>contract_address</code></td><td>address</td><td>The address of the liquidity pool</td></tr><tr><td><code>total_share</code></td><td>number</td><td>The total amount of shares  in a pool</td></tr><tr><td><code>token_0_currency</code></td><td>text</td><td>Token 0 currency</td></tr><tr><td><code>token_0_amount</code></td><td>number</td><td>Token 0 amount in pool</td></tr><tr><td><code>token_1_currency</code></td><td>text</td><td>Token 1 currency</td></tr><tr><td><code>token_1_amount</code></td><td>number</td><td>Token 1 amount in pool</td></tr></tbody></table>
