@@ -26,6 +26,12 @@ _or_
 npm install @flipside/sdk
 ```
 {% endtab %}
+
+{% tab title="R SDK" %}
+```
+install.packages("shroomDK") # from CRAN
+```
+{% endtab %}
 {% endtabs %}
 
 ### 2. Execute your Query
@@ -71,6 +77,35 @@ GROUP BY 1
 
 // Send the `Query` to Flipside's query engine and await the results
 const queryResultSet = await flipside.query.run({sql: sql});
+</code></pre>
+{% endtab %}
+
+{% tab title="Untitled" %}
+<pre><code><strong>library(shroomDK)
+</strong><strong>
+</strong><strong>api_key = readLines("api_key.txt") # always gitignore your API keys!
+</strong>
+query &#x3C;- { 
+"
+SELECT 
+  date_trunc('hour', block_timestamp) as hour,
+  count(distinct tx_hash) as tx_count
+FROM ethereum.core.fact_transactions 
+WHERE block_timestamp >= GETDATE() - interval'7 days'
+GROUP BY 1
+"
+ }
+
+# auto_paginate_query is a wrapper to all other steps. 
+pull_data &#x3C;- auto_paginate_query(
+query = query,
+api_key = api_key
+)
+
+# otherwise step 1 is to run the query and get a Run ID
+qtoken &#x3C;- create_query_token(
+query = query,
+api_key = api_key)
 </code></pre>
 {% endtab %}
 {% endtabs %}
@@ -144,5 +179,20 @@ while (currentPageNumber <= totalPages) {
   currentPageNumber += 1;
 }
 ```
+{% endtab %}
+
+{% tab title="R SDK" %}
+```
+q_id <- query$result$queryRequest$queryRunId
+
+# get_query_from_token() waits for query to finish via ?get_query_status
+hourly_tx <- get_query_from_token(
+query_run_id = q_id,
+api_key = api_key,
+page_number = 1,
+page_size = 1000)
+```
+
+
 {% endtab %}
 {% endtabs %}
