@@ -84,6 +84,30 @@ interface QueryResultSet {
 }
 ```
 {% endtab %}
+
+{% tab title="R SDK" %}
+```
+# All results via subsetting qtoken
+qtoken$result # large print 
+
+# You can also use get_query_status() for similar items to filter
+# The same terms in Python SDK & JS/TS/Node SDK apply to the result in R.
+
+q_id <- qtoken$result$queryRequest$queryRunId
+
+qstatus = get_query_status(q_id, api_key)
+
+names(qstatus$result$queryRun) 
+```
+
+```
+[1] "id"                    "sqlStatementId"        "state"                 "path"                  "fileCount"            
+ [6] "lastFileNumber"        "fileNames"             "errorName"             "errorMessage"          "errorData"            
+[11] "dataSourceQueryId"     "dataSourceSessionId"   "startedAt"             "queryRunningEndedAt"   "queryStreamingEndedAt"
+[16] "endedAt"               "rowCount"              "totalSize"             "tags"                  "dataSourceId"         
+[21] "userId"                "createdAt"             "updatedAt"             "archivedAt"   
+```
+{% endtab %}
 {% endtabs %}
 
 Results are accessible via `rows` and `records`. Rows is an array of arrays (CSV format), while records are an array of objects where the keys are the column names.

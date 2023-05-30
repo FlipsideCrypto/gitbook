@@ -183,7 +183,7 @@ while (currentPageNumber <= totalPages) {
 
 {% tab title="R SDK" %}
 ```
-q_id <- query$result$queryRequest$queryRunId
+q_id <- qtoken$result$queryRequest$queryRunId
 page_size = 100
 page_count = 2
 
