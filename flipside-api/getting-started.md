@@ -32,6 +32,12 @@ _or_
 npm install @flipside/sdk
 ```
 {% endtab %}
+
+{% tab title="R SDK" %}
+```
+install.packages("shroomDK") # from CRAN
+```
+{% endtab %}
 {% endtabs %}
 
 ### 3. 🏃‍♀️Execute your First Query
@@ -78,6 +84,31 @@ GROUP BY 1
 // Send the `Query` to Flipside's query engine and await the results
 const queryResultSet = await flipside.query.run({sql: sql});
 </code></pre>
+{% endtab %}
+
+{% tab title="R SDK" %}
+<pre><code><strong>library(shroomDK)
+</strong><strong>
+</strong><strong>api_key = readLines("api_key.txt") # always gitignore your API keys!
+</strong>
+query &#x3C;- { 
+"
+SELECT 
+  date_trunc('hour', block_timestamp) as hour,
+  count(distinct tx_hash) as tx_count
+FROM ethereum.core.fact_transactions 
+WHERE block_timestamp >= GETDATE() - interval'7 days'
+GROUP BY 1
+"
+ }
+
+pull_data &#x3C;- auto_paginate_query(
+query = query,
+api_key = api_key
+)
+</code></pre>
+
+
 {% endtab %}
 {% endtabs %}
 
