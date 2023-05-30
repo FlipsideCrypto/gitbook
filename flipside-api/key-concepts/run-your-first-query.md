@@ -80,7 +80,7 @@ const queryResultSet = await flipside.query.run({sql: sql});
 </code></pre>
 {% endtab %}
 
-{% tab title="Untitled" %}
+{% tab title="R SDK" %}
 <pre><code><strong>library(shroomDK)
 </strong><strong>
 </strong><strong>api_key = readLines("api_key.txt") # always gitignore your API keys!
@@ -184,13 +184,34 @@ while (currentPageNumber <= totalPages) {
 {% tab title="R SDK" %}
 ```
 q_id <- query$result$queryRequest$queryRunId
+page_size = 100
+page_count = 2
 
-# get_query_from_token() waits for query to finish via ?get_query_status
-hourly_tx <- get_query_from_token(
-query_run_id = q_id,
-api_key = api_key,
-page_number = 1,
-page_size = 1000)
+# auto_paginate_query() overrides size & count to get all available data. 
+
+# otherwise you can manually paginate with get_query_from_token()
+# ?get_query_from_token waits for query to finish via ?get_query_status
+
+ results <- lapply(1:page_count, function(i){
+    temp_page <- get_query_from_token(q_id,
+                                api_key = api_key,
+                                page_number = i,
+                                page_size = page_size)
+
+    if(length(temp_page$result$rows) < 1){
+      df <- data.frame()
+    } else {
+  # See ?clean_query for conversion to a data frame.
+    df <- clean_query(temp_page)
+      }
+    return(df)
+  })
+
+ # drop empty pages just in case.
+   results <- results[unlist(lapply(results, nrow)) > 0]
+
+# combine into a single data frame.
+   results <- do.call(rbind.data.frame, results)
 ```
 
 
