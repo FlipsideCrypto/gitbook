@@ -1,5 +1,5 @@
 ---
-description: How to get started querying data with the Flipside data app.
+description: How to get started querying data with the Flipside Studio.
 ---
 
 # Getting Started
@@ -8,25 +8,25 @@ description: How to get started querying data with the Flipside data app.
 
 To get started, create an account on our app — you can sign up using an email address, ETH address, or your discord account.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 8.12.06 PM.png" alt=""><figcaption><p>The account sign-up link is in the bottom left-hand corner of the page.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-30 at 8.10.31 PM.png" alt=""><figcaption><p>The account sign-up link is in the bottom left-hand corner of the page.</p></figcaption></figure>
 
-###
+
 
 ### Step 2: **Create a new query.**
 
-You can create a new query by clicking the big blue "+ Create New" button in the main navigation panel, then selecting "Query."
+Navigate to the "**Studio"** from the top nav, then you can create a new query by clicking the big blue "+" button in the side bar, then selecting "Query".
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 8.09.14 PM.png" alt=""><figcaption><p>Easiest way to create a new query is to click the big blue button.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-31 at 10.36.35 AM.png" alt=""><figcaption><p>Easiest way to create a new query is to click the big blue button.</p></figcaption></figure>
 
 You can also create new queries in a few other ways:
 
 * from My Work, with the + button.
-* if you have the Editor open, from the query tab bar with the + button there.
+* from the query tab bar with the + button there.
 * by entering [flipside.new](https://flipside.new) into your browser's URL bar.
 
-Doing this will drop you into the Editor part of the app, with your new query open:
+Doing this will drop you into the Studio, with your new query open:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 3.50.59 PM.png" alt=""><figcaption><p>Brand new query, ready for SQL.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-30 at 8.27.17 PM.png" alt=""><figcaption><p>Brand new query, ready for SQL.</p></figcaption></figure>
 
 A few things to note here:
 
@@ -43,11 +43,16 @@ From the side menu, navigate to the Data Explorer to see all the databases, sche
 Pro tips for data exploration:
 
 * **Column details:** click on the table name to see a list of it's columns, and a data type for each.
+* **Table details:** hover over a table name to see the table description and access direct link to documentation.&#x20;
 * **Table preview**: see sample data without writing any SQL by clicking the Preview icon.
 * **Add to query**: enter any table name into your SQL with a single mouse click.&#x20;
 * **View docs:** hover over a database name and click the "book" icon to go direct to docs.
 
-<figure><img src="../.gitbook/assets/Explore data.png" alt=""><figcaption><p>The data explorer is the easiest way to find tables, check out their contents, and add them to your query.</p></figcaption></figure>
+<div data-full-width="false">
+
+<figure><img src="../.gitbook/assets/Group 2145.png" alt=""><figcaption><p>The data explorer is the easiest way to find tables, check out their contents, and add them to your query.</p></figcaption></figure>
+
+</div>
 
 
 
@@ -75,7 +80,7 @@ To run your query, you can hit the big blue "play" button in the top right-hand 
 
 After a few moments, you should see your results appear in the Results Panel — you've got data!
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-05-05 at 10.46.18 AM.png" alt=""><figcaption><p>Your screen should look something like this at this point.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-30 at 8.47.04 PM.png" alt=""><figcaption><p>Your screen should look something like this at this point.</p></figcaption></figure>
 
 ###
 
@@ -89,7 +94,7 @@ Let's take a look at what the table above is telling us! Click **"Add Chart"** o
 
 Your screen should look something like this:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-05-05 at 10.56.44 AM.png" alt=""><figcaption><p>You've got a chart!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-30 at 8.48.11 PM.png" alt=""><figcaption><p>You've got a chart!</p></figcaption></figure>
 
 ###
 
@@ -121,7 +126,7 @@ Make any other changes you see fit:
 
 Once you're happy with your dashboard, hit the publish button on the top right corner — after a short delay, you should see a confirmation like this:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 8.35.24 PM.png" alt=""><figcaption><p>Your dashboard publish confirmation shows you a preview of how your dashboard will appear when shared on the web.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-30 at 8.49.19 PM.png" alt=""><figcaption><p>Your dashboard publish confirmation shows you a preview of how your dashboard will appear when shared on the web.</p></figcaption></figure>
 
 ###
 
@@ -129,7 +134,7 @@ Once you're happy with your dashboard, hit the publish button on the top right c
 
 Now that your dashboard is published, you can find it in Discover:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-02-15 at 8.38.16 PM.png" alt=""><figcaption><p>Click that Discover link!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-05-30 at 8.53.59 PM.png" alt=""><figcaption><p>Click that Discover link!</p></figcaption></figure>
 
 There are a few ways to find your dashboard in discover, here's the easiest one:
 
@@ -147,4 +152,3 @@ Congrats — you've published!
 * **Edit your profile** — add contact information, customize your avatar and background image.
 * **Get inspired** — go back to Discover and scope out the trending work: filter by a project you're interested in, and see what the best analysts in crypto are making on Flipside. Oh, and if you see something you like, be sure to hit that ❤️ button — "likes" impact the rankings and you'll help more people see good work by voting for things you enjoy.
 * **Check out bounties** — there are a few [Flipside bounties](http://localhost:5000/s/q3ZsciVeKRUUcuezp6ax/rpc/data-types/sqlstatement) left, but the new stuff is mostly at [MetricsDAO](https://metricsdao.xyz/) — check it out, accept a challenge, submit your work, and get paid!
-

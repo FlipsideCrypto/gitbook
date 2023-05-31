@@ -36,7 +36,7 @@ That's a bit of 🧪 a l c h e m y ✨ that will stay a secret. But we can tell 
 
 There are 100K+ dashboards on Flipside 🤯 Here's how to find the ones you're interested in!&#x20;
 
-<figure><img src="../../.gitbook/assets/discover.png" alt=""><figcaption><p>Ways to browse dashboards on Flipside. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 2149.png" alt=""><figcaption><p>Ways to browse dashboards on Flipside. </p></figcaption></figure>
 
 * **Search for a topic:** if you have a topic in mind (like: "impermanent loss osmosis"), type it into the search bar to see all the relevant dashboards.&#x20;
 * **Find an analyst:** if you have someone in mind, you can search for them from the ["Analyst View"](discover.md#analyst-view)
@@ -50,11 +50,11 @@ To search for an analyst, all you have to do is turn the toggle in the hero sect
 
 From [this view](https://flipsidecrypto.xyz/analysts), you can type an analyst's name into the search bar to find their profile, or explore different analyst profiles by going down the page.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-03-14 at 12.18.33 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-30 at 8.57.42 PM.png" alt=""><figcaption></figcaption></figure>
 
 Once you find the analyst you're looking for, you can click on their profile to find their top dashboards, and potentially a few ways to get in touch with them. This is a great way to connect with other analysts in the space so make sure you build out your own [profile](profiles.md) too!
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-03-14 at 12.34.43 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-05-30 at 9.05.49 PM.png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -10,13 +10,11 @@ This section will cover:
 
 * [How to update my profile?](profiles.md#building-your-profile)
 
-
-
 ### Building a Profile&#x20;
 
 From this example profile page, we can see the analyst's social accounts as well as all of their published dashboard.&#x20;
 
-<figure><img src="../../.gitbook/assets/Group 25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 28.png" alt=""><figcaption></figcaption></figure>
 
 If you'd like to connect with other analysts and crypto enthusiasts in the space, we encourage you to build out your profile page too. To edit your profile, click on your avatar image in the bottom left corner of the screen and select "Edit Profile".&#x20;
 

@@ -252,6 +252,7 @@
 * [API (JSON RPC)](flipside-api/get-started/rest-api.md)
 * [SDKs](flipside-api/sdks.md)
 * [Community Showcase](flipside-api/community-showcase.md)
+* [ShroomDK Migration Guide](flipside-api/shroomdk-migration-guide.md)
 * [Have Questions?](flipside-api/have-questions.md)
 
 ## Contribute to Our Data <a href="#contribute" id="contribute"></a>

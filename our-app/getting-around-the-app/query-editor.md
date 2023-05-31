@@ -13,13 +13,11 @@ This section will cover:
 * [How to get started with the results panel? ](query-editor.md#the-results-panel)
 * [How to get started with the charts panel?](query-editor.md#the-charts-panel)
 
-
-
 ### Overview of the Editor
 
 The editor is composed of three main panels - query, results, and charts. To the left of these panels, you have access to My Work or the Data Explorer. To the top, you can see all the queries and dashboards you've opened in tabs.&#x20;
 
-<figure><img src="../../.gitbook/assets/editor.png" alt=""><figcaption><p>Work interface. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 27.png" alt=""><figcaption><p>Work interface. </p></figcaption></figure>
 
 **Configure your Interface.**
 

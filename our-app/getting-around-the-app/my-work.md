@@ -20,7 +20,7 @@ The list of files under "My Work" can grow very quickly as you create test queri
 
 
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-03-12 at 6.19.59 PM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-05-31 at 10.33.32 AM.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -28,10 +28,9 @@ The list of files under "My Work" can grow very quickly as you create test queri
 
 As the list of files grows in my work, here are some tips and tricks to help you stay organized. We will go over the images below from left to right.
 
-<figure><img src="../../.gitbook/assets/my work (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Group 2150.png" alt=""><figcaption></figcaption></figure>
 
 1. **File Types:** To start, there are 3 types of objects that you can create under my work: _collections_, _queries_, and _dashboards_.&#x20;
 2. **Collections:** To organize files by topic, you can create collections! To do that, click the "+" button and give your collection a name. Collections will always live on the top of "My Work".
 3. **Drag and Drop:** To move a file you have created, simply drag and drop that file to the desired location in the files tree.&#x20;
 4. **Multi-Select:** To move multiple files at once, ctrl+shift (cmd+shift on mac) and click to select the files you want to move, then drag and drop them to the desired location in the file tree.&#x20;
-

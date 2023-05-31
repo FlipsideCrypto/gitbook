@@ -12,8 +12,6 @@ This section will cover:
 * [How to add content to a dashboard?](dashboard-editor.md#building-a-dashboard)
 * [How to publish a dashboard?](dashboard-editor.md#publishing-a-dashboard)
 
-
-
 ### Overview of Dashboard Components
 
 Before we go over how to populate a dashboard, we'll go over the different components of a dashboard.&#x20;
@@ -71,12 +69,3 @@ Once you complete a dashboard, publish it to make it publicly accessible! You ca
 Don't worry: if you made a mistake in your dashboard, you can easily make changes, then click the the Update button >> Publish Updates to make those changes live.\
 \
 You can also Unpublish here, which will make your dashboard disappear — people visiting the link will see a 404 error until you publish it again.
-
-
-
-\
-
-
-
-
-\
