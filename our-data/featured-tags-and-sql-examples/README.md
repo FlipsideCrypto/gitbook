@@ -20,12 +20,40 @@ Don't see the perfect tag? [Add your own! ](how-to-add-your-own-tags.md#how-to-a
 
 | Tag Type                                           |
 | -------------------------------------------------- |
+| [token standard](./#token-standard)                |
 | [contract](./#contract)                            |
 | [cex (centralized exchange)](./#cex)               |
 | [dex (decentralized exchange)](./#dex)             |
 | [nft](./#nft)                                      |
 | [activity (general behavior)](./#activity)         |
 | [wallet (token contents of an address)](./#wallet) |
+
+### Token Standard
+
+Tag\_type 'token standard' is a set of tags that define the token standard of an address!
+
+| tag\_name      | description                           | blockchains |
+| -------------- | ------------------------------------- | ----------- |
+| erc-20         | An erc-20 address                     | ethereum    |
+| erc-721        | An erc-721 address                    | ethereum    |
+| erc-1155       | An erc-1151 address                   | ethereum    |
+| erc-4626       | An erc-4626 address                   | ethereum    |
+| erc-6551       | An erc-6551 address                   | ethereum    |
+| erc-6551 owner | A token address that owns an erc-6551 | ethereum    |
+
+Want to know the difference in behaviors of erc-721's vs. erc-1155's? Leveraging the 'token standard' tag\_name will make this segmentation and subsequent analysis trivial!
+
+The code below will find all erc-721s that are on Ethereum!&#x20;
+
+```sql
+select 
+  distinct address
+from crosschain.core.address_tags 
+where 
+    tag_type = 'token standard' 
+    and tag_name = 'erc-721'
+    and creator = 'flipside'
+```
 
 ### Contract
 
