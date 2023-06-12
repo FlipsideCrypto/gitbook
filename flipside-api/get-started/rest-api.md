@@ -130,33 +130,21 @@ print(response.text)
 {% endtab %}
 
 {% tab title="R Example" %}
-```r
-library(RCurl)
-headers = c(
-  "Content-Type" = "application/json",
-  "x-api-key" = "{{api_key}}"
+<pre class="language-r"><code class="lang-r"><strong>library(shroomDK) # imports jsonlite and httr
+</strong>
+qtoken &#x3C;- create_query_token(
+query = "SELECT * FROM ethereum.core.fact_transactions LIMIT 33",
+api_key = readLines("api_key.txt"), #always gitignore your api keys 
+ttl = 1,
+mam = 5,
+data_source = "snowflake-default",
+data_provider = "flipside",
+api_url = "https://api-v2.flipsidecrypto.xyz/json-rpc"
 )
-params = "{
-  \"jsonrpc\": \"2.0\",
-  \"method\": \"createQueryRun\",
-  \"params\": [
-    {
-      \"resultTTLHours\": 1,
-      \"maxAgeMinutes\": 0,
-      \"sql\": \"SELECT date_trunc('hour', block_timestamp) as hourly_datetime, count(distinct tx_hash) as tx_count from ethereum.core.fact_transactions where block_timestamp >= getdate() - interval'1 month' group by 1 order by 1 desc\",
-      \"tags\": {
-        \"source\": \"postman-demo\",
-        \"env\": \"test\"
-      },
-      \"dataSource\": \"snowflake-default\",
-      \"dataProvider\": \"flipside\"
-    }
-  ],
-  \"id\": 1
-}"
-res <- postForm("https://api-v2.flipsidecrypto.xyz/json-rpc", .opts=list(postfields = params, httpheader = headers, followlocation = TRUE), style = "httppost")
-cat(res)
-```
+
+# use body(create_query_token) to see how header and body are formed. 
+
+</code></pre>
 {% endtab %}
 {% endtabs %}
 
@@ -247,23 +235,12 @@ print(response.text)
 
 {% tab title="R Example" %}
 ```r
-library(RCurl)
-headers = c(
-  "Content-Type" = "application/json",
-  "x-api-key" = "{{api_key}}"
-)
-params = "{
-  \"jsonrpc\": \"2.0\",
-  \"method\": \"getQueryRun\",
-  \"params\": [
-    {
-      \"queryRunId\": \"{{queryRunId}}\"
-    }
-  ],
-  \"id\": 1
-}"
-res <- postForm("https://api-v2.flipsidecrypto.xyz/json-rpc", .opts=list(postfields = params, httpheader = headers, followlocation = TRUE), style = "httppost")
-cat(res)
+library(shroomDK) # imports jsonlite and httr
+# see above for qtoken <- create_query_token(...)
+query_id <- qtoken$result$queryRequest$queryRunId
+query_status <- get_query_status(query_id, api_key)
+
+# use body(get_query_status) to see how header and body are formed.
 ```
 {% endtab %}
 {% endtabs %}
@@ -369,30 +346,43 @@ print(response.text)
 {% endtab %}
 
 {% tab title="R Example" %}
-```r
-library(RCurl)
-headers = c(
-  "Content-Type" = "application/json",
-  "x-api-key" = "{{api_key}}"
-)
-params = "{
-  \"jsonrpc\": \"2.0\",
-  \"method\": \"getQueryRunResults\",
-  \"params\": [
-    {
-      \"queryRunId\": \"{{queryRunId}}\",
-      \"format\": \"csv\",
-      \"page\": {
-        \"number\": 1,
-        \"size\": 1
-      }
+<pre class="language-r"><code class="lang-r">library(shroomDK) # imports jsonlite and httr
+# see above for query_status &#x3C;- get_query_status(...)
+
+ query_state &#x3C;- query_status$result$queryRun$state
+
+# this loop is inside get_query_from_token() 
+
+ status_check_done &#x3C;- FALSE
+  warn_flag &#x3C;- FALSE
+
+  while (!status_check_done) {
+
+    query_status &#x3C;- get_query_status(
+<strong>      query_run_id = query_id, 
+</strong>      api_key = api_key, # gitignore your API key 
+      api_url = "https://api-v2.flipsidecrypto.xyz/json-rpc"
+      ) # default 
+    
+query_state &#x3C;- query_status$result$queryRun$state
+
+    if(query_state == "QUERY_STATE_SUCCESS"){
+      status_check_done &#x3C;- TRUE
+      next()
+    } else if(query_state == "QUERY_STATE_FAILED"){
+      status_check_done &#x3C;- TRUE
+      stop(query_status$result$queryRun$errorMessage)
+    } else if(query_state == "QUERY_STATE_CANCELED"){
+      status_check_done &#x3C;- TRUE
+      stop("This query was canceled, typically by cancel_query()")
+    } else if(query_state != "QUERY_STATE_SUCCESS"){
+      warning("Query in process, checking again in 5 seconds, use cancel_query() if needed.")
+      Sys.sleep(5)
     }
-  ],
-  \"id\": 1
-}"
-res <- postForm("https://api-v2.flipsidecrypto.xyz/json-rpc", .opts=list(postfields = params, httpheader = headers, followlocation = TRUE), style = "httppost")
-cat(res)
-```
+
+  }
+
+</code></pre>
 {% endtab %}
 {% endtabs %}
 
