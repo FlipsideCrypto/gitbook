@@ -44,6 +44,37 @@ Subsequently, instantiate a new Flipside object using your API key and the new A
 const flipside = new Flipside("<YOUR_API_KEY>", "https://api-v2.flipsidecrypto.xyz");
 ```
 {% endtab %}
+
+{% tab title="R" %}
+```
+# Current CRAN version: 0.2.1
+packageVersion("shroomDK") == '0.2.1'
+install.packages("shroomDK") 
+library(shroomDK) 
+
+file.exists("api_key.txt") # always gitignore your API keys!
+
+api_key <- ReadLines("api_key.txt")
+
+query <- { 
+"
+SELECT 
+  date_trunc('hour', block_timestamp) as hour,
+  count(distinct tx_hash) as tx_count
+FROM ethereum.core.fact_transactions 
+WHERE block_timestamp >= GETDATE() - interval'7 days'
+GROUP BY 1
+"
+ }
+
+# auto_paginate_query "just works" similar to 0.1.1 behavior 
+# use ?auto_paginate_query to see new detailed parameters. 
+pull_data <- auto_paginate_query(
+query = query,
+api_key = api_key
+)
+```
+{% endtab %}
 {% endtabs %}
 
 The updated SDKs will automatically target the new API v2 endpoints.
