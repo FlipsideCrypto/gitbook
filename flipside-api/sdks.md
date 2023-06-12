@@ -2,7 +2,7 @@
 
 Flipside makes available the following SDKs as higher-level, more developer-friendly wrappers over the API. Examples for each SDK are available throughout the [Concepts & Examples Section here](get-started/).&#x20;
 
-<table><thead><tr><th width="255">Language</th><th width="143">Version</th><th>Source Code (Github)</th></tr></thead><tbody><tr><td>✅ Python</td><td>2.0.7</td><td><a href="https://github.com/FlipsideCrypto/sdk/tree/main/python">Source Code</a></td></tr><tr><td>✅ JS/TypeScript</td><td>2.0.0</td><td><a href="https://github.com/FlipsideCrypto/sdk/tree/main/js">Source Code</a></td></tr><tr><td>🏗 R</td><td>Coming Soon</td><td>Source Code</td></tr></tbody></table>
+<table><thead><tr><th width="255">Language</th><th width="143">Version</th><th>Source Code (Github)</th></tr></thead><tbody><tr><td>✅ Python</td><td>2.0.7</td><td><a href="https://github.com/FlipsideCrypto/sdk/tree/main/python">Source Code</a></td></tr><tr><td>✅ JS/TypeScript</td><td>2.0.0</td><td><a href="https://github.com/FlipsideCrypto/sdk/tree/main/js">Source Code</a></td></tr><tr><td>🏗 R</td><td>0.2.1</td><td><a href="https://github.com/FlipsideCrypto/sdk/tree/main/r/shroomDK">Source Code</a></td></tr></tbody></table>
 
 Want an SDK for another language? Or want to create your own SDK? Please reach out in [Discord](https://discord.gg/ZmU3jQuu6W)!&#x20;
 
