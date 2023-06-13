@@ -283,7 +283,7 @@ We accessed the SOURCE value by using colons _and brackets_:
 ```sql
 inner_instruction:instructions[0]:parsed:info:source
 --use colons ':' to select nested fields in JSON structure
---the 'instructions' field contains an array enclosed in brakets [...]
+--the 'instructions' field contains an array enclosed in brackets [...]
 --so we use [0] to access the 1st element in that array
 ```
 
@@ -312,7 +312,7 @@ Is this a staking deposit transaction? Our query would have missed it because we
 ```sql
 inner_instruction:instructions**[0]**:parsed:info:source
 --use colons ':' to select nested fields in JSON structure
---the 'instructions' field contains an array enclosed in brakets [...]
+--the 'instructions' field contains an array enclosed in brackets [...]
 --so we use [0] to access the 1st element in that array
 ```
 
@@ -336,7 +336,7 @@ This time we get 88 rows and we check a few more transactions on Solscan like [t
 
 This transaction had a token transfer coming from ‘7GpPYj...’ but we don’t see Marinade Finance listed anywhere in the programs... ! What are these other programs? Are they also creating staking transactions?
 
-After more digging and thinking we decided see the first program above doesn’t transfer any mSOL, so it can’t be a deposit, but the second program ‘mRefx8...’ _does_ contain a deposit. It turns out that if we [search Github for that program](https://github.com/search?q=mRefx8ypXNxE59NhoBqwqb3vTvjgf8MYECp4kgJWiDY\&type=code) we find evidence it’s connected to [Marinade’s Referral Program](https://docs.marinade.finance/partnerships/referral-program) — aha! We conclude users are in fact making staking deposits into Marinade here, but through the referral program, and we probably should include these in a thorough analysis of Marinade staking deposits.
+After more digging and thinking we decided to see the first program above doesn’t transfer any mSOL, so it can’t be a deposit, but the second program ‘mRefx8...’ _does_ contain a deposit. It turns out that if we [search Github for that program](https://github.com/search?q=mRefx8ypXNxE59NhoBqwqb3vTvjgf8MYECp4kgJWiDY\&type=code) we find evidence it’s connected to [Marinade’s Referral Program](https://docs.marinade.finance/partnerships/referral-program) — aha! We conclude users are in fact making staking deposits into Marinade here, but through the referral program, and we probably should include these in a thorough analysis of Marinade staking deposits.
 
 ## Conclusion & Takeaways
 

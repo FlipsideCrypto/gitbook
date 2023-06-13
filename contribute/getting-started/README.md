@@ -6,7 +6,7 @@
 
 Community curators are granted access to a dev environment for testing and development of a data model. A member of Flipside's analytics team will need to grant you access, so please ask in the [# 🌲 | community-curation](https://discord.com/channels/784442203187314689/1053086214615466095) channel on Discord something along the lines of:
 
-> Hi , I’m interested in doing data curation for Flipside, could you give me snowflake access please? I’d like my username to be:  `community_<insert_username>`
+> Hi, I’m interested in doing data curation for Flipside, could you give me snowflake access please? I’d like my username to be:  `community_<insert_username>`
 
 {% hint style="warning" %}
 Access to Snowflake is granted for the sole purpose of community curation and testing your models. This password is not to be shared with anyone. If you know someone who would like to contribute as well, we will credential them separately. If you would like to work with Flipside data in a Snowflake environment, please see the section on [Data Shares](broken-reference) and reach out separately.
@@ -14,7 +14,7 @@ Access to Snowflake is granted for the sole purpose of community curation and te
 
 ### **dbt cloud \[Optional]**
 
-If you are unfamiliar with dbt, we suggest creating a free account to [dbt Cloud](https://cloud.getdbt.com/). dbt Labs has built an IDE for developing dbt models. Once the environment is set up with the proper credentials, connect to a fork of the [model repository](https://github.com/orgs/FlipsideCrypto/repositories) to begin editing or building you own. The cloud environment includes the option to preview the compiled SQL models so you can see output as you work. Additionally, the command line for running dbt includes built-in autocomplete for common dbt commands.
+If you are unfamiliar with dbt, we suggest creating a free account to [dbt Cloud](https://cloud.getdbt.com/). dbt Labs has built an IDE for developing dbt models. Once the environment is set up with the proper credentials, connect to a fork of the [model repository](https://github.com/orgs/FlipsideCrypto/repositories) to begin editing or building your own. The cloud environment includes the option to preview the compiled SQL models so you can see output as you work. Additionally, the command line for running dbt includes built-in autocomplete for common dbt commands.
 
 {% hint style="info" %}
 Note: if you are using dbt Cloud, you will need to fork the main repository and link your dbt Cloud environment to the fork.

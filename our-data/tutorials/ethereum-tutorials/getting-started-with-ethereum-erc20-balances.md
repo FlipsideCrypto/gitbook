@@ -23,7 +23,7 @@ SELECT
   amount_usd
 FROM ethereum.erc20_balances
 WHERE 
-  -- the user address is the Curve Liquidty Pool
+  -- the user address is the Curve Liquidity Pool
   user_address = '0xa5407eae9ba41422680e2e00537571bcc53efbfd' AND
   -- the contract address is the USDC proxy contract
   contract_address = '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' AND
@@ -61,6 +61,6 @@ WHERE
 Two things to note from this query:
 
 1. Instead of entering the `user_address` directly, we leveraged Flipside's label to get at the Maker Gem Join contract.
-2. Similar to the first point, instead of using the USDC contract address we use the`symbol` here. This symbol has been whitelisted to avoid collision.&#x20;
+2. Similar to the first point, instead of using the USDC contract address we use the `symbol` here. This symbol has been whitelisted to avoid collision.&#x20;
 
 From here, I encourage you to explore TVL on other platforms such as Balancer, UniSwap, or Aave.&#x20;

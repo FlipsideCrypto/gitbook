@@ -21,7 +21,7 @@ Add a label by submitting through our [label submission form](https://science.fl
 
 ### SQL Models
 
-The Flipside community uses [dbt](https://www.getdbt.com/) to model data in a [Snowflake](https://www.snowflake.com/) database. The following page on our [Analytics Stack for Community Curation](broken-reference) will go into further depth about the tech stack. If you are familiar with these tool, skip to [Getting Started](getting-started/) for instructions on access and setting up your dev environment.
+The Flipside community uses [dbt](https://www.getdbt.com/) to model data in a [Snowflake](https://www.snowflake.com/) database. The following page on our [Analytics Stack for Community Curation](broken-reference) will go into further depth about the tech stack. If you are familiar with these tools, skip to [Getting Started](getting-started/) for instructions on access and setting up your dev environment.
 
 #### What and why?
 

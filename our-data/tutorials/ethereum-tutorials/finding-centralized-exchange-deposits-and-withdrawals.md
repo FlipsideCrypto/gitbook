@@ -16,7 +16,7 @@ Whenever you try to answer a complicated question like this, you're going to hav
 If you haven't gone through the [Getting Started with Ethereum Events](https://app.gitbook.com/getting-started-with-ethereum-events) guide or worked with labels in the [Using Labels to Break Down Token Supply](using-labels-to-break-down-token-supply.md) guide, yet, we recommend you do that first.
 {% endhint %}
 
-Let's start by look at ETH movement into exchanges for a week in October 2020.
+Let's start by looking at ETH movement into exchanges for a week in October 2020.
 
 ```sql
 SELECT
@@ -40,7 +40,7 @@ In this query, we:
 * select label type and subtype because we don't always know which level we need at first
 * filter `native_eth` transfers only
 
-Each day give us results that look like this:
+Each day gives us results that look like this:
 
 | Date                | To Label Type | To Label Subtype            | Total Inflow |
 | ------------------- | ------------- | --------------------------- | ------------ |
