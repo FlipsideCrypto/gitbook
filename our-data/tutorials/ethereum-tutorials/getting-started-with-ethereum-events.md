@@ -65,7 +65,7 @@ ORDER BY metric_date DESC
 
 ![](<../../../.gitbook/assets/Screen Shot 2020-11-01 at 10.30.54 PM.png>)
 
-We see a big spike in USDC transfers on October 26th. This just happens to coincide with the Harvest.finance attack on the same date. Let's take a closer look at the exchanges that USDC was being sent to at that time by leveraging Flipside's Exchange labels.
+We see a big spike in USDC transfers on October 26th. This just happens to coincide with the Harvest. Finance attack on the same date. Let's take a closer look at the exchanges that USDC was being sent to at that time by leveraging Flipside's Exchange labels.
 
 ```sql
 SELECT 
