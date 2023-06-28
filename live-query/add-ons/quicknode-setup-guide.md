@@ -22,7 +22,3 @@ Before you begin make sure you are logged into your Flipside Crypto account.
 
 **Step 3:** Connect your QuickNode account to your Flipside Account (you must be logged in to your  Flipside account to complete this step).
 
-**Watch the video below for a step-by-step tutorial:**
-
-_**\<Insert Loom Video>**_
-
