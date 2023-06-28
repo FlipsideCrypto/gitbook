@@ -18,7 +18,9 @@ Before you begin make sure you are logged into your Flipside Crypto account.
 
 **Step 1:** Set up an account on QuickNode (if you don't already have one)&#x20;
 
-**Step 2:** Navigate to QuickNode's Marketplace and install LiveQuery By Flipside here.
+**Step 2:** Navigate to QuickNode's Marketplace and install [LiveQuery By Flipside here](https://marketplace.quicknode.com/add-on/flipside-livequery).
+
+{% embed url="https://marketplace.quicknode.com/add-on/flipside-livequery" %}
 
 **Step 3:** Connect your QuickNode account to your Flipside Account (you must be logged in to your  Flipside account to complete this step).
 
