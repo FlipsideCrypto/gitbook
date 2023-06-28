@@ -29,3 +29,9 @@ Add-Ons provide a secure means of incorporating your API keys for third-party da
 {% endcontent-ref %}
 
 We're excited to announce that additional third-party cryptocurrency data add-ons are on the horizon! Until then, explore our detailed, [step-by-step examples](examples/) **or** [link your QuickNode account](add-ons/quicknode-setup-guide.md) to use LiveQuery for querying blockchain nodes.
+
+
+
+{% hint style="danger" %}
+Note if you publish a dashboard that contains LiveQuery-powered queries users that refresh your dashboard will trigger queries against the Add-ons you have integrated.
+{% endhint %}

@@ -15,3 +15,7 @@ Flipside currently supports the following Node AddOns (follow the guides below t
 {% content-ref url="quicknode-setup-guide.md" %}
 [quicknode-setup-guide.md](quicknode-setup-guide.md)
 {% endcontent-ref %}
+
+{% hint style="danger" %}
+Note if you publish a dashboard that contains LiveQuery-powered queries users that refresh your dashboard will trigger queries against the Add-ons you have integrated.
+{% endhint %}
