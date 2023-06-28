@@ -255,6 +255,18 @@
 * [ShroomDK Migration Guide](flipside-api/shroomdk-migration-guide.md)
 * [Have Questions?](flipside-api/have-questions.md)
 
+## Live Query
+
+* [Get Started](live-query/get-started.md)
+* [Examples](live-query/examples/README.md)
+  * [🧙♂ EVM Functions](live-query/examples/evm-functions/README.md)
+    * [💡 Seaport: Real-time Orders](live-query/examples/evm-functions/seaport-real-time-orders.md)
+    * [💡 WETH Pool Balances](live-query/examples/evm-functions/weth-pool-balances.md)
+  * [🤖 API Functions](live-query/examples/api-functions/README.md)
+    * [💡 Query TheGraph](live-query/examples/api-functions/query-thegraph.md)
+* [Add-Ons](live-query/add-ons/README.md)
+  * [⛓ QuickNode Setup Guide](live-query/add-ons/quicknode-setup-guide.md)
+
 ## Contribute to Our Data <a href="#contribute" id="contribute"></a>
 
 * [Community Curation](contribute/contribute-to-flipside-data.md)
