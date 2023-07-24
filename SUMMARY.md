@@ -268,6 +268,7 @@
     * [💡 General EVM Node Queries](live-query/examples/evm-functions/general-evm-node-queries.md)
   * [🤖 API Functions](live-query/examples/api-functions/README.md)
     * [💡 Query TheGraph](live-query/examples/api-functions/query-thegraph.md)
+    * [💡 Query Defi Llama](live-query/examples/api-functions/query-defi-llama.md)
   * [⚙ Utility Functions](live-query/examples/utility-functions/README.md)
     * [💡 Hex Converters](live-query/examples/utility-functions/hex-converters.md)
     * [💡 JSON RPC Request Builder](live-query/examples/utility-functions/json-rpc-request-builder.md)
