@@ -9,7 +9,7 @@ description: Query & Remix All of Crypto With a Single, Real-time Interface
 This gives you the power to remix data and generate unique insights beyond Flipside's curated data sets as well as leverage real-time updates directly from blockchain nodes.
 
 ```sql
-SELECT * FROM table(ethereum_mainnet.latest_contract_events_decoded(<address>))
+SELECT * FROM table(ethereum_mainnet.tf_latest_contract_events_decoded(<address>))
 ```
 
 If you're already writing SQL at Flipside you already have access to the power of LiveQuery.
