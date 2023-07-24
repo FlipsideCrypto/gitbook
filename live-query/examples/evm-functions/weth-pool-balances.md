@@ -1,6 +1,6 @@
 # 💡 WETH Pool Balances
 
-In this example, we'll use the LiveQuery table function `latest_token_balance` to retrieve the real-time balance of Uniswap Pools.
+In this example, we'll use the LiveQuery table function `tf_latest_token_balance` to retrieve the real-time balance of Uniswap Pools.
 
 {% hint style="warning" %}
 If you'd like to follow along in your own Flipside Studio Account please make sure you've added the QuickNode integration to your account. QuickNode [instructions here](../../add-ons/quicknode-setup-guide.md).&#x20;
@@ -18,7 +18,7 @@ USDC Token Address: `0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48`
 SELECT 
  *
 FROM table(
-  ethereum_mainnet.latest_token_balance(
+  ethereum_mainnet.tf_latest_token_balance(
     -- pool address
     '0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640',
     -- an array of addresses we want to know the pool's balance of
@@ -38,6 +38,7 @@ This function will always return a table with the following columns:
 
 | Column          | Type    |
 | --------------- | ------- |
+| status          | varchar |
 | blockchain      | varchar |
 | network         | varchar |
 | wallet\_address | varchar |
@@ -54,7 +55,7 @@ The function supports a few overloads. An overload means the function can take d
 SELECT 
  *
 FROM table(
-  ethereum_mainnet.latest_token_balance(
+  ethereum_mainnet.tf_latest_token_balance(
     '0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640', -- pool address
     '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', -- WETH address
   )
@@ -65,7 +66,7 @@ FROM table(
 
 In this example, we'll pull the latest WETH balance for all WETH pools that have done greater than $10 million in volume over the past week.&#x20;
 
-We will first fetch the pools using Flipside's `ethereum.core.ez_dex_swaps` table and then use the table function `ethereum_mainnet.latest_token_balance()` to retrieve the balance for each pool involving WETH.
+We will first fetch the pools using Flipside's `ethereum.core.ez_dex_swaps` table and then use the table function `ethereum_mainnet.tf_latest_token_balance()` to retrieve the balance for each pool involving WETH.
 
 ```sql
 WITH pools AS (
@@ -83,7 +84,7 @@ WITH pools AS (
 )
 SELECT
   *
-FROM table(ethereum_mainnet.latest_token_balance(
+FROM table(ethereum_mainnet.tf_latest_token_balance(
   -- generate an array of pool addresses to pass to the function
   (SELECT array_agg(distinct pool_address) FROM pools),
   -- WETH token address

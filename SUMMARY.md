@@ -258,14 +258,21 @@
 ## Live Query
 
 * [Get Started](live-query/get-started.md)
+* [Add-Ons](live-query/add-ons/README.md)
+  * [⛓ QuickNode Setup Guide](live-query/add-ons/quicknode-setup-guide.md)
 * [Examples](live-query/examples/README.md)
+  * [🤝 Partner Functions](live-query/examples/partner-functions.md)
   * [🧙♂ EVM Functions](live-query/examples/evm-functions/README.md)
     * [💡 Seaport: Real-time Orders](live-query/examples/evm-functions/seaport-real-time-orders.md)
     * [💡 WETH Pool Balances](live-query/examples/evm-functions/weth-pool-balances.md)
+    * [💡 General EVM Node Queries](live-query/examples/evm-functions/general-evm-node-queries.md)
   * [🤖 API Functions](live-query/examples/api-functions/README.md)
     * [💡 Query TheGraph](live-query/examples/api-functions/query-thegraph.md)
-* [Add-Ons](live-query/add-ons/README.md)
-  * [⛓ QuickNode Setup Guide](live-query/add-ons/quicknode-setup-guide.md)
+  * [⚙ Utility Functions](live-query/examples/utility-functions/README.md)
+    * [💡 Hex Converters](live-query/examples/utility-functions/hex-converters.md)
+    * [💡 JSON RPC Request Builder](live-query/examples/utility-functions/json-rpc-request-builder.md)
+    * [💡 EVM Logs Decoder](live-query/examples/utility-functions/evm-logs-decoder.md)
+    * [💡 Keccak256 Encoder](live-query/examples/utility-functions/keccak256-encoder.md)
 
 ## Contribute to Our Data <a href="#contribute" id="contribute"></a>
 

@@ -1,6 +1,6 @@
 # 💡 Seaport: Real-time Orders
 
-In this example, we'll use the LiveQuery table function `latest_contract_events_decoded` to retrieve real-time orders from the Seaport contract.
+In this example, we'll use the LiveQuery table function `tf_latest_contract_events_decoded` to retrieve real-time orders from the Seaport contract.
 
 {% hint style="warning" %}
 If you'd like to follow along in your own Flipside Studio Account please make sure you've added the QuickNode integration to your account. QuickNode [instructions here](../../add-ons/quicknode-setup-guide.md).&#x20;
@@ -12,7 +12,7 @@ Here we will query the Seaport Version 1.5 Contract on the Ethereum Mainnet, add
 SELECT
 *
 FROM TABLE(
-    ethereum_mainnet.latest_contract_events_decoded(lower('0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC'))
+    ethereum_mainnet.tf_latest_contract_events_decoded(lower('0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC'))
 );
 ```
 
@@ -24,6 +24,7 @@ The above example will return a table with the following columns:
 
 | Column            | Type    |
 | ----------------- | ------- |
+| status            | varchar |
 | blockchain        | varchar |
 | network           | varchar |
 | tx\_hash          | varchar |
@@ -46,7 +47,7 @@ WITH realtime_events AS (
    event_name,
    decoded_data
   FROM TABLE(
-    ethereum_mainnet.latest_contract_events_decoded('0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC')
+    ethereum_mainnet.tf_latest_contract_events_decoded('0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC')
   )
 )
 SELECT
