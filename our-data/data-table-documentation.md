@@ -9,6 +9,7 @@ Our data documentation is kept up to date _as changes are deployed_, so check he
 * [Arbitrum](https://flipsidecrypto.github.io/arbitrum-models/#!/overview)
 * [Avalanche](https://flipsidecrypto.github.io/avalanche-models/#!/overview)
 * [Axelar](https://flipsidecrypto.github.io/axelar-models/#!/overview)  
+* [Base](https://flipsidecrypto.github.io/base-models/#!/overview)
 * [Bitcoin](https://flipsidecrypto.github.io/bitcoin-models/)
 * [Binance Smart Chain](https://flipsidecrypto.github.io/bsc-models/#!/overview)
 * [Cosmos](https://flipsidecrypto.github.io/cosmos-models/#!/overview)&#x20;
