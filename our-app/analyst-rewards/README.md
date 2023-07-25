@@ -45,7 +45,7 @@ Find new hunts on the [Metrics App](https://metricsdao.xyz/app/challenges).
 
 ### Top 8&#x20;
 
-Always aiming for the top? The Top 8 is like a weekly bonus check for the best of the best in social analytics. For every hour your dashboard spends in a Top 8 slot, you’re earning that #passiveincome. Plus, $500 best-in-ecosystem prizes sweeten the pot.
+Always aiming for the top? The Top 8 is like a weekly bonus check for the best of the best in social analytics. For every hour your dashboard spends in a Top 8 slot, you’re earning that #passiveincome.
 
 _**How to get started:**_
 
