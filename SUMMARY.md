@@ -261,7 +261,6 @@
 * [Add-Ons](live-query/add-ons/README.md)
   * [⛓ QuickNode Setup Guide](live-query/add-ons/quicknode-setup-guide.md)
 * [Examples](live-query/examples/README.md)
-  * [🤝 Partner Functions](live-query/examples/partner-functions.md)
   * [🧙♂ EVM Functions](live-query/examples/evm-functions/README.md)
     * [💡 Seaport: Real-time Orders](live-query/examples/evm-functions/seaport-real-time-orders.md)
     * [💡 WETH Pool Balances](live-query/examples/evm-functions/weth-pool-balances.md)

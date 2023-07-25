@@ -151,4 +151,4 @@ Congrats — you've published!
 
 * **Edit your profile** — add contact information, customize your avatar and background image.
 * **Get inspired** — go back to Discover and scope out the trending work: filter by a project you're interested in, and see what the best analysts in crypto are making on Flipside. Oh, and if you see something you like, be sure to hit that ❤️ button — "likes" impact the rankings and you'll help more people see good work by voting for things you enjoy.
-* **Check out bounties** — there are a few [Flipside bounties](http://localhost:5000/s/q3ZsciVeKRUUcuezp6ax/rpc/data-types/sqlstatement) left, but the new stuff is mostly at [MetricsDAO](https://metricsdao.xyz/) — check it out, accept a challenge, submit your work, and get paid!
+* **Check out bounties** — there are a few [Flipside bounties](http://127.0.0.1:5000/s/q3ZsciVeKRUUcuezp6ax/rpc/data-types/sqlstatement) left, but the new stuff is mostly at [MetricsDAO](https://metricsdao.xyz/) — check it out, accept a challenge, submit your work, and get paid!
