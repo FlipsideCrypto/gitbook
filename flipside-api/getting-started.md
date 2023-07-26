@@ -23,13 +23,13 @@ pip install flipside
 
 {% tab title="JS/TS/Node SDK" %}
 ```
-yarn add @flipside/sdk
+yarn add @flipsidecrypto/sdk
 ```
 
 _or_
 
 ```
-npm install @flipside/sdk
+npm install @flipsidecrypto/sdk
 ```
 {% endtab %}
 
