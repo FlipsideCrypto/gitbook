@@ -12,6 +12,10 @@ LiveQuery supports four categories of functions: **Partner Functions,** **EVM Fu
 
 ### **Follow the links below to dive into LiveQuery examples:**
 
+{% content-ref url="partner-functions.md" %}
+[partner-functions.md](partner-functions.md)
+{% endcontent-ref %}
+
 {% content-ref url="evm-functions/" %}
 [evm-functions](evm-functions/)
 {% endcontent-ref %}
