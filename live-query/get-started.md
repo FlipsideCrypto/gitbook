@@ -1,5 +1,5 @@
 ---
-description: Query & Remix All of Crypto With a Single, Real-time Interface
+description: Query external APIs, combine with Flipside data, directly in SQL
 ---
 
 # Get Started
