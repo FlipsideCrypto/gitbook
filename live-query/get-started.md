@@ -6,6 +6,8 @@ description: Query & Remix All of Crypto With a Single, Real-time Interface
 
 **LiveQuery enables you to query any API directly within a Flipside SQL Query, from nodes to your favorite crypto data providers.**&#x20;
 
+{% embed url="https://www.loom.com/share/da2957d686804f8ca4e1dac4c5688411?sid=57459c86-f36d-41a2-9d3b-60c37ef1b9d4" %}
+
 This gives you the power to remix data and generate unique insights beyond Flipside's curated data sets as well as leverage real-time updates directly from blockchain nodes.
 
 ```sql
