@@ -2,6 +2,10 @@
 
 * [Welcome to Flipside!](README.md)
 
+## Data Shares
+
+* [Snowflake Data Shares](data-shares/snowflake-data-shares.md)
+
 ## Our App
 
 * [Getting Started](our-app/getting-started.md)
@@ -283,7 +287,3 @@
 * [Getting Started](contribute/getting-started/README.md)
   * [Contribution Workflow](contribute/getting-started/contribution-workflow.md)
 * [PR Checklist](contribute/pr-checklist.md)
-
-## Data Shares
-
-* [Snowflake Data Shares](data-shares/snowflake-data-shares.md)
