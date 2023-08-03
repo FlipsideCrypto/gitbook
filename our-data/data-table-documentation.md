@@ -7,6 +7,7 @@ description: Looking for specific database, schema, and table details? Look no f
 Our data documentation is kept up to date _as changes are deployed_, so check here for the very latest details on each of our covered chains:
 
 * [Arbitrum](https://flipsidecrypto.github.io/arbitrum-models/#!/overview)
+* [Aurora](https://flipsidecrypto.github.io/aurora-models/#!/overview)
 * [Avalanche](https://flipsidecrypto.github.io/avalanche-models/#!/overview)
 * [Axelar](https://flipsidecrypto.github.io/axelar-models/#!/overview)  
 * [Base](https://flipsidecrypto.github.io/base-models/#!/overview)
