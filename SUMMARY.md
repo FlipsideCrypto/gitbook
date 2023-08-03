@@ -1,10 +1,7 @@
 # Table of contents
 
 * [Welcome to Flipside!](README.md)
-
-## Data Shares
-
-* [Snowflake Data Shares](data-shares/snowflake-data-shares.md)
+* [Page](page.md)
 
 ## Our App
 
