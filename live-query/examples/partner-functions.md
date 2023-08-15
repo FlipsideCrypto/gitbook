@@ -17,8 +17,10 @@
 | Footprint           | [Footprint LiveQuery Guide](https://flipsidecrypto.xyz/edit/queries/c475570c-d2f8-4167-beb9-fb3d43fd5505)           |
 | FRED                | [FRED LiveQuery Guide](https://flipsidecrypto.xyz/edit/queries/91df7233-1a26-4a10-a76c-ee49d547b5a2)                |
 | Helius              | [Helius LiveQuery Guide](https://flipsidecrypto.xyz/edit/queries/d0a50a6e-e372-4053-87f4-32e764c1abad)              |
+| OpenSea             | [OpenSea LiveQuery Guide](https://flipsidecrypto.xyz/edit/queries/0e4f856c-0b9f-47c9-a237-b62a9d08e8a0)             |
 | Playgrounds         | [Playgrounds LiveQuery Guide](https://flipsidecrypto.xyz/edit/queries/7faccd45-934c-4ae6-a2ee-c59f9f4dd7d9)         |
 | QuickNode           | [QuickNode LiveQuery Guide](https://flipsidecrypto.xyz/edit/queries/28067b77-b728-4b37-ba78-27274b2c2032)           |
+| Reservoir           | [Reservoir LiveQuery Guide](https://flipsidecrypto.xyz/edit/queries/21af6918-0e22-4250-a522-6f101275023a)           |
 | SubQuery            | [SubQuery LiveQuery Guide](https://flipsidecrypto.xyz/edit/queries/3778f643-ae25-432c-a10b-fe027c75aa9d)            |
 | StrangeLove Voyager | [StrangeLove Voyager LiveQuery Guide](https://flipsidecrypto.xyz/edit/queries/7124900e-8abc-4c29-bfe4-b8f224216bc6) |
 | Transpose           | [Transpose LiveQuery Guide](https://flipsidecrypto.xyz/edit/queries/f18dae2c-981b-4097-933e-3831cb51d0c2)           |
