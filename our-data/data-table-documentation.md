@@ -23,6 +23,7 @@ Our data documentation is kept up to date _as changes are deployed_, so check he
 * [Optimism](https://flipsidecrypto.github.io/optimism-models/#!/overview)
 * [Osmosis](https://flipsidecrypto.github.io/osmosis-models/#!/overview)&#x20;
 * [Polygon](https://flipsidecrypto.github.io/polygon-models/#!/overview)
+* [Sei](https://flipsidecrypto.github.io/sei-models/#!/overview)
 * [Solana](https://flipsidecrypto.github.io/solana-models/#!/overview) &#x20;
 * [Terra](https://metricsdao.github.io/terra\_dbt/#!/overview)&#x20;
 * Thorchain
