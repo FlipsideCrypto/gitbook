@@ -1,6 +1,6 @@
 # Decentralized Applications Label Type
 
-`Decentralized Applications (Dapps) that don't fit into the defi, nft or layer2 categories.`
+`Decentralized Applications (Dapps) that don't fit into the defi, games, nft or bridge categories.`
 
 `label_type` = `dapp`
 

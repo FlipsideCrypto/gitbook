@@ -4,7 +4,7 @@
 
 `crosschain.address_labels`
 
-Also learn more about labels [here](broken-reference).
+Also learn more about labels [here](../../../labels/).
 
 | Field               | Type      | Description                                                                |
 | ------------------- | --------- | -------------------------------------------------------------------------- |

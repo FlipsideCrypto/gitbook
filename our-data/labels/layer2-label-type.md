@@ -1,8 +1,8 @@
-# Layer Two Label Type
+# Bridge Label Type
 
-Projects building layer two's.
+Projects building layer two's, or alt L1's&#x20;
 
-`label_type` = `layer2`
+`label_type` = `bridge`
 
 ### Label Subtypes
 
