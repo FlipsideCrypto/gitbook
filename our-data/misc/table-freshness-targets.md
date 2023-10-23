@@ -12,24 +12,25 @@ Flipside refreshes data across three dimensions fact tables, dim tables, and ez 
 | ---------- | ------------------------ | ------------------------------ |
 | Arbitrum   | Fact + Dim + EZ          | 30 minutes                     |
 | Avalanche  | Fact + Dim + EZ          | 30 minutes                     |
-| Avalanche  | decoded\_event\_logs     | 2.5 hours                      |
-| Axelar     | Fact + Dim               | 1.5 hours                      |
-| Axelar     | EZ                       | 2 hours                        |
-| BSC        | Fact + Dim + EZ          | 2 hours                        |
-| Cosmos     | Fact + Dim + Ez          | 15 hours                       |
+| Avalanche  | decoded\_event\_logs     | 30 minutes                     |
+| Axelar     | Fact + Dim               | 30 minutes                     |
+| Axelar     | EZ                       | 30 minutes                     |
+| Bitcoin    | Fact + Dim + EZ          | 30 minutes                     |
+| BSC        | Fact + Dim + EZ          | 30 minutes                     |
+| Cosmos     | Fact + Dim + Ez          | 30 minutes                     |
 | Ethereum   | Fact + Dim               | 20 minutes                     |
-| Ethereum   | Ez                       | 1 hour                         |
+| Ethereum   | Ez                       | 30 minutes                     |
 | Ethereum   | Balances                 | 4 hours                        |
 | Flow       | Fact + Dim + Ez          | 45 Minutes                     |
-| Gnosis     | Fact + Dim + Ez          | 2 hours                        |
+| Gnosis     | Fact + Dim + Ez          | 30 minutes                     |
 | NEAR       | Fact + Dim               | 2 hours                        |
 | NEAR       | Ez                       | 3 hours                        |
-| Optimism   | Fact + Dim + Ez          | 35 minutes                     |
-| Osmosis    | Fact + Dim + Ez          | 11 hours                       |
+| Optimism   | Fact + Dim + Ez          | 30 minutes                     |
+| Osmosis    | Fact + Dim + Ez          | 30 minutes                     |
 | Osmosis    | ez\_pools                | 24 hours                       |
-| Polygon    | Fact + Dim + Ez          | 40 minutes                     |
-| Polygon    | decoded\_event\_logs     | 2.5 hours                      |
-| Solana     | Fact + Dim               | 40 Minutes                     |
-| Solana     | Ez                       | 1 hour                         |
-| Terra      | Fact + Dim + Ez          | 24 hours                       |
+| Polygon    | Fact + Dim + Ez          | 30 minutes                     |
+| Polygon    | decoded\_event\_logs     | 30 hours                       |
+| Solana     | Fact + Dim               | 30 Minutes                     |
+| Solana     | Ez                       | 30 minutes                     |
+| Terra      | Fact + Dim + Ez          | 30 minutes                     |
 | Thorchain  | Fact + Dim + Ez          | 2 hours                        |
