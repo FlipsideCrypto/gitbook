@@ -285,3 +285,12 @@
 * [Getting Started](contribute/getting-started/README.md)
   * [Contribution Workflow](contribute/getting-started/contribution-workflow.md)
 * [PR Checklist](contribute/pr-checklist.md)
+
+## Flipside Community
+
+* [Get Started](flipside-community/get-started.md)
+* [Support](flipside-community/support.md)
+* [Links & Resources](flipside-community/links-and-resources.md)
+* [Skill Tree](https://verbena-soul-020.notion.site/Flipside-Crypto-Skill-Tree-v6-9b18a67eabf04064b82070579c655ca3?pvs=4)
+* [Join Our Discord](https://discord.gg/flipside)
+* [Join Our Guild](https://guild.xyz/flipside-crypto)
