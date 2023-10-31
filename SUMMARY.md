@@ -12,6 +12,7 @@
   * [Query Editor](our-app/getting-around-the-app/query-editor.md)
   * [Dashboard Editor](our-app/getting-around-the-app/dashboard-editor.md)
   * [Profiles](our-app/getting-around-the-app/profiles.md)
+* [🤝 Teams](our-app/teams.md)
 * [Keyboard Shortcuts](our-app/keyboard-shortcuts.md)
 * [Markdown Reference](our-app/markdown-reference.md)
 * [Analyst Rewards](our-app/analyst-rewards/README.md)
