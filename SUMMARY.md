@@ -16,8 +16,8 @@
 * [Keyboard Shortcuts](our-app/keyboard-shortcuts.md)
 * [Markdown Reference](our-app/markdown-reference.md)
 * [Analyst Rewards](our-app/analyst-rewards/README.md)
-  * [✨Top 30✨ Dashboard Rewards](our-app/analyst-rewards/top-8-dashboard-rewards.md)
-  * [✨Top 8✨ Dashboard Rewards](our-app/analyst-rewards/top-8-dashboard-rewards-1.md)
+  * [✨Top 30✨ Dashboard Rewards](our-app/analyst-rewards/top-30-dashboard-rewards.md)
+  * [✨Top 8✨ Dashboard Rewards](our-app/analyst-rewards/top-8-dashboard-rewards.md)
 
 ## Our Data
 
