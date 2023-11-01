@@ -49,7 +49,7 @@ Always aiming for the top? The Top 8 is like a weekly bonus check for the best o
 
 _**How to get started:**_
 
-Great work is rewarded by your peers. [Dashboards](https://flipsidecrypto.xyz/) are ranked by likes and social media engagement. Create and share dashboards that your peers value, and it will happen organically. [Learn more](top-8-dashboard-rewards.md)&#x20;
+Great work is rewarded by your peers. [Dashboards](https://flipsidecrypto.xyz/) are ranked by likes and social media engagement. Create and share dashboards that your peers value, and it will happen organically. [Learn more](top-8-dashboard-rewards-1.md)&#x20;
 
 
 
