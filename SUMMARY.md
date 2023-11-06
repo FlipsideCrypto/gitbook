@@ -293,6 +293,6 @@
 * [Get Started](flipside-community/get-started.md)
 * [Support](flipside-community/support.md)
 * [Links & Resources](flipside-community/links-and-resources.md)
-* [Skill Tree](https://verbena-soul-020.notion.site/Flipside-Crypto-Skill-Tree-v6-9b18a67eabf04064b82070579c655ca3?pvs=4)
+* [Skill Tree](https://verbena-soul-020.notion.site/Flipside-Crypto-Skill-Tree-v7-f15753bcf23f4208a421c2339f5b0a27?pvs=4)
 * [Join Our Discord](https://discord.gg/flipside)
 * [Join Our Guild](https://guild.xyz/flipside-crypto)

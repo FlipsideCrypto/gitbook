@@ -10,11 +10,12 @@ This page will help you get started in our community.
 
 ***
 
-**TL;DR: Want to get started in our community quickly? Simply follow thes steps.**&#x20;
+**TL;DR: Want to get started in our community quickly? Simply follow these steps.**&#x20;
 
-1. **Join our** [**Discord**](https://discord.gg/flipside)**.**
-2. **Use** [**Guild.xyz**](https://guild.xyz/flipside-crypto) **to connect your wallet with your Discord account.**&#x20;
-3. **Take a minute and introduce yourself in Discord. All done!**
+1. **Join us on** [**Discord**](https://discord.gg/flipside)**.**
+2. **Sign up for your** [**Flipside Data Studio**](https://flipsidecrypto.xyz/edit) **account.**
+   * **Are you looking for enterprise data?** [**Try a Flipside Pro free trial.**](https://data.flipsidecrypto.com/)&#x20;
+3. [**Introduce yourself**](https://discord.com/channels/784442203187314689/1001866283781984286) **in Discord and show off your work. All done!**
 
 ***
 
@@ -27,19 +28,23 @@ Once you've joined us on Discord, make sure to check out these channels.&#x20;
 * [Help-FAQ](https://discord.com/channels/784442203187314689/1166830352459907126) channel for support and questions.
 * [Start-Here](https://discord.com/channels/784442203187314689/1166858825882677278) channel for info on how to get involved in the community.
 
-### 2. Join us on [Guild.xyz](https://guild.xyz/flipside-crypto) so you can become part of a Network.
+### 2. Sign up for your [Flipside Data Studio](https://flipsidecrypto.xyz/) account.
 
-#### Why join Guild.xyz?
+[Flipside Data Studio](https://flipsidecrypto.xyz/) lets you analyze blockchain data, visualize it, and share dashboards instantly. It's ideal for data exploration, analytical storytelling, and comprehensive dashboard-building. It's one of the main tools our community members use to share data, earn, and learn.
 
-Flipside Crypto allows community members to create and join "Networks". These are special teams within the community that can work together to solve bounties, earn rewards, or simply hang out together and share knowledge.&#x20;
+Click the Sign Up button in the top right corner of our [website](https://flipsidecrypto.xyz/) to create your account. If you need step by step help creating an account and getting started in Data Studio, check out our [app documentation](../our-app/getting-started.md).
 
-Flipside uses tokens, that are deposited into your wallet, to give you access to various Networks. By joining us on [Guild.xyz](https://guild.xyz/flipside-crypto), you can connect your wallet with your Discord account which allows you to gain access to any Networked members-only chat channels.
+#### 2a. If you want enterprise data, sign up for your [Flipside Pro free trial](https://data.flipsidecrypto.com/).
 
-#### How to join Guild.xyz.
+For those who need a more robust option, Flipside offers a professional web3 intelligence toolkit for everyone from protocol builders to enterprises looking to break into Web3. We’ve got everything you need to get informed and get ahead.
 
-Simply connect [Guild.xyz](https://guild.xyz/flipside-crypto) with your wallet and you Discord account. [Follow this quick guide to join a Guild on Guild.xyz](https://help.guild.xyz/en/articles/6947558-how-to-join-a-guild-on-guild-xyz) or watch the video below. [You can also use our Guild Bot within our Discord to help you connect your account.](https://discord.com/channels/784442203187314689/1166858825882677278)
+### 3. [Introduce yourself](https://discord.com/channels/784442203187314689/1001866283781984286) in Discord and show off your work!
 
-If you have any Network tokens in your wallet you will gain access to their respective chat channels in our Discord.
+Take a minute and introduce yourself within our Discord community. It's a great way to meet Flipside's official Community Team and your fellow analysts.&#x20;
 
-{% embed url="https://www.youtube.com/watch?v=aSHIKVySHh8" %}
+Here are some channels you can use to start chatting.
+
+* [Introductions](https://discord.com/channels/784442203187314689/1001866283781984286) channel.
+* [General](https://discord.com/channels/784442203187314689/826928846670135306) chat.
+* [API](https://discord.com/channels/784442203187314689/992103637587337226) chat.
 
