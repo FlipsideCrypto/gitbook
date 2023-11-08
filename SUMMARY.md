@@ -18,6 +18,7 @@
 * [Analyst Rewards](our-app/analyst-rewards/README.md)
   * [✨Top 30✨ Dashboard Rewards](our-app/analyst-rewards/top-30-dashboard-rewards.md)
   * [✨Top 8✨ Dashboard Rewards](our-app/analyst-rewards/top-8-dashboard-rewards.md)
+  * [Tax Center](our-app/analyst-rewards/tax-center.md)
 
 ## Our Data
 
