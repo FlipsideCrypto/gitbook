@@ -23,7 +23,7 @@ Ideal for: teams that rely on blockchain data to operate, understand their users
 ### Important Things to Know
 
 * All our data is accessible via SQL queries, and you'll use the [Snowflake SQL](our-data/using-snowflake-sql.md) dialect to access it.
-* Our core app is brand new (launched Feb 2023) and some [documentation](our-app/getting-around-the-app/) is available — we're actively building this out, including both text and video content — if you have questions that aren't answered here, please reach out in [Discord](https://discord.gg/ZmU3jQuu6W).
+* Our core app is brand new (launched Feb 2023) and some [documentation](our-app/getting-started/getting-around-the-app/) is available — we're actively building this out, including both text and video content — if you have questions that aren't answered here, please reach out in [Discord](https://discord.gg/ZmU3jQuu6W).
 * Our data structures are and designed for ease of use and efficient querying, and are  [extensively documented](our-data/data-table-documentation.md). We regularly update our data structures to optimize efficiency.
 * Latency varies from table to table, but typically lags either 1 hour or 1 day at most, find the most up-to-date view on latency on [this dashboard](https://flipsidecrypto.xyz/flipsidecrypto/flipside-data-latency-49ZITn)!
 * If you run into difficulty getting your queries to run, we provide [a guide for efficient query writing](our-data/writing-efficient-queries.md). Need more assistance? Get help anytime in our [Discord](https://discord.gg/ZmU3jQuu6W).

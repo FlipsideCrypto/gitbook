@@ -32,7 +32,7 @@ Once you've joined us on Discord, make sure to check out these channels.&#x20;
 
 [Flipside Data Studio](https://flipsidecrypto.xyz/) lets you analyze blockchain data, visualize it, and share dashboards instantly. It's ideal for data exploration, analytical storytelling, and comprehensive dashboard-building. It's one of the main tools our community members use to share data, earn, and learn.
 
-Click the Sign Up button in the top right corner of our [website](https://flipsidecrypto.xyz/) to create your account. If you need step by step help creating an account and getting started in Data Studio, check out our [app documentation](../our-app/getting-started.md).
+Click the Sign Up button in the top right corner of our [website](https://flipsidecrypto.xyz/) to create your account. If you need step by step help creating an account and getting started in Data Studio, check out our [app documentation](../our-app/getting-started/).
 
 #### 2a. If you want enterprise data, sign up for your [Flipside Pro free trial](https://data.flipsidecrypto.com/).
 

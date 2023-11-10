@@ -6,7 +6,7 @@ description: >-
 
 # Getting Around the App
 
-With a little bit of SQL knowledge, the Flipside Studio makes it incredibly easy to access the best blockchain data in the world. To get started, we recommend stepping through our [walkthrough](../getting-started.md) — it's designed to get you up to speed on the basics of the app as quickly as possible.
+With a little bit of SQL knowledge, the Flipside Studio makes it incredibly easy to access the best blockchain data in the world. To get started, we recommend stepping through our [walkthrough](../) — it's designed to get you up to speed on the basics of the app as quickly as possible.
 
 The app has a few basic components, here's how they fit together:
 
@@ -20,6 +20,6 @@ We're adding more documentation for the app over time — if you have questions 
 
 #### References
 
-* [Query Editor Keyboard Shortcuts](../keyboard-shortcuts.md)
-* [Dashboard Markdown Reference](../markdown-reference.md)
+* [Query Editor Keyboard Shortcuts](../../keyboard-shortcuts.md)
+* [Dashboard Markdown Reference](../../markdown-reference.md)
 

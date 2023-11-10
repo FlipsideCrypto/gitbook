@@ -5,13 +5,14 @@
 
 ## Our App
 
-* [Getting Started](our-app/getting-started.md)
-* [Getting Around the App](our-app/getting-around-the-app/README.md)
-  * [Discover](our-app/getting-around-the-app/discover.md)
-  * [My Work](our-app/getting-around-the-app/my-work.md)
-  * [Query Editor](our-app/getting-around-the-app/query-editor.md)
-  * [Dashboard Editor](our-app/getting-around-the-app/dashboard-editor.md)
-  * [Profiles](our-app/getting-around-the-app/profiles.md)
+* [Getting Started](our-app/getting-started/README.md)
+  * [Customizing your Studio](our-app/getting-started/customizing-your-studio.md)
+  * [Getting Around the App](our-app/getting-started/getting-around-the-app/README.md)
+    * [Discover](our-app/getting-started/getting-around-the-app/discover.md)
+    * [My Work](our-app/getting-started/getting-around-the-app/my-work.md)
+    * [Query Editor](our-app/getting-started/getting-around-the-app/query-editor.md)
+    * [Dashboard Editor](our-app/getting-started/getting-around-the-app/dashboard-editor.md)
+    * [Profiles](our-app/getting-started/getting-around-the-app/profiles.md)
 * [🤝 Teams](our-app/teams.md)
 * [Keyboard Shortcuts](our-app/keyboard-shortcuts.md)
 * [Markdown Reference](our-app/markdown-reference.md)

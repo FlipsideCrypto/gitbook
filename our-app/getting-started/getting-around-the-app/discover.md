@@ -18,7 +18,7 @@ This section will cover:
 
 "Top 8" refers to the first 8 dashboards listed on the [discover page](http://flipsidecrypto.xyz). These are the dashboards that fill the landing page, primed for maximum exposure to alpha-seekers.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-03-09 at 1.57.18 PM.png" alt=""><figcaption><p>Top 8 </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-03-09 at 1.57.18 PM.png" alt=""><figcaption><p>Top 8 </p></figcaption></figure>
 
 Being in the top 8 also increases your ranking as an analyst on Flipside. In fact, the longer your work occupies a Top 8 slot, the higher your ranking climbs.&#x20;
 
@@ -36,7 +36,7 @@ That's a bit of 🧪 a l c h e m y ✨ that will stay a secret. But we can tell 
 
 There are 100K+ dashboards on Flipside 🤯 Here's how to find the ones you're interested in!&#x20;
 
-<figure><img src="../../.gitbook/assets/Group 2149.png" alt=""><figcaption><p>Ways to browse dashboards on Flipside. </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Group 2149.png" alt=""><figcaption><p>Ways to browse dashboards on Flipside. </p></figcaption></figure>
 
 * **Search for a topic:** if you have a topic in mind (like: "impermanent loss osmosis"), type it into the search bar to see all the relevant dashboards.&#x20;
 * **Find an analyst:** if you have someone in mind, you can search for them from the ["Analyst View"](discover.md#analyst-view)
@@ -50,11 +50,11 @@ To search for an analyst, all you have to do is turn the toggle in the hero sect
 
 From [this view](https://flipsidecrypto.xyz/analysts), you can type an analyst's name into the search bar to find their profile, or explore different analyst profiles by going down the page.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-05-30 at 8.57.42 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-05-30 at 8.57.42 PM.png" alt=""><figcaption></figcaption></figure>
 
 Once you find the analyst you're looking for, you can click on their profile to find their top dashboards, and potentially a few ways to get in touch with them. This is a great way to connect with other analysts in the space so make sure you build out your own [profile](profiles.md) too!
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-05-30 at 9.05.49 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-05-30 at 9.05.49 PM.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -62,7 +62,7 @@ Once you find the analyst you're looking for, you can click on their profile to 
 
 Now, that you've found a dashboard you're interested in. Let's cover some tips to get the most out of this experience.
 
-<figure><img src="../../.gitbook/assets/dash.png" alt=""><figcaption><p>Ways to interact with a Flipside dashboard.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dash.png" alt=""><figcaption><p>Ways to interact with a Flipside dashboard.</p></figcaption></figure>
 
 Here are some ways you can interact with a dashboard:
 
@@ -74,7 +74,7 @@ Here are some ways you can interact with a dashboard:
 
 
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-05-05 at 11.34.31 AM.png" alt=""><figcaption><p>Click "Fork" to make a copy of the query. </p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/Screenshot 2023-05-05 at 11.34.31 AM.png" alt=""><figcaption><p>Click "Fork" to make a copy of the query. </p></figcaption></figure>
 * **Refresh:** Click the 🔁 button on the top right corner to run all the queries powering this dashboard to see the latest information.
 * **Like:** if you liked what you saw, hit the ❤️ button — "likes" impact the rankings and you'll help more people see good work by voting for things you enjoy.
 * **Share:** found something interesting, share it with your community on Twitter!

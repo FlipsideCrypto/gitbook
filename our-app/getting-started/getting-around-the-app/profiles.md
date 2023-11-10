@@ -14,15 +14,15 @@ This section will cover:
 
 From this example profile page, we can see the analyst's social accounts as well as all of their published dashboard.&#x20;
 
-<figure><img src="../../.gitbook/assets/Group 28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Group 28.png" alt=""><figcaption></figcaption></figure>
 
 If you'd like to connect with other analysts and crypto enthusiasts in the space, we encourage you to build out your profile page too. To edit your profile, click on your avatar image in the bottom left corner of the screen and select "Edit Profile".&#x20;
 
-![](<../../.gitbook/assets/Screenshot 2023-06-01 at 4.37.12 PM.png>)
+![](<../../../.gitbook/assets/Screenshot 2023-06-01 at 4.37.12 PM.png>)
 
 Below is the edit profile page. This is where you can update all of your information.&#x20;
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-03-14 at 1.31.22 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-03-14 at 1.31.22 PM.png" alt=""><figcaption></figcaption></figure>
 
 Here are a few tips on how to fill this out:
 
