@@ -5,7 +5,7 @@ Top 30 is a new rendition on [Flipside's Top 8 Dashboard Rewards](top-8-dashboar
 **Please note: this program is in Beta testing, and is subject to change!**
 
 {% hint style="info" %}
-**The Top 30 Program will run during November 2023**
+**The Top 30 Program will run during December 2023**
 {% endhint %}
 
 TLDR; make dashboards in our app, publish and promote them, and if your dashboard spends time in the Top 30 you get paid.&#x20;
@@ -31,11 +31,10 @@ Base rewards are assigned based on a dashboard's rank on [Flipside's trending pa
 
 Boost rewards are applied to dashboards that focus on specific partners.
 
-| Chain | Boost to Base Reward |
-| ----- | -------------------- |
-| Flow  | 50%                  |
-| Near  | 50%                  |
-| Sei   | 50%                  |
+| Chain     | Boost to Base Reward | Dates Active   |
+| --------- | -------------------- | -------------- |
+| Aptos     | 50%                  | Dec 6 - Dec 13 |
+| Avalanche | 50%                  | Dec 6 - Dec 13 |
 
 ## Claim Rewards
 
@@ -44,3 +43,23 @@ Rewards are claimable on an hourly basis and are sent to the addresses set in `M
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 We will continue to evolve this program over time — to keep up with the latest developments, or if you're looking for more ways to earn, level up, or build a following, follow us on Twitter: [@flipsidecrypto](https://twitter.com/flipsidecrypto).
+
+## Historical Top 30 Programs
+
+### November 2023
+
+Base rewards are assigned based on a dashboard's rank on [Flipside's trending page](https://flipsidecrypto.xyz/discover?d\_sort=trending).
+
+| Dashboard Rank | Base Reward |
+| -------------- | ----------- |
+| 1-10           | $1.50/hr    |
+| 11-30          | $1/hr       |
+
+Boost rewards are applied to dashboards that focus on specific partners.
+
+| Chain | Boost to Base Reward |
+| ----- | -------------------- |
+| Flow  | 50%                  |
+| Near  | 50%                  |
+| Sei   | 50%                  |
+
