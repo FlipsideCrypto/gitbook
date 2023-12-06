@@ -2,10 +2,11 @@
 description: Looking for specific database, schema, and table details? Look no further.
 ---
 
-# Data Table Documentation
+# DBT docs by chain
 
 Our data documentation is kept up to date _as changes are deployed_, so check here for the very latest details on each of our covered chains:
 
+* [Aptos](https://flipsidecrypto.github.io/aptos-models/#!/overview)
 * [Arbitrum](https://flipsidecrypto.github.io/arbitrum-models/#!/overview)
 * [Aurora](https://flipsidecrypto.github.io/aurora-models/#!/overview)
 * [Avalanche](https://flipsidecrypto.github.io/avalanche-models/#!/overview)
