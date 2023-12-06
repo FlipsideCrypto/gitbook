@@ -1,8 +1,8 @@
 ---
-description: Make Flipside your own.
+description: Make Flipside your own
 ---
 
-# Customizing your Studio
+# ✅ Customize your Studio
 
 Your workspace should fit your flow, and your profile should represent you professionally. We designed Flipside to be customizable, so you can make it yours - here are a few ways you can do just that:
 

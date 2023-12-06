@@ -1,18 +1,26 @@
 ---
-description: Lower-level Direct HTTP Access
+description: Lower-level direct HTTP access
 ---
 
-# API (JSON RPC)
+# JSON RPC methods
 
 _**To skip the walkthrough and go straight to dedicated API Documentation,**_ [_**click here**_](https://api-docs.flipsidecrypto.xyz/)_**.**_
 
 {% hint style="info" %}
-Don't see an SDK for your language of choice? Interact directly with the API endpoints below! If you're feeling adventurous feel free to build an SDK library -- we'd be happy to point the community to it.
+Don't see an SDK for your language of choice? Interact directly with the API endpoints below! \
+\
+Want an SDK for another language, or want to create your own SDK? [Let's talk](https://discord.gg/ZmU3jQuu6W)!&#x20;
 {% endhint %}
 
-The Query API uses an RPC interface instead of REST for its client-server communication. This is because RPC can provide more efficient communication and support for batch/multi-calls, which is useful for dashboards that have lots of queries powering them. Future functionality will make use of the RPC architecture to enable more efficient/scalable application use cases.
+Flipside makes available the following SDKs as higher-level, more developer-friendly wrappers over the API. Examples for each SDK are available throughout the [templates-and-walkthroughs.md](get-started/templates-and-walkthroughs.md "mention")
 
-### Getting Started
+<table><thead><tr><th width="255">Language</th><th width="143">Version</th><th>Source Code (Github)</th></tr></thead><tbody><tr><td>✅ Python</td><td>2.0.7</td><td><a href="https://github.com/FlipsideCrypto/sdk/tree/main/python">Source Code</a></td></tr><tr><td>✅ JS/TypeScript</td><td>2.0.0</td><td><a href="https://github.com/FlipsideCrypto/sdk/tree/main/js">Source Code</a></td></tr><tr><td>✅ R</td><td>0.2.2</td><td><a href="https://github.com/FlipsideCrypto/sdk/tree/main/r/shroomDK">Source Code</a></td></tr></tbody></table>
+
+
+
+### Summary
+
+The Query API uses an RPC interface instead of REST for its client-server communication. This is because RPC can provide more efficient communication and support for batch/multi-calls, which is useful for dashboards that have lots of queries powering them. Future functionality will make use of the RPC architecture to enable more efficient/scalable application use cases.
 
 There are three RPC methods you must interact with to execute a query:
 
@@ -244,6 +252,10 @@ query_status <- get_query_status(query_id, api_key)
 ```
 {% endtab %}
 {% endtabs %}
+
+Every QueryRun has the following life cycle:
+
+<figure><img src="../.gitbook/assets/image-11.png" alt=""><figcaption></figcaption></figure>
 
 Once the `getQueryRun` has returned a state of `QUERY_STATE_SUCCESS` call the `getQueryRunResults` RPC method to retrieve the result set in Step3.
 

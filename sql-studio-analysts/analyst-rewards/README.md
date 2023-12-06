@@ -1,10 +1,10 @@
 ---
-description: Get paid for your work.
+description: Get paid for your work
 ---
 
-# Analyst Rewards
+# 💰 Earn with Flipside
 
-### Flipside has rewarded analysts with more than $3.3 million dollars for their Web3 expertise. And we’re just getting started.&#x20;
+### Flipside has rewarded analysts with more than $7 million dollars for their Web3 expertise. And we’re just getting started.&#x20;
 
 We’re dedicated to paying analysts, not charging them. Build your brand while building your stacks.&#x20;
 

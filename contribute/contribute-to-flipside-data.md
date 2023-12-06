@@ -16,7 +16,7 @@ The models for each chain that we offer can be reviewed and contributed to on ou
 
 ### Tags & Labels
 
-See [How to Add Tags](../our-data/featured-tags-and-sql-examples/how-to-add-your-own-tags.md) on the address tags & labels data model page.\
+See [How to Add Tags](../data-methodology/featured-tags-and-sql-examples/how-to-add-your-own-tags.md) on the address tags & labels data model page.\
 Add a label by submitting through our [label submission form](https://science.flipsidecrypto.xyz/add-a-label/).
 
 ### SQL Models

@@ -1,8 +1,8 @@
 ---
-description: How to create your Flipside account and start working with onchain data.
+description: Create your Flipside account and start working with onchain data
 ---
 
-# Getting Started
+# 👇 Start here
 
 Welcome to Flipside!
 
