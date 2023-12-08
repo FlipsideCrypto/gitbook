@@ -33,8 +33,8 @@ Boost rewards are applied to dashboards that focus on specific partners.
 
 | Chain     | Boost to Base Reward | Dates Active   |
 | --------- | -------------------- | -------------- |
-| Aptos     | 50%                  | Dec 6 - Dec 13 |
-| Avalanche | 50%                  | Dec 6 - Dec 13 |
+| Aptos     | 100%                 | Dec 8 - Dec 15 |
+| Avalanche | 100%                 | Dec 6 - Dec 13 |
 
 ## Claim Rewards
 
