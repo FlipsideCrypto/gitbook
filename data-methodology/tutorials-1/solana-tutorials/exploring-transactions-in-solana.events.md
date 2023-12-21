@@ -34,7 +34,7 @@ If you participated in Flipside’s first Solana Scavenger hunt you probably fou
 
 ```sql
 SELECT *
-FROM solana.transactions
+FROM solana.core.fact_transactions
 where date_trunc('day', block_timestamp) = '2022-01-21 00:00:00.000'
 			-- on Solana we *always* add a small date range for query efficiency!
 and tx_id = 'ngF3HJPi3g7WwkEXU7L4d8gRuggtLTq9cJ31tLXvhxqyet73oX23iaZiqL3cMv9o573xa4gjKqotrksB7N6unf1'
@@ -46,7 +46,7 @@ Let’s find our transaction in the solana.events table:
 
 ```sql
 select *
-from solana.events
+from solana.core.fact_events
 where date_trunc('day', block_timestamp) = '2022-01-21 00:00:00.000'
 			-- on Solana we *always* add a small date range for query efficiency!
 and tx_id = 'ngF3HJPi3g7WwkEXU7L4d8gRuggtLTq9cJ31tLXvhxqyet73oX23iaZiqL3cMv9o573xa4gjKqotrksB7N6unf1'
@@ -239,7 +239,7 @@ From our staking transaction we’ll use the PROGRAMID value to find all similar
 select
 	instruction:programId,
 	*
-from solana.events
+from solana.core.fact_events
 where date_trunc('day', block_timestamp) = '2022-01-21 00:00:00.000'
 -- on Solana we *always* add a small date range for query efficiency!
 and instruction:programId = 'MarBmsSgKXdrN1egZf5sqe1TMai9K1rChYNDJgjq7aD'
@@ -270,7 +270,7 @@ select
 	instruction:programId,
 	inner_instruction:instructions[0]:parsed:info:source,
 	*
-from solana.events
+from solana.core.fact_events
 where date_trunc('day', block_timestamp) = '2022-01-21 00:00:00.000'
 -- on Solana we *always* add a small date range for query efficiency!
 and instruction:programId = 'MarBmsSgKXdrN1egZf5sqe1TMai9K1rChYNDJgjq7aD'
@@ -325,7 +325,7 @@ select
 	instruction:programId,
 	inner_instruction:instructions[0]:parsed:info:source,
 	*
-from solana.events
+from solana.core.fact_events
 where date_trunc('day', block_timestamp) = '2022-01-21 00:00:00.000'
 -- on Solana we *always* add a small date range for query efficiency!
 and inner_instruction:instructions[1]:parsed:info:source = '7GgPYjS5Dza89wV6FpZ23kUJRG5vbQ1GM25ezspYFSoE'
