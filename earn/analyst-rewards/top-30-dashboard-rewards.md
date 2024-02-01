@@ -5,7 +5,7 @@ Top 30 is a new rendition on [Flipside's Top 8 Dashboard Rewards](top-8-dashboar
 **Please note: this program is in Beta testing, and is subject to change!**
 
 {% hint style="info" %}
-**The Top 30 Program will run during January 2024**
+**The Top 30 Program will run during February 2024**
 {% endhint %}
 
 TLDR; make dashboards in our app, publish and promote them, and if your dashboard spends time in the Top 30 you get paid.&#x20;
@@ -35,6 +35,12 @@ Rewards are claimable on an hourly basis and are sent to the addresses set in `M
 We will continue to evolve this program over time — to keep up with the latest developments, or if you're looking for more ways to earn, level up, or build a following, follow us on Twitter: [@flipsidecrypto](https://twitter.com/flipsidecrypto).
 
 ## Historical Top 30 Programs
+
+### January 2024
+
+Base rewards are assigned based on a dashboard's rank on [Flipside's trending page](https://flipsidecrypto.xyz/discover?d\_sort=trending).
+
+<table><thead><tr><th width="450">Dashboard Rank</th><th>Base Reward</th></tr></thead><tbody><tr><td>1-10</td><td>$1.50/hr</td></tr><tr><td>11-30</td><td>$1/hr</td></tr></tbody></table>
 
 ### December 2023
 
