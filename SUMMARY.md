@@ -305,3 +305,7 @@
 * [Skill Tree](https://verbena-soul-020.notion.site/Flipside-Crypto-Skill-Tree-v7-f15753bcf23f4208a421c2339f5b0a27?pvs=4)
 * [Join Our Discord](https://discord.gg/flipside)
 * [Join Our Guild](https://guild.xyz/flipside-crypto)
+
+## Release Notes
+
+* [2024-02-05 | Data Updates](release-notes/2024-02-05-or-data-updates.md)
