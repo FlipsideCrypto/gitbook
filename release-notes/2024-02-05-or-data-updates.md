@@ -34,7 +34,7 @@ Access to native Solana bridging activity in easy to use tables for analysis acr
 
 ### [fact\_bridge\_activity](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.defi\_\_fact\_bridge\_activity)
 
-### ez\_bridge\_activity
+### [ez\_bridge\_activity](https://flipsidecrypto.github.io/crosschain-models/#!/model/model.crosschain\_models.defi\_\_fact\_bridge\_activity)
 
 ## [Aptos](https://flipsidecrypto.github.io/aptos-models/#!/overview)
 
