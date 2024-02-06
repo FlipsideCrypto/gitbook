@@ -4,33 +4,29 @@
 
 ### [fact\_bridge\_activity](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.defi\_\_fact\_bridge\_activity)
 
-Contains information on bridge transfer on Solana for the following protocols: Debridge, Mayan Finance, and Wormhole. This includes bridging events 'from', as well as 'to' Solana.
-
-Enable easier access to flows between Solana and other chains, allowing deeper analysis regarding cross-chain activity.
+NEW: Our crosschain bridge transfers data now includes Solana too! The table contains bridging events to and from Debridge, Mayan Finance, and Wormhole protocols. With this table in the mix, you can create even deeper crosschain insights.
 
 ### [fact\_decoded\_instructions](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_decoded\_instructions)
 
-Added complete historical data for decoded events for various programs. The protocols with decoded events are: Flash Trade, Banx, Marginfi, and Tensor.
+Ever wanted to get more into Solana analytics? This new table is your gateway! No more lateral flattening the instructions and slowing down your queries, and no need to figure out where in the instructions specific attributes are located.
 
-Full history of decoded events for popular programs which enables faster and simpler analysis.
+Your analytics will be faster and easier: With just a program ID, go from exploratory analysis to perusing human-readable decoded instructions to constructing your Solana event queries on complete historical data. The protocols with decoded events are: Flash Trade, Banx, Marginfi, and Tensor.
 
 ### [dim\_nft\_metadata](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.nft\_\_dim\_nft\_metadata)
 
-Add authority field and enhance creators field to include all creators of an NFT as well as the % of sale fee's they receive.&#x20;
-
-Access to the authority of an NFT mint which can be used for further filtering/grouping of NFT's. The update to the creator field provides further information on who created the NFT or its collection, and the % of fee's allows analysis into how much SOL they have accumulated from sales of their NFT.
+This table just got better with a new `authority` field and an enhanced `creator` field. You can now analyze NFT collaborations, and query data on royalty splits for collections with several creators.
 
 ### [dim\_idl](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_dim\_idl)
 
-A convenience table containing information for the programs contained in our decoded events tables.
+For your convenience: A convenience table containing information for the programs contained in our decoded events tables.
 
-An efficient way to see what programs are currently being decoded, and how far back we have historical data. This can be used to determine whether we have full historical data -- if not, a user can request we backfill the program.
+An efficient way to see what programs are currently being decoded, and how far back we have historical data. If you want a program to be added, submit a request: https://science.flipsidecrypto.xyz/idl-requestor/
 
 ## Crosschain
 
-Added Solana bridge transfers to the comprehensive crosschain tables, which also includes blockchain and platform specific bridge activity from numerous EVM chains.
+Crosschain bridging tables are one of the recent additions we are most excited about! Solana bridge transfers just got added to the comprehensive crosschain tables that also include numerous EVM chains.
 
-Access to native Solana bridging activity in easy to use tables for analysis across various chains.
+What you get: Access to native Solana bridging activity in easy to use tables for analysis across various chains.
 
 ### [fact\_bridge\_activity](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.defi\_\_fact\_bridge\_activity)
 
@@ -40,21 +36,19 @@ Access to native Solana bridging activity in easy to use tables for analysis acr
 
 ### [fact\_bridging\_activity](https://flipsidecrypto.github.io/aptos-models/#!/model/model.aptos\_models.defi\_\_fact\_bridge\_activity)
 
-A fact table that aggregates bridge activity in Aptos, including both bridging-in and out transactions. Activity from the following protocols are supported: Celer, Mover, Layer Zero, and Wormhole.
+Another table from our crosschain bridging data drop! A table that aggregates bridge activity in Aptos, including both bridging-in and out transactions. Protocols currently supported: Celer, Mover, Layer Zero, and Wormhole.
 
-Enable easier access to flows between Aptos and other chains, allowing deeper analysis regarding cross-chain activity.
+Enable easier access to token flows between Aptos and other chains, allowing deeper analysis of cross-chain activity.
 
 ## [Polygon](https://flipsidecrypto.github.io/polygon-models/#!/overview)
 
 ### [ez\_nft\_sales](https://flipsidecrypto.github.io/polygon-models/#!/model/model.polygon\_models.nft\_\_ez\_nft\_sales)
 
-Added TofuNFT marketplace for Polygon NFT sales table.
-
-Query NFT sales for the TofuNFT marketplace on polygon.
+Added TofuNFT marketplace to the Polygon NFT sales table: Query and analyze TofuNFT sales activity!
 
 ## [Optimism](https://flipsidecrypto.github.io/optimism-models/#!/overview)
 
-\~97% of Lending TVL coverage added.
+These tables are now even more comprehensive: \~97% of Lending TVL coverage added.
 
 ### [ez\_lending\_borrows](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.defi\_\_ez\_lending\_borrows)
 
@@ -70,7 +64,7 @@ Query NFT sales for the TofuNFT marketplace on polygon.
 
 ## [Base](https://flipsidecrypto.github.io/base-models/#!/overview)
 
-\~99% of Lending TVL coverage added.
+These tables are now even more comprehensive: \~99% of Lending TVL coverage added.
 
 ### [ez\_lending\_borrows](https://flipsidecrypto.github.io/base-models/#!/model/model.base\_models.defi\_\_ez\_lending\_borrows)
 
@@ -88,10 +82,8 @@ Query NFT sales for the TofuNFT marketplace on polygon.
 
 ### [fact\_dex\_swaps](https://flipsidecrypto.github.io/near-models/#!/model/model.near.defi\_\_fact\_dex\_swaps)
 
-A new model parsing dex swaps on the NEAR blockchain.
-
-Replaces the deprecating _ez\_dex\_swaps_ view.
+This is a brand new table to take over from the soon-to-be-deprecated `near.defi.ez_dex_swaps`. With an overhauled model, this now obtains and parses the most accurate data on Near swaps for your analytics.
 
 ### [fact\_bridge\_activity](https://flipsidecrypto.github.io/near-models/#!/model/model.near.defi\_\_fact\_bridge\_activity)
 
-A fact table that aggregates bridge activity on Near, mapping tokens flowing into and out of the NEAR Ecosystem, including across the Rainbow Bridge to and from Aurora. Tracks the four primary bridges: Rainbow, Wormhole, Allbridge, Multichain (bridge deactivated due to hack in mid 2023).\
+Query tokens bridged in and out of the NEAR Ecosystem, including across the Rainbow Bridge to and from Aurora. Tracks the four primary bridges: Rainbow, Wormhole, Allbridge, and historical data on Multichain (a bridge which was deactivated due to a hack in 2023).
