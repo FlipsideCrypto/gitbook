@@ -6,7 +6,7 @@
 
 Contains information on bridge transfer on Solana for the following protocols: Debridge, Mayan Finance, and Wormhole. This includes bridging events 'from', as well as 'to' Solana.
 
-Enable easier access to flows between Solana and other chains, allowing deeper analysis regarding cross-chain activity
+Enable easier access to flows between Solana and other chains, allowing deeper analysis regarding cross-chain activity.
 
 ### [fact\_decoded\_instructions](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_decoded\_instructions)
 
@@ -40,21 +40,21 @@ Access to native Solana bridging activity in easy to use tables for analysis acr
 
 ### [fact\_bridging\_activity](https://flipsidecrypto.github.io/aptos-models/#!/model/model.aptos\_models.defi\_\_fact\_bridge\_activity)
 
-A fact table that aggregates bridge activity in Aptos, including both bridging-in and out transactions. Activity from the following protocols are supported: CELER, MOVER, LAYER ZERO, and WORMHOLE.
+A fact table that aggregates bridge activity in Aptos, including both bridging-in and out transactions. Activity from the following protocols are supported: Celer, Mover, Layer Zero, and Wormhole.
 
-Enable easier access to flows between Aptos and other chains, allowing deeper analysis regarding cross-chain activity
+Enable easier access to flows between Aptos and other chains, allowing deeper analysis regarding cross-chain activity.
 
 ## [Polygon](https://flipsidecrypto.github.io/polygon-models/#!/overview)
 
 ### [ez\_nft\_sales](https://flipsidecrypto.github.io/polygon-models/#!/model/model.polygon\_models.nft\_\_ez\_nft\_sales)
 
-Added TofuNFT marketplace for Polygon NFT sales table
+Added TofuNFT marketplace for Polygon NFT sales table.
 
-Query NFT sales for the TofuNFT marketplace on polygon
+Query NFT sales for the TofuNFT marketplace on polygon.
 
 ## [Optimism](https://flipsidecrypto.github.io/optimism-models/#!/overview)
 
-\~97% of Lending TVL coverage added
+\~97% of Lending TVL coverage added.
 
 ### [ez\_lending\_borrows](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.defi\_\_ez\_lending\_borrows)
 
@@ -70,7 +70,7 @@ Query NFT sales for the TofuNFT marketplace on polygon
 
 ## [Base](https://flipsidecrypto.github.io/base-models/#!/overview)
 
-\~99% of Lending TVL coverage added
+\~99% of Lending TVL coverage added.
 
 ### [ez\_lending\_borrows](https://flipsidecrypto.github.io/base-models/#!/model/model.base\_models.defi\_\_ez\_lending\_borrows)
 
@@ -90,8 +90,8 @@ Query NFT sales for the TofuNFT marketplace on polygon
 
 A new model parsing dex swaps on the NEAR blockchain.
 
-Replaces the deprecating EZ\_DEX\_SWAPS view due to inaccurate and mis-parsed data.
+Replaces the deprecating _ez\_dex\_swaps_ view.
 
 ### [fact\_bridge\_activity](https://flipsidecrypto.github.io/near-models/#!/model/model.near.defi\_\_fact\_bridge\_activity)
 
-A fact table that aggregates bridge activity on Near, mapping tokens flowing into and out of the NEAR Ecosystem, including across the Rainbow Bridge to and from Aurora. Tracks the four primary bridges: Rainbow, Wormhole, Allbridge, Multichain (bridge deactivated due to hack in mid 2023)\
+A fact table that aggregates bridge activity on Near, mapping tokens flowing into and out of the NEAR Ecosystem, including across the Rainbow Bridge to and from Aurora. Tracks the four primary bridges: Rainbow, Wormhole, Allbridge, Multichain (bridge deactivated due to hack in mid 2023).\
