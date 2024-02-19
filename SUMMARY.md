@@ -300,6 +300,7 @@
 ## Flipside Community
 
 * [Get Started](flipside-community/get-started.md)
+* [Ambassador Program](flipside-community/ambassador-program.md)
 * [Support](flipside-community/support.md)
 * [Links & Resources](flipside-community/links-and-resources.md)
 * [Skill Tree](https://verbena-soul-020.notion.site/Flipside-Crypto-Skill-Tree-v7-f15753bcf23f4208a421c2339f5b0a27?pvs=4)
