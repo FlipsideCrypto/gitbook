@@ -32,7 +32,7 @@ Lending tables are now even more comprehensive: 100% of Lending TVL coverage add
 
 Lending tables are now even more comprehensive: \~99% of Lending TVL coverage added on Polygon.
 
-### [Data Studio Experience Update](https://flipsidecrypto.xyz/Mrfti/eigen-layer-eigenlayer-lDu0uH?tabIndex=2)
+## [Data Studio Experience Update](https://flipsidecrypto.xyz/Mrfti/eigen-layer-eigenlayer-lDu0uH?tabIndex=2)
 
 Link to any tab in a Flipside dashboard! To use this new feature, simply add `?tabIndex=N` to the end of your dashboard URL, where N is your desired tab number. Tab indexing starts from 0, left to right. Example from one of our top dashboards: [https://flipsidecrypto.xyz/Mrfti/eigen-layer-eigenlayer-lDu0uH?tabIndex=2](https://flipsidecrypto.xyz/Mrfti/eigen-layer-eigenlayer-lDu0uH?tabIndex=2)&#x20;
 
