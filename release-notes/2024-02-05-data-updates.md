@@ -1,39 +1,89 @@
----
-description: >-
-  More lending tables are added to Avalanche, Gnosis and Polygon, A new beta
-  release table for Ethereum, and an upgraded data studio experience.
----
+# 2024-02-05 | Data Updates
 
-# 2024-02-20 | Data Updates
+## [Solana](https://flipsidecrypto.github.io/solana-models/#!/overview)
 
-## [Avalanche](https://flipsidecrypto.github.io/avalanche-models/#!/overview)
+### [fact\_bridge\_activity](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.defi\_\_fact\_bridge\_activity)
 
-`avalanche.defi` schema: `ez_lending_borrows, ez_lending_deposits, ez_lending_flashloans, ez_lending_liquidations, ez_lending_repayments, ez_lending_withdraws`
+NEW: Our crosschain bridge transfers data now includes Solana too! The table contains bridging events to and from Debridge, Mayan Finance, and Wormhole protocols. With this table in the mix, you can create even deeper crosschain insights.
 
-Our lending tables on all chains keep getting even better! Last time, we updated Optimism and Base. This time, 99% of Lending TVL coverage is added to Avalanche tables.
+### [fact\_decoded\_instructions](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_fact\_decoded\_instructions)
 
-## [Ethereum](https://flipsidecrypto.github.io/ethereum-models/#!/overview)
+Ever wanted to get more into Solana analytics? This new table is your gateway! No more lateral flattening the instructions and slowing down your queries, and no need to figure out where in the instructions specific attributes are located.
 
-`ethereum.beta.fact_decoded_traces`
+Your analytics will be faster and easier: With just a program ID, go from exploratory analysis to perusing human-readable decoded instructions to constructing your Solana event queries on complete historical data. The protocols with decoded events are: Flash Trade, Banx, Marginfi, and Tensor.
 
-<mark style="color:purple;">**Currently in Beta**</mark> - This new table gives you exclusive beta access to our decoded trace data for 2024. You get trace data in a friendly, human-readable format.
+### [dim\_nft\_metadata](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.nft\_\_dim\_nft\_metadata)
 
-Try it out in your analysis, currently only in the Flipside Studio during this beta period, and share your feedback with us! Your experiences will inform how this table will shape up in the future, as we backfill more data.
+This table just got better with a new `authority` field and an enhanced `creator` field. You can now analyze NFT collaborations, and query data on royalty splits for collections with several creators.
 
-## [Gnosis](https://flipsidecrypto.github.io/gnosis-models/#!/overview)
+### [dim\_idl](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.core\_\_dim\_idl)
 
-`gnosis.defi` schema: `ez_lending_borrows, ez_lending_deposits, ez_lending_flashloans, ez_lending_liquidations, ez_lending_repayments, ez_lending_withdraws`
+For your convenience: A convenience table containing information for the programs contained in our decoded events tables.
 
-Lending tables are now even more comprehensive: 100% of Lending TVL coverage added on Gnosis.
+An efficient way to see what programs are currently being decoded, and how far back we have historical data. If you want a program to be added, submit a request: https://science.flipsidecrypto.xyz/idl-requestor/
+
+## Crosschain
+
+Crosschain bridging tables are one of the recent additions we are most excited about! Solana bridge transfers just got added to the comprehensive crosschain tables that also include numerous EVM chains.
+
+What you get: Access to native Solana bridging activity in easy to use tables for analysis across various chains.
+
+### [fact\_bridge\_activity](https://flipsidecrypto.github.io/solana-models/#!/model/model.solana\_models.defi\_\_fact\_bridge\_activity)
+
+### [ez\_bridge\_activity](https://flipsidecrypto.github.io/crosschain-models/#!/model/model.crosschain\_models.defi\_\_fact\_bridge\_activity)
+
+## [Aptos](https://flipsidecrypto.github.io/aptos-models/#!/overview)
+
+### [fact\_bridging\_activity](https://flipsidecrypto.github.io/aptos-models/#!/model/model.aptos\_models.defi\_\_fact\_bridge\_activity)
+
+Another table from our crosschain bridging data drop! A table that aggregates bridge activity in Aptos, including both bridging-in and out transactions. Protocols currently supported: Celer, Mover, Layer Zero, and Wormhole.
+
+Enable easier access to token flows between Aptos and other chains, allowing deeper analysis of cross-chain activity.
 
 ## [Polygon](https://flipsidecrypto.github.io/polygon-models/#!/overview)
 
-`polygon.defi` schema: `ez_lending_borrows, ez_lending_deposits, ez_lending_flashloans, ez_lending_liquidations, ez_lending_repayments, ez_lending_withdraws`
+### [ez\_nft\_sales](https://flipsidecrypto.github.io/polygon-models/#!/model/model.polygon\_models.nft\_\_ez\_nft\_sales)
 
-Lending tables are now even more comprehensive: \~99% of Lending TVL coverage added on Polygon.
+Added TofuNFT marketplace to the Polygon NFT sales table: Query and analyze TofuNFT sales activity!
 
-### [Data Studio Experience Update](https://flipsidecrypto.xyz/Mrfti/eigen-layer-eigenlayer-lDu0uH?tabIndex=2)
+## [Optimism](https://flipsidecrypto.github.io/optimism-models/#!/overview)
 
-Link to any tab in a Flipside dashboard! To use this new feature, simply add `?tabIndex=N` to the end of your dashboard URL, where N is your desired tab number. Tab indexing starts from 0, left to right. Example from one of our top dashboards: [https://flipsidecrypto.xyz/Mrfti/eigen-layer-eigenlayer-lDu0uH?tabIndex=2](https://flipsidecrypto.xyz/Mrfti/eigen-layer-eigenlayer-lDu0uH?tabIndex=2)&#x20;
+These tables are now even more comprehensive: \~97% of Lending TVL coverage added.
 
-You can now import data from a Google Sheet to use in the Studio! Tutorial: [https://x.com/theericstone/status/1757551636975599807](https://x.com/theericstone/status/1757551636975599807)&#x20;
+### [ez\_lending\_borrows](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.defi\_\_ez\_lending\_borrows)
+
+### [ez\_lending\_deposits](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.defi\_\_ez\_lending\_deposits)
+
+### [ez\_lending\_flashloans](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.defi\_\_ez\_lending\_flashloans)
+
+### [ez\_lending\_liquidations](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.defi\_\_ez\_lending\_liquidations)
+
+### [ez\_lending\_repayments](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.defi\_\_ez\_lending\_repayments)
+
+### [ez\_lending\_withdraws](https://flipsidecrypto.github.io/optimism-models/#!/model/model.optimism\_models.defi\_\_ez\_lending\_withdraws)
+
+## [Base](https://flipsidecrypto.github.io/base-models/#!/overview)
+
+These tables are now even more comprehensive: \~99% of Lending TVL coverage added.
+
+### [ez\_lending\_borrows](https://flipsidecrypto.github.io/base-models/#!/model/model.base\_models.defi\_\_ez\_lending\_borrows)
+
+### [ez\_lending\_deposits](https://flipsidecrypto.github.io/base-models/#!/model/model.base\_models.defi\_\_ez\_lending\_deposits)
+
+### [ez\_lending\_flashloans](https://flipsidecrypto.github.io/base-models/#!/model/model.base\_models.defi\_\_ez\_lending\_flashloans)
+
+### [ez\_lending\_repayments](https://flipsidecrypto.github.io/base-models/#!/model/model.base\_models.defi\_\_ez\_lending\_repayments)
+
+### [ez\_lending\_liquidations](https://flipsidecrypto.github.io/base-models/#!/model/model.base\_models.defi\_\_ez\_lending\_liquidations)&#x20;
+
+### [ez\_lending\_withdraws](https://flipsidecrypto.github.io/base-models/#!/model/model.base\_models.defi\_\_ez\_lending\_withdraws)
+
+## [Near](https://flipsidecrypto.github.io/near-models/#!/overview)
+
+### [fact\_dex\_swaps](https://flipsidecrypto.github.io/near-models/#!/model/model.near.defi\_\_fact\_dex\_swaps)
+
+This is a brand new table to take over from the soon-to-be-deprecated `near.defi.ez_dex_swaps`. With an overhauled model, this now obtains and parses the most accurate data on Near swaps for your analytics.
+
+### [fact\_bridge\_activity](https://flipsidecrypto.github.io/near-models/#!/model/model.near.defi\_\_fact\_bridge\_activity)
+
+Query tokens bridged in and out of the NEAR Ecosystem, including across the Rainbow Bridge to and from Aurora. Tracks the four primary bridges: Rainbow, Wormhole, Allbridge, and historical data on Multichain (a bridge which was deactivated due to a hack in 2023).
