@@ -279,6 +279,11 @@
 * [Addresses](earn/addresses.md)
 * [Tax Center](earn/tax-center.md)
 
+## Support
+
+* [General Support](support/support.md)
+* [Open a Ticket](support/open-a-ticket.md)
+
 ## Resources
 
 * [Curated by the Flipside Team](resources/curated-by-the-flipside-team.md)
@@ -304,7 +309,6 @@
 * [Get Started](flipside-community/get-started.md)
 * [How to Analyze Web3 Data](flipside-community/how-to-analyze-web3-data.md)
 * [Ambassador Program](flipside-community/ambassador-program.md)
-* [Support](flipside-community/support.md)
 * [Links & Resources](flipside-community/links-and-resources.md)
 * [Skill Tree](https://verbena-soul-020.notion.site/Flipside-Crypto-Skill-Tree-v7-f15753bcf23f4208a421c2339f5b0a27?pvs=4)
 * [Join Our Discord](https://discord.gg/flipside)
