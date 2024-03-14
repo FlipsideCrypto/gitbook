@@ -10,6 +10,8 @@ Notice something weird while building queries or dashboards? Maybe you’re havi
 Please note that we’re not set up to help with troubleshooting queries. For help understanding the data or writing queries see our docs or reach out to the [Discord community!](https://discord.gg/flipside)
 {% endhint %}
 
+{% embed url="https://www.loom.com/share/8582550134ef4f75b361ba9d1fbd3692" %}
+
 ## Step 1: Log into the Flipside App
 
 [Click here](https://flipsidecrypto.xyz/auth/auth0) to login to the Flipside app.
