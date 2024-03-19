@@ -316,6 +316,7 @@
 
 ## Release Notes
 
+* [2024-03-18 | Data & Product Updates](release-notes/2024-03-18-data-updates.md)
 * [2024-03-05 | Data Updates](release-notes/2024-03-05-data-updates.md)
 * [2024-02-20 | Data Updates](release-notes/2024-02-20-data-updates.md)
 * [2024-02-05 | Data Updates](release-notes/2024-02-05-data-updates.md)
