@@ -1,8 +1,8 @@
 ---
 description: >-
   New NFT Mint tables for Aptos. Base decoded event logs just got added. And we
-  made a suite of upgrades to Ethereum. Plus a new discover page gives allows
-  you to search queries
+  made a suite of upgrades to Ethereum. Plus a new discover page allows you to
+  search queries
 ---
 
 # 2024-03-18 | Data & Product Updates
