@@ -15,4 +15,4 @@ If you need help right away, try asking your question within one of our [Discord
 [SQL Help](https://discord.com/channels/784442203187314689/826948063629279273)\
 [Feedback](https://discord.com/channels/784442203187314689/826928990274322513)
 
-If you can't find the help you need from our Discord community, you can [open a ticket on our website.](open-a-ticket/)
+If you can't find the help you need from our Discord community, you can [open a ticket on our website.](open-a-ticket.md)

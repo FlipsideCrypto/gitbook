@@ -282,7 +282,7 @@
 ## Support
 
 * [General Support](support/support.md)
-* [Open a Ticket](support/open-a-ticket/README.md)
+* [Open a Ticket](support/open-a-ticket.md)
   * [That email doesn't look quite right](support/open-a-ticket/that-email-doesnt-look-quite-right.md)
 
 ## Resources

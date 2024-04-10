@@ -7,7 +7,7 @@ description: Do you need one-on-one support with a member of Flipside?
 Notice something weird while building queries or dashboards? Maybe you’re having trouble with a quest or claiming rewards. Getting help is easy and quick. Follow these steps below to get help fast from the Flipside team!
 
 {% hint style="info" %}
-Can't log a ticket? Getting a 'That email doesn't look quite right' error message? You need to [update your email address.](that-email-doesnt-look-quite-right.md)&#x20;
+Can't log a ticket? Getting a 'That email doesn't look quite right' error message? You need to [update your email address.](open-a-ticket/that-email-doesnt-look-quite-right.md)&#x20;
 {% endhint %}
 
 {% hint style="warning" %}
