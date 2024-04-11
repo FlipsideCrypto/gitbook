@@ -40,7 +40,7 @@ We will continue to evolve this program over time — to keep up with the latest
 
 Base rewards are assigned based on a dashboard's rank on [Flipside's trending page](https://flipsidecrypto.xyz/discover?d\_sort=trending).
 
-<table><thead><tr><th width="450">Dashboard Rank</th><th>Base Reward</th></tr></thead><tbody><tr><td>1-10</td><td>$1.50/hr</td></tr><tr><td>11-30</td><td>$1/hr</td></tr></tbody></table>
+<table><thead><tr><th width="452">Dashboard Rank</th><th>Base Reward</th></tr></thead><tbody><tr><td>1-10</td><td>$1.50/hr</td></tr><tr><td>11-30</td><td>$1/hr</td></tr></tbody></table>
 
 ### December 2023
 

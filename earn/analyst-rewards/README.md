@@ -28,7 +28,7 @@ Ambassadors are data storytellers who specialize in one or more chains, and serv
 
 _**How to get started:**_
 
-Submit stellar dashboards. And get to know our team in our [Discord](https://discord.gg/ZmU3jQuu6W) so we can get to know you. We’ll reach out when we see you’re a go-to ecosystem expert.
+Find more details about the Ambassador program [here](https://docs.flipsidecrypto.xyz/flipside-community/ambassador-program).&#x20;
 
 
 
