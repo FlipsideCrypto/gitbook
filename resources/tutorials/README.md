@@ -12,10 +12,6 @@ Learn more about our data structures for specific blockchains with these article
 [ethereum-tutorials](ethereum-tutorials/)
 {% endcontent-ref %}
 
-{% content-ref url="getting-started-with-dai-events.md" %}
-[getting-started-with-dai-events.md](getting-started-with-dai-events.md)
-{% endcontent-ref %}
-
 {% content-ref url="solana-tutorials/" %}
 [solana-tutorials](solana-tutorials/)
 {% endcontent-ref %}

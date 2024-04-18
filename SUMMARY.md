@@ -303,7 +303,6 @@
   * [THORChain Tutorials](resources/tutorials/thorchain-tutorials/README.md)
     * [THORChain Schema & Tables](resources/tutorials/thorchain-tutorials/thorchain-schema-and-tables.md)
     * [Calculating IL for THORChain](resources/tutorials/thorchain-tutorials/calculating-il-for-thorchain.md)
-  * [MakerDAO Tutorials](resources/tutorials/getting-started-with-dai-events.md)
 
 ## Flipside Community
 
