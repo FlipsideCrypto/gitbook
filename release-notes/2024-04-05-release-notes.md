@@ -85,13 +85,13 @@ You can now query NFT sales on SEI with these two new tables.&#x20;
 
 ### [Solana](https://flipsidecrypto.github.io/solana-models/#!/overview)
 
-**Updated Tabel:**
+**Updated Table:**
 
 Add NFT sales that occurred on Solsniper
 
 * _nft.fact\_nft\_sales_
 
-**Updated Tabe:**
+**Updated Table:**
 
 Update to include new Token2022 transfer events
 
