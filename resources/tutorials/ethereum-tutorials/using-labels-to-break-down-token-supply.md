@@ -1,131 +1,144 @@
 ---
 description: >-
-  In this guide, we're going to look at how supply is distributed across the
-  network for particular ERC20 tokens using Flipside's base label system.
+  In this guide, we're going to look at how to create a view of balances at a
+  block level and daily level.
 ---
 
-# Using Labels to Break Down Token Supply
+# Block Level and Daily Balances
 
-In this guide, we're going to look at how supply is distributed across the network for particular ERC20 tokens.
+By using the snapshot data in `ethereum.core.fact_token_balances` we can create a block level view of balances or a daily view. The approach for both methods is similar, but we can start at a block level.&#x20;
 
-The question we want to answer is: at any given point in time, who is holding this token?
+{% hint style="info" %}
+Please note: Balances data is very large. Queries without where filters on `block_number` of `block_timestamp` may take a long time. Please do your best to only query what you really need. However, we do realize that some use cases require full history.
+{% endhint %}
 
-And because we look at groups of accounts using Flipside's base labels, you can get an aggregate view of the entire network.
-
-Our balances tables are also designed to make answering this question very straightforward:
-
-1. Each date in the table represents a snapshot of "current balances" for all holders, so you only have to query one day to see total supply
-2. Labels are already injected into the addresses, so all you have to do is group by existing fields in the table
-
-Let's look at the basic query:
+We are going to use the same USDC-WETH Uniswap v3 pool from the prior example. We'll start by pulling the decimal transformed balances for the pool from the last 7 days.
 
 ```sql
-SELECT
-  symbol,
-  label_type,
-  round(sum(amount_usd)) as total
-FROM
-  ethereum.erc20_balances
-WHERE
-  balance_date = '2020-10-31'
-  AND amount_usd > 0
-  AND contract_address = '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
-GROUP BY 1,2
-ORDER BY symbol, total DESC
+select
+  block_number,
+  block_timestamp,
+  user_address,
+  contract_address,
+  c.symbol,
+  balance / pow(10, c.decimals) as balance
+from
+  ethereum.core.fact_token_balances b
+  left join ethereum.core.dim_contracts c on b.contract_address = c.address
+where
+  user_address = '0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640'
+  and block_timestamp >= current_date() - 7
+  and contract_address in (
+    '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
+    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
+  )
 ```
 
-We want to select:
+The next step involves filling all the gaps in blocks with the prior value. This pool has a lot of volume as of writing, so there is not much filling to do, as there is already almost a swap every block. However, something like an EOA (wallet) will have much less volume, and therefore has more filling to do. We will fill by `block_number` here, but if you only needed daily balances, you could fill by `block_timestamp::date`.&#x20;
 
-* `label_type` for the pre-generated Flipside label category,&#x20;
-* `symbol` for context in our results set
-* a rounded sum of the total usd-converted balance on this first pass, so we can get a sense for the relative sizes of each group
-
-Which returns:
-
-| Symbol | Label Type  | Total      |
-| ------ | ----------- | ---------- |
-| USDC   |             | 1537642229 |
-| USDC   | distributor | 871468974  |
-| USDC   | project     | 395089998  |
-| USDC   | other       | 5313082    |
-
-Notice that the `label_type` is missing for our largest group. Flipside's base label set identifies accounts like exchanges, foundations, and operators, but not basic user accounts. We leave those accounts to more context- and behavior- specific classification later, so here, a large "unlabeled" set is expected.
-
-In a later guide, we will cover how to start to break down the unlabeled user set into "Top Holders" and "Smaller Wallets", which is useful to analyzing token flows.
-
-If you want to drill down further, you can repeat the query above with `label_subtype` instead of `label_type`:
+Once we have our spine of `block_number`, `user_address`, `contract_address`, and `symbol`, we can left join in our balances data, and fill the gaps with the prior valid value. Let's do this with a few CTEs.
 
 ```sql
-SELECT
-  symbol,
-  label_subtype,
-  round(sum(amount_usd)) as total
-FROM
-  ethereum.erc20_balances
-WHERE
-  balance_date = '2020-10-31'
-  AND amount_usd > 0
-  AND contract_address = '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
-GROUP BY 1,2,3
-ORDER BY symbol, total DESC
+with balances as (
+  select
+    block_number,
+    block_timestamp,
+    user_address,
+    contract_address,
+    c.symbol,
+    balance / pow(10, c.decimals) as balance
+  from
+    ethereum.core.fact_token_balances b
+    left join ethereum.core.dim_contracts c on b.contract_address = c.address
+  where
+    user_address = '0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640'
+    and block_timestamp >= current_date() - 7
+    and contract_address in (
+      '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
+      '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
+    )
+),
+-- create a spine of all the possible combos
+spine as (
+  select
+    block_number,
+    block_timestamp,
+    user_address,
+    contract_address,
+    symbol
+  from
+    ethereum.core.fact_blocks b
+    join (
+      select
+        distinct contract_address,
+        user_address,
+        symbol
+      from
+        balances
+    ) on 1 = 1
+  where
+    block_number between (
+      select
+        min(block_number)
+      from
+        balances
+    )
+    and (
+      select
+        max(block_number)
+      from
+        balances
+    )
+),
+-- join all options with transfer based data and fill gaps 
+block_level_balances as (
+  select
+    s.block_number,
+    s.block_timestamp,
+    s.user_address,
+    s.contract_address,
+    s.symbol,
+    b.balance,
+    LAST_VALUE(b.balance ignore nulls) over(
+      PARTITION BY s.user_address,
+      s.contract_address
+      ORDER BY
+        s.block_number ASC rows unbounded preceding
+    ) as balance_filled
+  from
+    spine s
+    left join balances b using (block_number, user_address, contract_address)
+)
+select
+  *
+from
+  block_level_balances;
 ```
 
-Which returns:
-
-| Symbol | Label Sub Type              | Total      |
-| ------ | --------------------------- | ---------- |
-| USDC   |                             | 1537642229 |
-| USDC   | distributor\_dex            | 544272742  |
-| USDC   | project\_token\_contract    | 341612731  |
-| USDC   | distributor\_cex            | 228821492  |
-| USDC   | distributor\_cex\_satellite | 57614929   |
-| USDC   | project\_contract           | 51637001   |
-| USDC   | distributor\_dex\_balancer  | 40759810   |
-| USDC   | other\_financial            | 4192633    |
-| USDC   | project\_other              | 1840265    |
-| USDC   | other\_misc                 | 919132     |
-| USDC   | other\_single\_use          | 201317     |
-
-As you become more familiar with Flipside's labeling system, you may decide to group certain labels together to express different relationships.
-
-For example, if you wanted to distinguish between centralized and decentralized exchange wallets, you could combine satellite and hot wallet addresses.
-
-Here's a straightforward pattern for playing with combinations in your query using a `CASE` statement:
+This gives us the WETH and USDC balance, per block, for the Uniswap V3 pool. We could take this a step further by filtering to just the last balace per day using the following final step.
 
 ```sql
-SELECT
+select
+  block_timestamp :: date as block_date,
+  block_number,
+  user_address,
+  contract_address,
   symbol,
-  CASE
-  WHEN label_subtype LIKE 'distributor_cex%' THEN 'centralized exchanges'
-  WHEN label_subtype LIKE 'distributor_dex%' THEN 'decentralized exchanges'
-  WHEN label_type IS NULL THEN 'user accounts'
-  ELSE 'other' END as label,
-  round(sum(amount_usd)) as total
-FROM
-  ethereum.erc20_balances
-WHERE
-  balance_date = '2020-10-31'
-  AND amount_usd > 0
-  AND contract_address = '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
-GROUP BY 1,2,3
-ORDER BY symbol, total DESC
+  balance_filled as balance
+from
+  block_level_balances qualify (
+    row_number() over (
+      partition by user_address,
+      contract_address,
+      block_date
+      order by
+        block_number desc
+    ) = 1
+  )
+order by
+  block_date,
+  user_address,
+  contract_address
 ```
 
-Here we:
-
-* distinguished between centralized and decentralized exchanges at the subtype level
-* grouped unlabeled address together as "user accounts", which is probably an over-simplification
-* grouped all other labels together as "other", which you probably would want to tease apart in your next query, given how large the result set is
-
-Results:
-
-You can see how you can continue to slice and dice the supply based on label types and subtypes and eventually other tags in our system to tease out groups of accounts.
-
-| Symbol | Label Type              | Total      |
-| ------ | ----------------------- | ---------- |
-| USDC   | user accounts           | 1537642229 |
-| USDC   | decentralized exchanges | 585032552  |
-| USDC   | other                   | 400403080  |
-| USDC   | centralized exchanges   | 286436421  |
-
-The useful feature of Flipside's base label set is that it allows you to characterize the entire network at once. The alternative is zooming in on a specific set of addresses, which can sometimes limit your ability to put your results in a broader context.
+If you wanted to analyze the total supply of a token, you would want to remove the `user_address` filter. There are many possibilities with these tables, but remember to use as many filters as possible for optimal performance.&#x20;

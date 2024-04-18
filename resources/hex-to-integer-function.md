@@ -6,7 +6,7 @@ description: >-
 
 # Hex-to-Integer Function
 
-**Function name**: ethereum.public.udf\_hex\_to\_int()
+**Function name**: `utils.udf_hex_to_int()`
 
 
 
@@ -26,15 +26,16 @@ Often you will want to convert these values into integers to get the decoded val
 
 **Example 1**
 
-Select ethereum.public.udf\_hex\_to\_int (‘0000000000000000000000000000000000000000000000000000000000001ffb’)
+```sql
+Select 
+utils.udf_hex_to_int (‘0000000000000000000000000000000000000000000000000000000000001ffb’)
+```
 
 This would produce ‘8187’ as the result. Note that removing the leading 0’s, to just ‘1ffb’ would also produce the same result.
 
-
-
 **Example 2**
 
-Consider this Etherscan transaction: https://etherscan.io/tx/0xfff5bcbefe615b3409f7c280445e2dc20785a0b5ac82bf465f1e031917bf88df
+Consider this[ Etherscan transaction](https://etherscan.io/tx/0xfff5bcbefe615b3409f7c280445e2dc20785a0b5ac82bf465f1e031917bf88df):&#x20;
 
 If we queried the input\_data column for this transaction in the ethereum.core.fact\_transactions table, we’d get:&#x20;
 
@@ -52,22 +53,26 @@ We can rearrange the data above to what we see on Etherscan in the screenshot be
 
 We can use the substr function to get the string that is associated with ‘auctionId’.
 
-```
+```sql
 Select 
 substr(input_data, 75, 64) 
 from ethereum.core.fact_transactions 
-    where tx_hash = '0xfff5bcbefe615b3409f7c280445e2dc20785a0b5ac82bf465f1e031917bf88df'
+    where block_number = 12994101
+    and tx_hash = '0xfff5bcbefe615b3409f7c280445e2dc20785a0b5ac82bf465f1e031917bf88df'
 ```
 
 And because it is an integer, we can use the hex to int function to convert it to an integer.
 
-```
+```sql
 select 
-ethereum.public.udf_hex_to_int( substr(input_data, 75, 64) ) 
+utils.udf_hex_to_int( substr(input_data, 75, 64) ) 
 from ethereum.core.fact_transactions 
-    where tx_hash = '0xfff5bcbefe615b3409f7c280445e2dc20785a0b5ac82bf465f1e031917bf88df'
+    where block_number = 12994101
+    and tx_hash = '0xfff5bcbefe615b3409f7c280445e2dc20785a0b5ac82bf465f1e031917bf88df'
 ```
 
 This would result in 8187 which is consistent with using the decode button on Etherscan as shown in the screenshot below.
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-14 at 10.33.24 AM.png" alt=""><figcaption></figcaption></figure>
+
+There are also more utility functions available [here](../products/get-started/examples/utility-functions/).&#x20;

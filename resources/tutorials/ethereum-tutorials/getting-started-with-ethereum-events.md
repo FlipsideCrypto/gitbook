@@ -1,98 +1,101 @@
 ---
-description: This guide will take you thru an introduction of the Ethereum events table.
+description: >-
+  This guide will take you through some sample queries working with decoded
+  ethereum events.
 ---
 
-# Getting Started with Ethereum Events
+# Getting Started with Decoded Ethereum Events
 
-This guide provides an introduction to the `ethereum.udm_events` table via a series of simple queries that explore the data.
+This guide provides an introduction to the `ethereum.core.ez_decoded_event_logs` table via a series of simple queries that explore the data.
 
 {% hint style="info" %}
-For a breakdown of the Ethereum Events table schema [go here.](broken-reference)
+For a breakdown of the Ethereum tables [go here.](https://flipsidecrypto.github.io/ethereum-models/#!/overview)
 {% endhint %}
 
-Let's familiarize ourselves with the table by first looking at the types of events that can be queried.
+Let's familiarize ourselves with the table by first looking at the types of events emitted by the USDC contract in the last week.&#x20;
 
 ```sql
-SELECT distinct(event_type) FROM ethereum.udm_events 
+select
+  event_name,
+  count(*) as events
+from
+  ethereum.core.ez_decoded_event_logs
+where
+  block_timestamp >= current_date() - 7
+  and contract_address = '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' -- USDC
+group by
+  event_name
+order by
+  events desc;
 ```
 
-| event\_type     | description                                      |
-| --------------- | ------------------------------------------------ |
-| function        | A function call                                  |
-| event           | An event emitted from a function call.           |
-| erc20\_transfer | An event involving a transfer of an ERC20 token. |
-| native\_eth     | A native eth transfer.                           |
-
-This tells us there are 4 types of events that get recorded in the ethereum events table. Let's take a closer look at the decoded on-chain event names for USDC over the past 30 days.
+As you would expect, the most common event for the USDC token is the `Transfer` event. Let us dig a big deeper into the `Transfer` event. The human-readable arguments for this event can be found in the `decoded_log` column. This column is an `object` and must be queried using a specific syntax, demonstrated below.&#x20;
 
 ```sql
-SELECT 
-  event_type,
-  event_name as event_name,
-  count(event_name)
-FROM ethereum.udm_events
-WHERE 
-  -- USDC contract address
-  contract_address = '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48' AND
-  block_timestamp >= GETDATE() - interval'30 days'
-GROUP BY 1,2
-ORDER BY 3 DESC
+select
+  decoded_log,
+  decoded_log:from :: string as from_address,
+  decoded_log:to :: string as to_address,
+  decoded_log:value :: integer as value
+from
+  ethereum.core.ez_decoded_event_logs
+where
+  block_timestamp >= current_date() - 7
+  and contract_address = '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
+  and event_name = 'Transfer'
+limit
+  5;
 ```
 
-| event\_type     | event\_name      | count     |
-| --------------- | ---------------- | --------- |
-| erc20\_transfer | transfer         | 1,142,589 |
-| event           | Approval         | 167,014   |
-| event           | Mint             | 525       |
-| event           | Burn             | 514       |
-| event           | MinterConfigured | 15        |
-
-These results provide a more granular breakdown of the events surrounding the USDC contract. Specifically, this shows us the number of Approval, Mint, Burn, and MinterConfigured events that were emitted by the USDC contract. It appears that the greatest number of events are related to transfers of the USDC token. In our next query let's look at the trend of USDC transfers of the past 30 days.
+Now that we know how to work with this data, let's analyze it.
 
 ```sql
-SELECT 
-  date_trunc('day', block_timestamp) as metric_date,
-  sum(amount) as total_amount
-FROM ethereum.udm_events
-WHERE 
-  event_type = 'erc20_transfer' AND
-  symbol = 'USDC' AND
-  amount > 0 AND
-  block_timestamp >= GETDATE() - interval'30 days'
-GROUP BY metric_date
-ORDER BY metric_date DESC
+select
+  block_timestamp :: date as block_date,
+  sum(decoded_log:value :: int) / pow(10, 6) as amount
+from
+  ethereum.core.ez_decoded_event_logs
+where
+  block_timestamp >= current_date() - 7
+  and contract_address = '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
+  and event_name = 'Transfer'
+group by
+  block_date
+order by
+  block_date desc;
 ```
 
-![](<../../../.gitbook/assets/Screen Shot 2020-11-01 at 10.30.54 PM.png>)
-
-We see a big spike in USDC transfers on October 26th. This just happens to coincide with the Harvest.finance attack on the same date. Let's take a closer look at the exchanges that USDC was being sent to at that time by leveraging Flipside's Exchange labels.
+The query above totals the transfer volume by day, for the last week, for USDC. Token amounts on the blockchain almost always require a decimal transformation, which for USDC is 6 places. We'll learn how to pull this in programmatically in the next section where we dig into who is receiving USDC in the last week.&#x20;
 
 ```sql
-SELECT 
-  to_label,
-  sum(amount) as total_amount
-FROM ethereum.udm_events
-WHERE
-  -- the 'distributor' label type = exchanges 
-  to_label_type = 'distributor' AND
-  event_type = 'erc20_transfer' AND
-  symbol = 'USDC' AND
-  amount > 0 AND
-  block_timestamp >= '2020-10-26T00:00:00Z' AND
-  block_timestamp <= '2020-10-27T00:00:00Z'
-GROUP BY to_label, to_label_type
-ORDER BY total_amount DESC
-LIMIT 5
+with raw_transfers as (
+  select
+    block_timestamp :: date as block_date,
+    contract_address,
+    decoded_log:to :: string as to_address,
+    decoded_log:value :: int as value
+  from
+    ethereum.core.ez_decoded_event_logs events
+  where
+    block_timestamp >= current_date() - 7
+    and contract_address = '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48'
+    and event_name = 'Transfer'
+)
+select
+  block_date,
+  ifnull(address_name, 'Unknown') as address_name,
+  to_address,
+  decimals,
+  sum(value) / pow(10, decimals) as amount
+from
+  raw_transfers e
+  left join ethereum.core.dim_labels l on e.to_address = l.address
+  left join ethereum.core.dim_contracts c on e.contract_address = c.address
+group by
+  all
+order by
+  block_date desc,
+  amount desc;
 ```
 
-| to\_label    | total\_amount    |
-| ------------ | ---------------- |
-| curve fi     | 2,786,908,380.42 |
-| yearn        | 1,431,392,778.53 |
-| ftx exchange | 168,161,544.95   |
-| binance      | 82,280,347.55    |
-| uniswap      | 44,740,268.63    |
-
-Here we see that Curve saw the largest influx at \~2.7B, followed closely by Yearn.&#x20;
-
-From here I encourage you to dig deeper by exploring the inflows and outflows on each of these exchanges, perhaps even looking at individual pool activity on curve or uniswap by leveraging the project labels.
+This query utilizes a common-table-expression (CTE) to first pull in the relevant transfers in the last week. Next, we take advantage of the metadata in `dim_labels` and `dim_contracts` to enrich our analysis. `dim_contracts` is the home of decimals and symbols for smart contracts, as well as other metadata. `dim_labels` is useful for tagging addresses with human readable names, as well.&#x20;
