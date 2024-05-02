@@ -315,6 +315,13 @@
 * [Join Our Discord](https://discord.gg/flipside)
 * [Join Our Guild](https://guild.xyz/flipside-crypto)
 
+## 🌟 Product Special Releases
+
+* [2024-05-01 | Improvements to Pricing Data](product-special-releases/2024-05-01-or-improvements-to-pricing-data/README.md)
+  * [Actions for Data Studio Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/actions-for-data-studio-users.md)
+  * [Actions for API Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/actions-for-api-users.md)
+  * [Action for Data Share Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/action-for-data-share-users.md)
+
 ## Release Notes
 
 * [2024-04-18 | Release Notes](release-notes/2024-04-18-release-notes.md)
