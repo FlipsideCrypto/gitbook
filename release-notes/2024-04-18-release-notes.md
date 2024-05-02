@@ -1,61 +1,99 @@
 ---
 description: >-
-  New tables on Vertex and Solana. Plus updates to Arbitrum and BSC supporting
-  Seaport 1.6.
+  Pricing updates, new tables for Blitz (Blast Protocol), lending tables for
+  crosschain, updated nft_sales tables for multiple chains, and now for
+  LiveQuery an increased response size and data limit.
 ---
 
-# 2024-04-18 | Release Notes
+# 2024-05-02 | Release Notes
 
-## Highlights
+### Highlights
 
-The team just released 5 new tables for Vertex that give you the ability to dig into account stats, market depth stats, market stats, staking actions and edge trades.
+Here's what's new at Flipside: Your biweekly roundup of data updates and new releases.&#x20;
 
-We also released a new Solana table `core.fact_token_account_owners` that provides a comprehensive view of token account ownership, enabling users to track the ownership history of token accounts. As the owner of an account can change over time, and transactions more commonly display the token account over the actual owner, this table makes it easier to analyze the main parties that are executing transactions on-chain, to get insight into user behavior, network connections, and market correlations.
+This week we released a major upgrade to our pricing data pipelines that enhances our data for most blockchains. This upgrade adds +15,000 tokens to our pricing tables and fills in historical prices. [Read more about this special product release here](broken-reference).
 
-Check out the rest of the release notes below.
+{% hint style="danger" %}
+The pricing data upgrade require actions for all users. [See the special release notes ](broken-reference)for more details.
+{% endhint %}
 
-### [Arbitrum](https://flipsidecrypto.github.io/arbitrum-models/#!/overview)
+In addition to the pricing data upgrade we’ve got new curated tables across lots of different blockchains.&#x20;
+
+Check out these updates and the rest of the release notes below.
+
+### [Blast](https://flipsidecrypto.github.io/blast-models/#!/overview)
+
+**New Table:**
+
+A new table to integrate blast into our crosschain database.
+
+* _blast.stats.ez\_core\_metrics\_hourly_
+
+### [Blitz](https://flipsidecrypto.github.io/blast-models/#!/model/model.blast\_models.blitz\_\_ez\_account\_stats)
+
+**New Table:**
+
+5 new tables that pull data from the Blitz API and on-chain data.
+
+* _ez\_account\_stats_
+* _ez\_market\_depth\_stats_
+* _ez\_market\_stats_
+* _ez\_staking\_actions_
+* _ez\_edge\_trades_
+
+### Crosschain (Data Studio Only)
+
+**New Table:**
+
+6 new lending tables to help with crosschain analysis.
+
+* lending.ez\_lending\_borrows
+* lending.ez\_lending\_deposits
+* lending.ez\_lending\_flashloans
+* lending.ez\_lending\_liquidations
+* lending.ez\_lending\_repayments
+* lending.ez\_lending\_withdraws
+
+### [Ethereum](https://flipsidecrypto.github.io/ethereum-models/#!/overview)
 
 **Updated Table:**
 
-Seaport 1.6 added to ez\_nft\_sales table
+We’ve remodeled Rarible data and updated the data so that all edge cases for Rarible trades are now included.
 
 * _nft.ez\_nft\_sales_
 
-### [Binance Smart Chain](https://flipsidecrypto.github.io/bsc-models/#!/overview)
+### [Near](https://flipsidecrypto.github.io/near-models/#!/overview)
 
-**Updated Table:**
+**New Tables:**
 
-Seaport 1.6 added to ez\_nft\_sales table
+Two new tables to track all NFT transfers and all NFT sales actions on the main Near marketplaces.
 
-* _nft.ez\_nft\_sales_
+* _nft.fact\_nft\_transfers_
+* _core.ez\_nft\_sales_
+
+Plus a new table records all native token and NEP-141 token transfers.
+
+* _core.ez\_token\_transfers_
 
 ### [Solana](https://flipsidecrypto.github.io/solana-models/#!/overview)
 
 **New Table:**
 
-This new table provides a comprehensive view of address ownership, enabling users to track the ownership history of an account. Because the owner of an account can change over time, and transactions more commonly display the token account over the actual owner — this table enables easier analysis into the main parties that are executing transactions on-chain, and insight into user behavior, network connections, market correlations, etc.
+A new dim\_idls table is added to track IDL decoding. It includes information on the IDL program, status for historical decoding, whether the submission was valid, and more. This new table provides greater observability into our decoding process. Users can now easily see what programs are being decoded, if events have been historically decoded, and whether a submission to request an IDL for decoding was valid.
 
-* _core.fact\_token\_account\_owners_
+* _core.dim\_idls_
 
 **Updated Table:**
 
-These tables now contain all events related to mints, where previously they only contained the actual minting of the token/nft. This is useful in situations where the first mint and initialization do not occur in the same transactions.
+Updates to nft.fact\_nft\_sales now make it easier to analyze compressed NFT sales on the Tensor marketplace, which has the largest volume of cNFTs. The table now includes relevant columns for compressed NFTs, including columns for merkle\_tree, leaf\_index and tree\_authority. Tensorswap has been added as the first platform for cNFT sales.
 
-* _nft.fact\_nft\_mint\_actions_&#x20;
-* _defi.fact\_token\_mint\_actions_
+* _nft.fact\_nft\_sales_
 
-### [Vertex](https://flipsidecrypto.github.io/arbitrum-models/#!/model/model.arbitrum\_models.vertex\_\_dim\_products)
+### Product Updates
 
-**New Tables:**
+#### LiveQuery
 
-We recently added new tables to integrate Vertex API and on-chain data. You can find this data under the Arbitrum database.
-
-* _arbitrum.vertex.ez\_account\_stats_
-* _arbitrum.vertex.ez\_market\_depth\_stats_
-* _arbitrum.vertex.ez\_market\_stats_
-* _arbitrum.vertex.ez\_staking\_actions_
-* _arbitrum.vertex.ez\_edge\_trades_
+LiveQuery now has an increased response size and data limit.
 
 ### Useful Resources&#x20;
 
