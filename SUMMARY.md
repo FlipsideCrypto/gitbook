@@ -324,8 +324,8 @@
 
 ## Release Notes
 
-* [2024-05-02 | Release Notes](release-notes/2024-04-18-release-notes.md)
-* [2024-04-18 | Release Notes](release-notes/2024-04-18-release-notes-1.md)
+* [2024-05-02 | Release Notes](release-notes/2024-05-02-release-notes.md)
+* [2024-04-18 | Release Notes](release-notes/2024-04-18-release-notes.md)
 * [2024-04-05 | Release Notes](release-notes/2024-04-05-release-notes.md)
 * [2024-03-18 | Release Notes](release-notes/2024-03-18-data-updates.md)
 * [2024-03-05 | Release Notes](release-notes/2024-03-05-data-updates.md)
