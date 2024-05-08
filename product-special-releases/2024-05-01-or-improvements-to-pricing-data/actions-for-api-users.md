@@ -38,8 +38,8 @@ The following chains are affected:
 We will send you an email as we get closer to remind you.&#x20;
 {% endhint %}
 
-### Bonus: How to get CoinGecko token prices
+### Bonus: How to get improved token prices
 
-To pull pricing data from 15,000+ tokens from CoinGecko into your queries, you can use the `Crosschain` dataset and query `select * from crosschain.price.ez_hourly_token_prices` and select any token from the available list.
+To pull pricing data from 15,000+ tokens from CoinGecko, CoinMarketCap, and various other sources into your queries, analysts use the Crosschain data set and query `select * from` `crosschain.price.ez_prices_hourly` to select any token from the available list.
 
 \

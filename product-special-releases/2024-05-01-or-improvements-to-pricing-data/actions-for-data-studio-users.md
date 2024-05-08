@@ -6,9 +6,9 @@ description: >-
 
 # Actions for Data Studio Users
 
-### Update #1: Get CoinGecko token prices
+### Update #1: Get improved token prices
 
-To pull pricing data from 15,000+ tokens from CoinGecko into your queries, analysts use the `Crosschain` data set and query `select * from crosschain.price.ez_hourly_token_prices` to select any token from the available list.
+To pull pricing data from 15,000+ tokens from CoinGecko, CoinMarketCap, and various other sources into your queries, analysts use the Crosschain data set and query `select * from` `crosschain.price.ez_prices_hourly` to select any token from the available list.
 
 ### Update #2: Replace old tables and column with optimized tables
 

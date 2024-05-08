@@ -38,8 +38,8 @@ The following chains are affected:
 We will send you an email as we get closer to remind you.&#x20;
 {% endhint %}
 
-### Bonus: How to access CoinGecko token prices
+### Bonus:  How to get improved token prices
 
-To pull pricing data from 15,000+ tokens from CoinGecko into your queries, use the [Metadata Schema ](#user-content-fn-1)[^1]\(named Meta in Snowflake) and query `select * from`` `**`database`**`.price.ez_hourly_token_prices` and select any token from the available list.&#x20;
+To pull pricing data from 15,000+ tokens from CoinGecko, CoinMarketCap, and various other sources into your queries, use the [Metadata Schema ](#user-content-fn-1)[^1]\(named Meta in Snowflake) and query `select * from` **`database`**`.price.ez_prices_hourly` to select any token from the available list.
 
 [^1]: This schema comes with every data share subscription. Don't have access to the Metadata Schema? Reach out to your representative to get access.
