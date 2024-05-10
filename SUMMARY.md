@@ -281,6 +281,7 @@
 
 ***
 
+* [Page](page.md)
 * [Grail Game Guide](grail-game-guide/README.md)
   * [🃏 Game Rules](grail-game-guide/game-rules.md)
   * [🥇 Leaderboard & Rewards](grail-game-guide/leaderboard-and-rewards.md)

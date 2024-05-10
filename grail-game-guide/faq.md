@@ -69,3 +69,11 @@ If you have already built a base deck of 3 and used your initial draw you will r
 You must do your own research and determine how to complete the Multiplier Quest to collect the Multiplier.&#x20;
 
 </details>
+
+<details>
+
+<summary>Why am I being banned or hidden from the leaderboard?</summary>
+
+If you cycle you will be banned :(&#x20;
+
+</details>
