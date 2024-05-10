@@ -32,6 +32,10 @@ Allowed tokens:
 * BTC
 * CAKE
 
+{% hint style="danger" %}
+If you attempt to "cycle" assets you will be banned.
+{% endhint %}
+
 ### 2. Multiplier Quests
 
 Completing Multiplier Quests will earn you multipliers that can be applied to the base points you're earning from bridging capital.
