@@ -28,7 +28,7 @@ A Uniswap project, Token Lists, is a community-led initiative to improve discove
 
 **New Table:**
 
-This table records all the NFT sales actions onf the main Near marketplaces.
+This table records all the NFT sales actions on the main Near marketplaces.
 
 * _core.ez\_nft\_sales_
 
@@ -36,7 +36,7 @@ This table records all the NFT sales actions onf the main Near marketplaces.
 
 **New Table:**
 
-This table enables easier analysis ofinto Meteora, one of the largest platforms for providing liquidity. The newly added data includes any actions involving the deposit and withdrawal of tokens, as well as related mints and burns of LP tokens.
+This table enables easier analysis of Meteora, one of the largest platforms for providing liquidity. The newly added data includes any actions involving the deposit and withdrawal of tokens, as well as related mints and burns of LP tokens.
 
 * _defi.fact\_liquidity\_pool\_actions_
 
