@@ -7,6 +7,7 @@
   * [Pro](choose-your-flipside-plan/pro/README.md)
     * [Get Started in Snowflake](choose-your-flipside-plan/pro/get-started-in-snowflake.md)
     * [Incremental Table Pattern](choose-your-flipside-plan/pro/incremental-table-pattern.md)
+    * [Copy Data from Snowflake to AWS](choose-your-flipside-plan/pro/copy-data-from-snowflake-to-aws.md)
   * [Snowflake Data Shares](choose-your-flipside-plan/snowflake-data-shares/README.md)
     * [Mounting a Snowflake Data Share](choose-your-flipside-plan/snowflake-data-shares/mounting-a-snowflake-data-share.md)
 
