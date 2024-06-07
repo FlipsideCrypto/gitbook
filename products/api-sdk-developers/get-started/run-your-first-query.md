@@ -1,6 +1,6 @@
 # Run Your First Query
 
-This tutorial assumes you have already signed up for a Flipside Account and generated an API key [here in Flipside's Data Studio](https://flipsidecrypto.xyz/account/api-keys).&#x20;
+This tutorial assumes you have already signed up for a Flipside Account and generated an API key [here in Flipside's Data Studio](https://flipsidecrypto.xyz/settings/api).
 
 ### 1. Install the SDK (or skip to #2 if using the API directly)
 
@@ -38,10 +38,11 @@ install.packages("shroomDK") # from CRAN
 
 {% tabs %}
 {% tab title="Python SDK" %}
-<pre class="language-python"><code class="lang-python">from flipside import Flipside
+```python
+from flipside import Flipside
 
 # Initialize `Flipside` with your API Key and API Url
-flipside = Flipside("&#x3C;YOUR_API_KEY>", "https://api-v2.flipsidecrypto.xyz")
+flipside = Flipside("<YOUR_API_KEY>", "https://api-v2.flipsidecrypto.xyz")
 
 sql = """
 SELECT 
@@ -51,10 +52,10 @@ FROM ethereum.core.fact_transactions
 WHERE block_timestamp >= GETDATE() - interval'7 days'
 GROUP BY 1
 """
-<strong>
-</strong># Run the query against Flipside's query engine and await the results
+
+# Run the query against Flipside's query engine and await the results
 query_result_set = flipside.query(sql)
-</code></pre>
+```
 {% endtab %}
 
 {% tab title="JS/TS/Node SDK" %}
@@ -82,8 +83,8 @@ const queryResultSet = await flipside.query.run({sql: sql});
 
 {% tab title="R SDK" %}
 <pre><code><strong>library(shroomDK)
-</strong><strong>
-</strong><strong>api_key = readLines("api_key.txt") # always gitignore your API keys!
+</strong>
+<strong>api_key = readLines("api_key.txt") # always gitignore your API keys!
 </strong>
 query &#x3C;- { 
 "
@@ -213,7 +214,5 @@ page_count = 2
 # combine into a single data frame.
    results <- do.call(rbind.data.frame, results)
 ```
-
-
 {% endtab %}
 {% endtabs %}

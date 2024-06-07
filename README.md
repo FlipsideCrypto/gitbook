@@ -14,7 +14,7 @@ Analyze blockchain data with Snowflake SQL, create visualizations, and show off 
 **Ideal for analysts:** Exploratory Data Analysis (EDA), growing your [analyst brand](https://flipsidecrypto.xyz/discover/analysts), building in public.
 
 \
-[🛠️](https://emojipedia.org/hammer-and-wrench) [**AP**](https://flipsidecrypto.xyz/account/api-keys)[**I & SDK**](https://flipsidecrypto.xyz/settings/api-keys)\
+[🛠️](https://emojipedia.org/hammer-and-wrench) [**API & SDK**](https://flipsidecrypto.xyz/settings/api)\
 Generate an API key to submit queries directly from your dev or data science environment.\
 \
 **Ideal for builders:** Models, forecasts, or custom apps built in R, Python, React, or similar.

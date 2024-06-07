@@ -10,7 +10,7 @@ description: >-
 
 ### 1. 🔑 Get Your Key
 
-Go to the [Flipside Data Studio](https://flipsidecrypto.xyz/settings/api-keys) and click "API" to generate your API key. Every account comes with 5000 free query seconds per month.
+Go to the [Flipside Data Studio](https://flipsidecrypto.xyz/settings/api) and click "API" to generate your API key. Every account comes with 5000 free query seconds per month.
 
 ### 2. 🛠 Pick Your SDK and Install It
 
