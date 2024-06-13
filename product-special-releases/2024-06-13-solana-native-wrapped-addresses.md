@@ -20,7 +20,7 @@ Table names and columns will stay the same and will only impact user querying th
 
 **What will happen if I don't do anything?**
 
-If you have a querying reverencing the native SOL address in the `fact_transfers` table you may see a decrease in your results.
+If you have a query referencing the native SOL address in the `fact_transfers` table you may see a decrease in your results.
 
 **How do I account for this change?**
 
