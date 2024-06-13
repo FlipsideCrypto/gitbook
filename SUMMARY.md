@@ -327,6 +327,7 @@
 
 ## 🌟 Product Special Releases
 
+* [2024-06-13 | Solana native and wrapped addresses](product-special-releases/2024-06-13-solana-native-wrapped-addresses.md)
 * [2024-05-01 | Improvements to Pricing Data](product-special-releases/2024-05-01-or-improvements-to-pricing-data/README.md)
   * [Actions for Data Studio Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/actions-for-data-studio-users.md)
   * [Actions for API Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/actions-for-api-users.md)
