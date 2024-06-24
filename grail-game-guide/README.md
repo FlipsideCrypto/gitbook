@@ -1,51 +1,22 @@
----
-description: Let's Play a Game
----
-
 # Grail Game Guide
 
-## Welcome to the Grail Game Guide
+Grail is a new type of on-chain game where you use your tokens, skills, and a bit of luck to compete for a massive prize pool. Your objective is to accumulate as many points as you can by the end of the game.
 
-Grail is a new type of on-chain game, launching first on Aptos.&#x20;
+🔒 Season 1 on Aptos: Concluded on May 31, 2024
 
-Use your tokens, skills, and a bit of luck to compete for a $100,000 prize pool.
+* Prize pool: $100,000
 
-The game officially begins **Monday, May 6th, 2024, at 2 p.m. ET** and ends **Friday,** **May 31st at 11:59 pm ET.**&#x20;
+**🎉  Season 2 on NEAR: We’re LIVE!**&#x20;
 
-Your objective is to accumulate as many points as you can by the end of the game to earn your share of a $100k prize pool.
-
-***
-
-### Get Started
-
-#### 🎁 **Step #1: Enroll in the Game**
-
-If you're not already enrolled in the game, you can enroll below (_an invite code is included in the link below_):
-
-👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇
-
-👉👉 👉 [https://flipsidecrypto.xyz/grail/aptos/s1?code=U3CK8](https://flipsidecrypto.xyz/grail/aptos/s1?code=U3CK8) 👈👈👈
-
-👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆👆
-
-#### 🗺️ **Step #2:**&#x20;
-
-Explore the resources below to learn more about the game's rules, and rewards.
+* Prize pool: **$150,000**
+* Early Access Starts: **June 24, 2024** at 2 pm PT
+* General Access Starts: **June 26, 2024** at 12 pm PT
+* Ends: July 12, 2024 at 11:59 am PT
 
 ***
 
-### Resources
+## How to Join
 
-Below are some resources to help get you oriented:
+Enroll here:
 
-{% content-ref url="game-rules.md" %}
-[game-rules.md](game-rules.md)
-{% endcontent-ref %}
-
-{% content-ref url="leaderboard-and-rewards.md" %}
-[leaderboard-and-rewards.md](leaderboard-and-rewards.md)
-{% endcontent-ref %}
-
-{% content-ref url="faq.md" %}
-[faq.md](faq.md)
-{% endcontent-ref %}
+👉👉 👉[ ](https://flipsidecrypto.xyz/grail/aptos/s1?code=U3CK8)[https://flipsidecrypto.xyz/grail/near/s2?code=AY2IW](https://flipsidecrypto.xyz/grail/near/s2?code=AY2IW)​​👈👈👈
