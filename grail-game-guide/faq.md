@@ -56,16 +56,6 @@ Changing your NEAR wallet address in Flipside Earn (address used for [**Flipside
 
 <details>
 
-<summary>👛 Why should I use a new wallet for the game?</summary>
-
-We recommend registering for Grail with a **dedicated wallet address** and not your day-to-day  address.&#x20;
-
-When you bridge capital out of NEAR as part of your usual onchain activity, it will reduce your net bridged amount in Grail. This will lead you to accumulate fewer points or even 0 points. Using a dedicated address will help keep your Grail points unaffected by your regular transactions.&#x20;
-
-</details>
-
-<details>
-
 <summary>❓ Why is my bridged amounts not showing? Why are my points not adding? </summary>
 
 The Grail page uses data from Flipside NEAR tables. Grail amounts and points update [**when the tables are updated**](https://flipsidecrypto.xyz/mar1na-catscatscode/q/HVW9XO\_REVRa/2024-06-18-06-53-pm). Please wait at least 3 hours before reporting a missing transaction or points.&#x20;
@@ -115,9 +105,9 @@ Please wait at least 3 hours from your transaction before reporting issues with 
 
 <summary>❓I can't draw a Multiplier. Why not?</summary>
 
-You cannot draw your first multiplier until you have added a minimum of 3 multipliers to your deck! To add these multipliers to your deck complete a minimum of 3 Multiplier Quests.&#x20;
+You cannot draw your first multiplier until you have added a minimum of 1 multiplier to your deck! To a multiplier to your deck complete a Multiplier Quest.&#x20;
 
-If you have already built a base deck of 3 and used your initial draw you will receive a new draw every 24 hours. These draws are cumulative.&#x20;
+If you have already used your initial draw you will receive a new draw every 24 hours. These draws are cumulative.&#x20;
 
 Each multiplier can only be used once.
 
@@ -136,6 +126,14 @@ Multipliers are random, and each multiplier can only be used once.
 <summary>❓Are there instructions for how complete Multiplier Quests?</summary>
 
 We encourage you to do your own research and determine how to complete the Multiplier Quest to collect the Multiplier. If you are a seasoned web3 user, you may have an edge over other players.&#x20;
+
+</details>
+
+<details>
+
+<summary>❓Do I have to fill out the Tax Summary in Flipside Earn to collect my rewards?</summary>
+
+Flipside is required to collect information for participants who earn $600+ in USD value. If your rewards (across all our programs) reach that amount, you will be required to complete the Tax Summary before claiming rewards. Read more about the Tax Center [**here**](https://docs.flipsidecrypto.xyz/earn/tax-center).
 
 </details>
 

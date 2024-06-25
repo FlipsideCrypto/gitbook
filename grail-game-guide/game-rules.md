@@ -18,12 +18,12 @@ The primary method to earn points is by bridging tokens into NEAR. Only the tran
 
 Allowed tokens (find the [**supported token addresses here**](https://docs.google.com/spreadsheets/d/1lhC4pGl0-QozPFJ8T2ORHR1vFeeeBEt7kc6zScbowKo/edit#gid=0)):
 
-* USDT
+* USDC.e
+* USDT.e
 * DAI
-* TUSD
-* USDC
 * WBTC
 * WETH
+* TUSD
 * AAVE
 * COMP
 * UNI
@@ -57,7 +57,7 @@ Multipliers can vary significantly. Some may offer a modest increase in points, 
 
 #### **Drawing from Your Deck**
 
-To start utilizing your deck, you must first collect a minimum of three multipliers. Each day, you can draw one multiplier at random from your deck to apply to your points per second earnings. A drawn multiplier is only active for 24 hours before it starts to decay.
+To start utilizing your deck, you must first collect at least one multiplier. Each day, you can draw one multiplier at random from your deck to apply to your points per second earnings. A drawn multiplier is only active for 24 hours before it starts to decay.
 
 This means:
 
