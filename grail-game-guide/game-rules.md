@@ -16,18 +16,9 @@ Your primary goal is to amass the maximum points by the game's conclusion to ear
 
 The primary method to earn points is by bridging tokens into NEAR. Only the transactions that use the **Rainbow Bridge** and tokens from the allowlist are eligible. For every second you keep your tokens bridged in, you earn points based on the USD value of those tokens at the time you bridged them. When you unbridge tokens, you no longer earn points for those tokens.
 
-Allowed tokens (find the [**supported token addresses here**](https://docs.google.com/spreadsheets/d/1lhC4pGl0-QozPFJ8T2ORHR1vFeeeBEt7kc6zScbowKo/edit#gid=0)):
+Find the [**supported token addresses here**](https://docs.google.com/spreadsheets/d/1lhC4pGl0-QozPFJ8T2ORHR1vFeeeBEt7kc6zScbowKo/edit#gid=0). Bridging unsupported tokens will not earn points.&#x20;
 
-* USDC.e
-* USDT.e
-* DAI
-* WBTC
-* WETH
-* TUSD
-* AAVE
-* COMP
-* UNI
-* 1INCH
+_ETH (contract address = `aurora`) is supported starting on June 26, 2024 12pm ET._
 
 {% hint style="danger" %}
 If you attempt to "cycle" assets you will be banned.

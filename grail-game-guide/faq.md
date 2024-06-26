@@ -32,7 +32,9 @@ The game ends Friday, July 12th, 2024 at 11:59 am PT.
 
 <summary>🪙 What bridges and tokens are supported?</summary>
 
-Only the **Rainbow Bridge** and only the **tokens from the** [**allowlist**](https://docs.google.com/spreadsheets/d/1lhC4pGl0-QozPFJ8T2ORHR1vFeeeBEt7kc6zScbowKo/edit#gid=0) are eligible for Grail Season 2 on NEAR.
+Only the **Rainbow Bridge** and only the **tokens from the** [**allowlist**](https://docs.google.com/spreadsheets/d/1lhC4pGl0-QozPFJ8T2ORHR1vFeeeBEt7kc6zScbowKo/edit#gid=0) are eligible for Grail Season 2 on NEAR.&#x20;
+
+_ETH (contract address = `aurora`) is a supported token starting on June 26, 2024 12pm ET._
 
 </details>
 
