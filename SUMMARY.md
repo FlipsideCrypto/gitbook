@@ -335,6 +335,7 @@
 
 ## Release Notes
 
+* [2024-06-27 | Release Notes](release-notes/2024-06-27-release-notes.md)
 * [2024-06-14 | Release Notes](release-notes/2024-06-14-release-notes.md)
 * [2024-05-30 | Release Notes](release-notes/2024-05-30-release-notes.md)
 * [2024-05-16 | Release Notes](release-notes/2024-05-16-release-notes.md)
