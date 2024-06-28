@@ -277,8 +277,9 @@
 ## Earn
 
 * [Earn with Flipside](earn/analyst-rewards/README.md)
-  * [✨Top 30✨ Dashboard Rewards](earn/analyst-rewards/top-30-dashboard-rewards.md)
-  * [✨Top 8✨ Dashboard Rewards](earn/analyst-rewards/top-8-dashboard-rewards.md)
+  * [Top Dashboards](earn/analyst-rewards/top-dashboards/README.md)
+    * [Top Dashboard Guidelines](earn/analyst-rewards/top-dashboards/top-dashboard-guidelines.md)
+    * [Skill Tree](https://teamflipside.notion.site/Flipside-Crypto-Skill-Tree-07ba97789c8e4ffc96634369c5e684b6)
 * [Addresses](earn/addresses.md)
 * [Tax Center](earn/tax-center.md)
 
@@ -319,9 +320,7 @@
 * [Get Started](flipside-community/get-started.md)
 * [How to Analyze Web3 Data](flipside-community/how-to-analyze-web3-data.md)
 * [Ambassador Program](flipside-community/ambassador-program.md)
-* [Community Analytics Guidelines](flipside-community/community-analytics-guidelines.md)
 * [Links & Resources](flipside-community/links-and-resources.md)
-* [Skill Tree](https://verbena-soul-020.notion.site/Flipside-Crypto-Skill-Tree-v7-f15753bcf23f4208a421c2339f5b0a27?pvs=4)
 * [Join Our Discord](https://discord.gg/flipside)
 * [Join Our Guild](https://guild.xyz/flipside-crypto)
 
