@@ -16,7 +16,7 @@ Trending dashboard rankings on our [**Insights**](https://flipsidecrypto.xyz/ins
 
 Rewards are assigned based on a dashboard's rank on [**Flipside's trending insights page**](https://flipsidecrypto.xyz/insights/dashboards) and the League the analyst is in.
 
-To be eligible, dashboards must follow [**Top Dashboard Guidelines**](https://docs.flipsidecrypto.xyz/flipside-community/top-dashboard-guidelines).
+To be eligible, dashboards must follow [**Top Dashboard Guidelines**](https://docs.flipsidecrypto.xyz/earn/analyst-rewards/top-dashboards/top-dashboard-guidelines).
 
 ### Gold League
 
@@ -33,7 +33,7 @@ Silver League is an opportunity to earn while you learn. As a newer or upskillin
 
 Silver League includes accounts created less than 3 months ago, accounts with <10 hours in the Gold League, and accounts added to Silver League for accelerated upskilling.&#x20;
 
-The maximum duration of being eligible is 3 months. It is possible to advance to Gold League at any point, or at the end of this period. Advancing is based on the strength of the Peer Reviews of your outputs that our experienced community Reviewers continuously conduct, and also on not violating [**Top Dashboard Guidelines**](https://docs.flipsidecrypto.xyz/flipside-community/top-dashboard-guidelines).
+The maximum duration of being eligible is 3 months. It is possible to advance to Gold League at any point, or at the end of this period. Advancing is based on the strength of the Peer Reviews of your outputs that our experienced community Reviewers continuously conduct, and also on not violating [**Top Dashboard Guidelines**](https://docs.flipsidecrypto.xyz/earn/analyst-rewards/top-dashboards/top-dashboard-guidelines).
 
 | Silver League Dashboard Rank | Reward     |
 | ---------------------------- | ---------- |
