@@ -41,7 +41,7 @@ The maximum duration of being eligible is 3 months. It is possible to advance to
 
 ### Boosts
 
-Boosts are limited-time reward multipliers that apply to dashboards on certain ecosystems or topics during specific time periods.&#x20;
+Boosts are limited-time reward multipliers in the Gold League that apply to dashboards on certain ecosystems or topics during specific time periods.&#x20;
 
 To find out what boosts are currently active and coming up:&#x20;
 
