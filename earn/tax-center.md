@@ -2,7 +2,7 @@
 
 Flipside has integrated [TaxBit](https://taxbit.com/) to make it easier for users to report their earnings.
 
-Users of Flipside Earn that participate in programs including but not limited to Top 8, Top 30, Quests, Ambassadors, and Direct-to-Analyst requests are required to provide information required to generate a W9 or W8.
+Users of Flipside Earn that participate in programs including but not limited to Top Dashboards, Quests, Ambassadors, and Direct-to-Analyst requests are required to provide information required to generate a W9 or W8.
 
 Learn more about these forms on the IRS website:
 
@@ -22,15 +22,15 @@ Flipside does not store this information.
 
 Visit [Flipside Earn](https://flipsidecrypto.xyz/earn) and navigate to the Tax Summary card to complete this process.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Once information is verified with the IRS via TaxBit, the status will change to verified and the user can continue to claim rewards at will.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 If information is invalid or the user wishes to assign the earnings to a different legal entity, the user may resubmit using the `Edit Tax Info` button.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 1099-MISC forms will be made available to Flipside Earn users in early 2024.
 
@@ -40,4 +40,4 @@ As of November 2023, Flipside Earn supports one legal entity per Flipside user.&
 
 Earnings associated with a Team will be assigned to the legal entity of the team’s owner.&#x20;
 
-If you have a complicated tax situation and need support, please reach out via this [form](https://share.hsforms.com/1PtUn6I6wQ3erCbc33eZDrQedyra).
+If you have a complicated tax situation and need support, please reach out by [opening a support ticket.](https://docs.flipsidecrypto.xyz/support/open-a-ticket)

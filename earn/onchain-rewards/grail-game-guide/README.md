@@ -1,6 +1,6 @@
 # Grail Game Guide
 
-Grail is a new type of on-chain game where you use your tokens, skills, and a bit of luck to compete for a massive prize pool. Your objective is to accumulate as many points as you can by the end of the game.
+Grail is a new type of onchain game where you use your tokens, skills, and a bit of luck to compete for a massive prize pool. Your objective is to accumulate as many points as you can by the end of the game.
 
 🔒 Season 1 on Aptos: Concluded on May 31, 2024
 
