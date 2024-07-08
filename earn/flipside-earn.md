@@ -15,9 +15,9 @@ Get paid to use top protocols and level up your onchain score.
 
 We’re dedicated to paying analysts, not charging them. Build your brand while building your stacks.
 
-* [Top Dashboards](analyst-rewards-1/top-dashboards/)
-* [Ambassador Program ](analyst-rewards-1/ambassador-program.md)
-* [Direct to Analyst Commissions](analyst-rewards-1/direct-to-analyst-commissions.md)
+* [Top Dashboards](analyst-rewards/top-dashboards/)
+* [Ambassador Program ](analyst-rewards/ambassador-program.md)
+* [Direct to Analyst Commissions](analyst-rewards/direct-to-analyst-commissions.md)
 
 
 

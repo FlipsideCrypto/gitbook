@@ -276,19 +276,19 @@
 
 ## Earn
 
-* [Flipside Earn](earn/analyst-rewards.md)
+* [Flipside Earn](earn/flipside-earn.md)
 * [Onchain Rewards](earn/onchain-rewards/README.md)
   * [Quests](earn/onchain-rewards/quests.md)
   * [Grail Game Guide](earn/onchain-rewards/grail-game-guide/README.md)
     * [🃏 Game Rules](earn/onchain-rewards/grail-game-guide/game-rules.md)
     * [🥇 Leaderboard & Rewards](earn/onchain-rewards/grail-game-guide/leaderboard-and-rewards.md)
     * [🙋‍♀️ FAQ](earn/onchain-rewards/grail-game-guide/faq.md)
-* [Analyst Rewards](earn/analyst-rewards-1/README.md)
-  * [Top Dashboards](earn/analyst-rewards-1/top-dashboards/README.md)
-    * [Top Dashboard Guidelines](earn/analyst-rewards-1/top-dashboards/top-dashboard-guidelines.md)
+* [Analyst Rewards](earn/analyst-rewards/README.md)
+  * [Top Dashboards](earn/analyst-rewards/top-dashboards/README.md)
+    * [Top Dashboard Guidelines](earn/analyst-rewards/top-dashboards/top-dashboard-guidelines.md)
     * [Skill Tree](https://teamflipside.notion.site/Flipside-Crypto-Skill-Tree-07ba97789c8e4ffc96634369c5e684b6)
-  * [Ambassador Program](earn/analyst-rewards-1/ambassador-program.md)
-  * [Direct to Analyst Commissions](earn/analyst-rewards-1/direct-to-analyst-commissions.md)
+  * [Ambassador Program](earn/analyst-rewards/ambassador-program.md)
+  * [Direct to Analyst Commissions](earn/analyst-rewards/direct-to-analyst-commissions.md)
 * [Wallet Management](earn/wallet-management.md)
 * [Tax Center](earn/tax-center.md)
 
