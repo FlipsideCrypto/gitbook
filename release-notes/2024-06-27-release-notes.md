@@ -1,17 +1,18 @@
 ---
 description: >-
-  New and updated tables for Ethereum, Kaia, M1, and Solana. New Olas Network
-  schemas added to Crosschain database (studio only).
+  Major upgrade to Thorchain database impacted by Midgard indexer upgrade
+  (v2.22.3), updated NFT tables for Ethereum and NEAR, and the final CORE tables
+  have been added to Kaia.
 ---
 
-# 2024-06-27 | Release Notes
+# 2024-07-11 | Release Notes
 
 ### Highlights
 
-A ton of new updates and improvements to Ethereum, Kaia (New Chain), and Solana. Plus new devnet data for M1 chain from [Movement Labs](https://movementlabs.xyz/) and Olas Network schemas added to our Crosschain (studio only) database.&#x20;
+Lots of powerful updates on some of our most popular blockchains. All Kaia CORE tables are now available, Ethereum `ez_nft_sales` table has been revamped so you can query v1 or v2 of Sudoswap NFT marketplace, NEAR `ez_nft_sales` table has been updated with new NFT royalties data, and tons of new Thorchain due to the  Midgard indexer upgrade (v2.22.3).&#x20;
 
 {% hint style="warning" %}
-As a reminder on **July 15th** we’re making an update to the solana.core.fact\_transfers table to include both native and wrapped solana addresses in the mint column. You can learn more about this change on our docs [here](https://docs.flipsidecrypto.xyz/product-special-releases/2024-06-13-solana-native-wrapped-addresses).
+As a reminder on **July 15th** we’re making an update to the solana.core.fact\_transfers table to include both native and wrapped Solana addresses in the mint column. You can learn more about this change on our docs [here](https://docs.flipsidecrypto.xyz/product-special-releases/2024-06-13-solana-native-wrapped-addresses).
 {% endhint %}
 
 Check out these updates and the rest of the release notes below.
@@ -20,72 +21,57 @@ Check out these updates and the rest of the release notes below.
 
 **Updated Table**
 
-Added a new refinancing contract from NFTfi v2. This new contract allows users to refinance a loan by closing the existing loan and opening another in the same transaction.
+Sudoswap NFT sales data has been revamped! You can now query the v1 and v2 sales using this filter: platform\_exchange\_version in ('sudoswap v1', 'sudoswap v2')
 
-* `ethereum.nft.ez_lending_loans`
-
-### Crosschain (Studio Only)
-
-**New Tables**
-
-These new tables include schemas for olas.network. Learn more about Olas [here](https://olas.network/).
-
-* `crosschain.olas.dim_registry_metadata`
-* `crosschain.olas.ez_mech_activity`
-* `crosschain.olas.ez_olas_bonding`
-* `crosschain.olas.ez_olas_locking`
-* `crosschain.olas.ez_olas_staking`
-* `crosschain.olas.ez_service_checkpoints`
-* `crosschain.olas.ez_service_donations`
-* `crosschain.olas.ez_service_evictions`
-* `crosschain.olas.ez_service_registrations`
-* `crosschain.olas.ez_service_staking`
-* `crosschain.olas.ez_unit_registrations`
-* `crosschain.olas.fact_mech_activity`
-* `crosschain.olas.fact_pol_transfers`
-* `crosschain.olas.fact_service_events`
+* `etherum.nft.ez_nft_sales`
 
 ### [Kaia](https://flipsidecrypto.github.io/kaia-models/#!/overview)
 
 **New Tables**
 
-These new tables add decoded event logs.
+All core tables have now been added to our [Kaia](https://klaytn.foundation/say-hello-to-kaia/) database. The following tables have been added this week.
 
-* `kaia.core.fact_decoded_event_logs`
-* `kaia.core.ez_decoded_event_logs`
+* `kaia.core.ez_native_transfers`
+* `kaia.core.dim_contract_abis`
+* `kaia.core.dim_contracts`
+* `kaia.core.ez_token_transfers`
+* `kaia.core.fact_token_transfers`
 
-### M1
+### [NEAR](https://flipsidecrypto.github.io/near-models/#!/overview)
+
+**Updated Table**
+
+Royalties have been added for those NFT marketplaces that adhere to NEP standards (Mintbase and Paras), along with a detailed breakdown of their platform fees to simplify future calculations.
+
+* `near.nft.ez_nft_sales`
+
+### [Thorchain](https://flipsidecrypto.github.io/thorchain-models/#!/overview/thorchain\_models)
+
+With the Midgard indexer upgrade (v2.22.3) we’ve added 5 new tables and updated our existing fact tables with some columns becoming deprecated. Loan open and repayment events, and streaming swap details are now filled with NULL values in the updated tables. Transaction type has been added to a number of add, bond, outbound, refund, reserve, and swap events, and Thorname change events will have enhanced memo info.
 
 **New Tables**
 
-New core tables for the M1 blockchain devnet. These tables match the format of Aptos and are from the M1 devnet. There is no mainnet at this time.
-
-* `m1.core.fact_blocks`
-* `m1.core.fact_changes`
-* `m1.core.fact_events`
-* `m1.core.fact_transactions`
-* `m1.core.fact_transactions_block_metadata`
-* `m1.core.fact_transactions_state_checkpoint`
-
-### [Solana](https://flipsidecrypto.github.io/solana-models/#!/overview)
-
-**New Tables**
-
-These new tables provide the beginning and ending balances for each account involved in a transaction. Fact\_sol\_balances contains native SOL accounts, and fact\_token\_balances contains information for all token accounts. This table allows for easier analysis into balance changes that occur in transactions, including verifying the balance changes for an account and tracking changes over time.
-
-* `solana.core.fact_token_balances`
-* `solana.core.fact_sol_balances`
+* `thorchain.defi.fact_scheduled_outbound_events`
+* `thorchain.defi.fact_send_messages`
+* `thorchain.defi.trade_account_deposit_events`
+* `thorchain.defi.trade_account_withdraw_events`
+* `thorchain.price.fact_rune_price`
 
 **Updated Tables**
 
-* `solana.defi.fact_swaps` - This table now contains a more complete record of every individual swap performed on the Raydium dex.
-* `solana.defi.ez_swaps` - Analysts no longer have to perform additional joins to get info such as USD amounts or token symbols.
-
-**Reminder Updated Column Data**
-
-The address of native SOL will now be reflected in the 'mint' column. Native SOL is the native token of the Solana blockchain and is used for paying tx fees, staking and participating in governance. [Learn more about this change here](https://docs.flipsidecrypto.xyz/product-special-releases/2024-06-13-solana-native-wrapped-addresses).
-
-* `solana.core.fact_transfers`
+* `thorchain.defi.fact_add_events`
+* `thorchain.defi.fact_bond_actions`
+* `thorchain.defi.fact_bond_events`
+* `thorchain.defi.fact_loan_open_events`
+* `thorchain.defi.fact_loan_repayment_events`
+* `thorchain.defi.fact_outbound_events`
+* `thorchain.defi.fact_refund_events`
+* `thorchain.defi.fact_reserve_events`
+* `thorchain.defi.fact_streamling_swap_details_events`
+* `thorchain.defi.fact_swaps`
+* `thorchain.defi.fact_swaps_events`
+* `thorchain.defi.thorname_change_events`
+* `thorchain.defi.withdraw_events`
 
 #### Useful Resources
 
