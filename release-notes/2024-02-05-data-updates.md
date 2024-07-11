@@ -1,4 +1,4 @@
-# 2024-02-05 | Data Updates
+# 2024-02-05 | Release Notes
 
 ## [Solana](https://flipsidecrypto.github.io/solana-models/#!/overview)
 

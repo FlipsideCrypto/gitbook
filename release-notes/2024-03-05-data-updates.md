@@ -5,7 +5,7 @@ description: >-
   among the available NFT platforms.
 ---
 
-# 2024-03-05 | Data Updates
+# 2024-03-05 | Release Notes
 
 ## [Blast - _NEW_](https://flipsidecrypto.github.io/blast-models/#!/overview)
 

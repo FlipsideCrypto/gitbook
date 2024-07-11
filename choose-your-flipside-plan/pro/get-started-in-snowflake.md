@@ -26,7 +26,7 @@ Get started by following the demo video or written guide below:
 
 Now that you have your snowflake account set up, let's take a look at the data available.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-01-16 at 11.02.10 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-01-16 at 11.02.10 AM.png" alt=""><figcaption></figcaption></figure>
 
 1. Navigate to the left-hand side of the screen to find the "Data" section
 2. Browse through all of the Flipside Data Shares that have been share with your snowflake account where
@@ -40,7 +40,7 @@ Now that you have your snowflake account set up, let's take a look at the data a
 
 ### Run your First Query&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-01-16 at 11.04.07 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-01-16 at 11.04.07 AM.png" alt=""><figcaption></figcaption></figure>
 
 1. Navigate to the left-hand side of the screen again to find the "Worksheet" section&#x20;
 2. Create a new worksheet by clicking on the "+" button in the top-right corner
@@ -74,7 +74,7 @@ FROM dex_swaps
 GROUP BY dex_platform
 ```
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-01-16 at 11.09.15 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-01-16 at 11.09.15 AM.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -88,7 +88,7 @@ In the dropdown, at the top of the new worksheet, ensure that you've selected yo
 
 1.  Create a new SQL worksheet to write the code to generate a view&#x20;
 
-    <figure><img src="../../../../.gitbook/assets/Screenshot 2024-01-16 at 11.11.09 AM (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2024-01-16 at 11.11.09 AM (1).png" alt=""><figcaption></figcaption></figure>
 
 ```sql
 CREATE SCHEMA cross_chain;
@@ -133,5 +133,5 @@ SELECT * FROM cross_chain.latest_weekly_dex_volume;
     * Expand the **cross\_chain schema**&#x20;
     * Expand **Views**
 
-    <figure><img src="../../../../.gitbook/assets/Screenshot 2024-01-16 at 11.28.35 AM.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2024-01-16 at 11.28.35 AM.png" alt=""><figcaption></figcaption></figure>
 

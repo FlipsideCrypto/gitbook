@@ -18,7 +18,7 @@ The more analysts create dashboards to help keep the industry informed, the bett
 
 Programs like Leaderboard Rewards, direct-to-analyst bounties, and more can help you build your portfolio and your bags 💰
 
-See [Earn with Flipside](../../../earn/flipside-earn.md) to learn more.
+See [Earn with Flipside](../earn/flipside-earn.md) to learn more.
 
 
 

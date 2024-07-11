@@ -5,7 +5,7 @@ description: >-
   search queries
 ---
 
-# 2024-03-18 | Data & Product Updates
+# 2024-03-18 | Release Notes
 
 ## Highlights
 

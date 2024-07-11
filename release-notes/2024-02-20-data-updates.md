@@ -4,7 +4,7 @@ description: >-
   release table for Ethereum, and an upgraded data studio experience.
 ---
 
-# 2024-02-20 | Data Updates
+# 2024-02-20 | Release Notes
 
 ## [Avalanche](https://flipsidecrypto.github.io/avalanche-models/#!/overview)
 
