@@ -1,17 +1,22 @@
 # Table of contents
 
-* [Welcome to Flipside!](README.md)
-* [Choose your Flipside plan](choose-your-flipside-plan/README.md)
-  * [Free](choose-your-flipside-plan/free.md)
-  * [Builder](choose-your-flipside-plan/builder.md)
-  * [Pro](choose-your-flipside-plan/pro/README.md)
-    * [Get Started in Snowflake](choose-your-flipside-plan/pro/get-started-in-snowflake.md)
-    * [Incremental Table Pattern](choose-your-flipside-plan/pro/incremental-table-pattern.md)
-    * [Copy Data from Snowflake to AWS](choose-your-flipside-plan/pro/copy-data-from-snowflake-to-aws.md)
-    * [Copy Data from Snowflake to GCP](choose-your-flipside-plan/pro/copy-data-from-snowflake-to-gcp.md)
-    * [Copy Data from Snowflake to Azure](choose-your-flipside-plan/pro/copy-data-from-snowflake-to-azure.md)
-  * [Snowflake Data Shares](choose-your-flipside-plan/snowflake-data-shares/README.md)
-    * [Mounting a Snowflake Data Share](choose-your-flipside-plan/snowflake-data-shares/mounting-a-snowflake-data-share.md)
+## Welcome to Flipside!
+
+* [Welcome to Flipside](README.md)
+* [Data](welcome-to-flipside/data/README.md)
+  * [Choose your Flipside plan](welcome-to-flipside/data/choose-your-flipside-plan/README.md)
+    * [Free](welcome-to-flipside/data/choose-your-flipside-plan/free.md)
+    * [Builder](welcome-to-flipside/data/choose-your-flipside-plan/builder.md)
+    * [Pro](welcome-to-flipside/data/choose-your-flipside-plan/pro/README.md)
+      * [Get Started in Snowflake](welcome-to-flipside/data/choose-your-flipside-plan/pro/get-started-in-snowflake.md)
+      * [Incremental Table Pattern](welcome-to-flipside/data/choose-your-flipside-plan/pro/incremental-table-pattern.md)
+      * [Copy Data from Snowflake to AWS](welcome-to-flipside/data/choose-your-flipside-plan/pro/copy-data-from-snowflake-to-aws.md)
+      * [Copy Data from Snowflake to GCP](welcome-to-flipside/data/choose-your-flipside-plan/pro/copy-data-from-snowflake-to-gcp.md)
+      * [Copy Data from Snowflake to Azure](welcome-to-flipside/data/choose-your-flipside-plan/pro/copy-data-from-snowflake-to-azure.md)
+    * [Snowflake Data Shares](welcome-to-flipside/data/choose-your-flipside-plan/snowflake-data-shares/README.md)
+      * [Mounting a Snowflake Data Share](welcome-to-flipside/data/choose-your-flipside-plan/snowflake-data-shares/mounting-a-snowflake-data-share.md)
+* [Earn](welcome-to-flipside/earn.md)
+* [Community](welcome-to-flipside/flipside-community-overview.md)
 
 ## Products
 
@@ -297,6 +302,24 @@
 * [General Support](support/support.md)
 * [Open a Ticket](support/open-a-ticket.md)
   * [That email doesn't look quite right](support/open-a-ticket/that-email-doesnt-look-quite-right.md)
+* [🌟 Product Special Releases](support/product-special-releases/README.md)
+  * [2024-06-13 | Solana native and wrapped addresses](support/product-special-releases/2024-06-13-solana-native-wrapped-addresses.md)
+  * [2024-05-01 | Improvements to Pricing Data](support/product-special-releases/2024-05-01-or-improvements-to-pricing-data/README.md)
+    * [Actions for Data Studio Users](support/product-special-releases/2024-05-01-or-improvements-to-pricing-data/actions-for-data-studio-users.md)
+    * [Actions for API Users](support/product-special-releases/2024-05-01-or-improvements-to-pricing-data/actions-for-api-users.md)
+    * [Action for Data Share Users](support/product-special-releases/2024-05-01-or-improvements-to-pricing-data/action-for-data-share-users.md)
+* [🗒️ Release Notes](support/release-notes/README.md)
+  * [2024-06-27 | Release Notes](support/release-notes/2024-06-27-release-notes.md)
+  * [2024-06-14 | Release Notes](support/release-notes/2024-06-14-release-notes.md)
+  * [2024-05-30 | Release Notes](support/release-notes/2024-05-30-release-notes.md)
+  * [2024-05-16 | Release Notes](support/release-notes/2024-05-16-release-notes.md)
+  * [2024-05-02 | Release Notes](support/release-notes/2024-05-02-release-notes.md)
+  * [2024-04-18 | Release Notes](support/release-notes/2024-04-18-release-notes.md)
+  * [2024-04-05 | Release Notes](support/release-notes/2024-04-05-release-notes.md)
+  * [2024-03-18 | Release Notes](support/release-notes/2024-03-18-data-updates.md)
+  * [2024-03-05 | Release Notes](support/release-notes/2024-03-05-data-updates.md)
+  * [2024-02-20 | Release Notes](support/release-notes/2024-02-20-data-updates.md)
+  * [2024-02-05 | Release Notes](support/release-notes/2024-02-05-data-updates.md)
 
 ## Resources
 
@@ -319,7 +342,6 @@
 
 ## Flipside Community
 
-* [Get Started](flipside-community/get-started.md)
 * [How to Analyze Web3 Data](flipside-community/how-to-analyze-web3-data.md)
 * [Ambassador Program](flipside-community/ambassador-program.md)
 * [Links & Resources](flipside-community/links-and-resources.md)
@@ -327,23 +349,3 @@
 * [Join Our Guild](https://guild.xyz/flipside-crypto)
 
 ## 🌟 Product Special Releases
-
-* [2024-06-13 | Solana native and wrapped addresses](product-special-releases/2024-06-13-solana-native-wrapped-addresses.md)
-* [2024-05-01 | Improvements to Pricing Data](product-special-releases/2024-05-01-or-improvements-to-pricing-data/README.md)
-  * [Actions for Data Studio Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/actions-for-data-studio-users.md)
-  * [Actions for API Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/actions-for-api-users.md)
-  * [Action for Data Share Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/action-for-data-share-users.md)
-
-## Release Notes
-
-* [2024-06-27 | Release Notes](release-notes/2024-06-27-release-notes.md)
-* [2024-06-14 | Release Notes](release-notes/2024-06-14-release-notes.md)
-* [2024-05-30 | Release Notes](release-notes/2024-05-30-release-notes.md)
-* [2024-05-16 | Release Notes](release-notes/2024-05-16-release-notes.md)
-* [2024-05-02 | Release Notes](release-notes/2024-05-02-release-notes.md)
-* [2024-04-18 | Release Notes](release-notes/2024-04-18-release-notes.md)
-* [2024-04-05 | Release Notes](release-notes/2024-04-05-release-notes.md)
-* [2024-03-18 | Release Notes](release-notes/2024-03-18-data-updates.md)
-* [2024-03-05 | Release Notes](release-notes/2024-03-05-data-updates.md)
-* [2024-02-20 | Release Notes](release-notes/2024-02-20-data-updates.md)
-* [2024-02-05 | Release Notes](release-notes/2024-02-05-data-updates.md)

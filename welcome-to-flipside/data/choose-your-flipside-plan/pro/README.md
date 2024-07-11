@@ -12,7 +12,7 @@ Flipside Pro gives you the entirety of Flipside's on-chain database in a hosted 
 
 **If it happens on-chain, we've got it for 26+ blockchains and protocols:**
 
-<figure><img src="../../.gitbook/assets/image-10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image-10.png" alt=""><figcaption></figcaption></figure>
 
 _For more details on the schema design see our_ [_data modeling approach_](https://app.gitbook.com/o/-LdEn7uFmFX9w2zbU4Eu/s/-LdEnDLYh6Su5z7LbnEZ/\~/changes/488/data-methodology/data-models)_._
 

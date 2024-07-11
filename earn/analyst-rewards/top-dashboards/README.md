@@ -51,13 +51,13 @@ To find out what boosts are currently active and coming up:&#x20;
 
 ## Claim Rewards
 
-Rewards are claimable on an hourly basis in [**Flipside Earn**](../../../choose-your-flipside-plan/).&#x20;
+Rewards are claimable on an hourly basis in [**Flipside Earn**](../../../welcome-to-flipside/data/choose-your-flipside-plan/).&#x20;
 
 Start by adding a wallet address to your Flipside account on the chain where you accrued rewards. To do this, go to your Account dropdown (upper right corner of our [**homepage**](https://flipsidecrypto.xyz/)) and click `Add a Wallet.`
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2024-06-27 at 4.31.37 PM.png" alt=""><figcaption></figcaption></figure>
 
-After you have a wallet address saved, head to [**Flipside Earn**](../../../choose-your-flipside-plan/).&#x20;
+After you have a wallet address saved, head to [**Flipside Earn**](../../../welcome-to-flipside/data/choose-your-flipside-plan/).&#x20;
 
 Go to your Pending Rewards and click View Rewards to open your right-side rewards drawer. There, you can withdraw earnings to your saved addresses.
 
