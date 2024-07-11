@@ -309,6 +309,7 @@
     * [Actions for API Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/actions-for-api-users.md)
     * [Action for Data Share Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/action-for-data-share-users.md)
 * [🗒️ Release Notes](support/release-notes/README.md)
+  * [2024-07-11 | Release Notes](support/release-notes/2024-07-11-release-notes.md)
   * [2024-06-27 | Release Notes](<release-notes/2024-06-27-release-notes (1).md>)
   * [2024-06-14 | Release Notes](release-notes/2024-06-14-release-notes.md)
   * [2024-05-30 | Release Notes](release-notes/2024-05-30-release-notes.md)
@@ -347,7 +348,3 @@
 * [Links & Resources](flipside-community/links-and-resources.md)
 * [Join Our Discord](https://discord.gg/flipside)
 * [Join Our Guild](https://guild.xyz/flipside-crypto)
-
-## Release Notes
-
-* [2024-07-11 | Release Notes](release-notes/2024-06-27-release-notes.md)
