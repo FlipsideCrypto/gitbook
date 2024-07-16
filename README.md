@@ -1,7 +1,7 @@
 ---
 description: >-
   Flipside empowers web3 analysts and enthusiasts with the best onchain data and
-  activation programs.
+  reward programs.
 ---
 
 # Welcome to Flipside
