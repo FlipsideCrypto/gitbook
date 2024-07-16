@@ -18,3 +18,5 @@ We’re dedicated to paying analysts, not charging them. Build your brand while 
 * [Top Dashboards](../earn/analyst-rewards/top-dashboards/)
 * [Ambassador Program ](../earn/analyst-rewards/ambassador-program.md)
 * [Direct to Analyst Commissions](../earn/analyst-rewards/direct-to-analyst-commissions.md)
+
+[**Sign up**](https://flipsidecrypto.xyz/) **for free to participate in Earn programs**

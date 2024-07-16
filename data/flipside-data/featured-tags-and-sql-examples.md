@@ -10,9 +10,9 @@ Tags can be specific and provable, e.g. "OpenSea user", or simply a tool to grou
 
 Check back often as our list of tags is constantly being updated!&#x20;
 
-[`crosschain.core.address_tags` table docs](../archive/tables/crosschain-tables/crosschain-address-tags.md)\
+[`crosschain.core.address_tags` table docs](broken-reference)\
 &#x20;\
-Don't see the perfect tag? [Add your own! ](../contribute-to-our-data/how-to-add-your-own-tags.md#how-to-add-tags)
+Don't see the perfect tag? [Add your own! ](contribute-to-our-data/how-to-add-your-own-tags.md#how-to-add-tags)
 
 
 

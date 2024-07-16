@@ -1,8 +1,8 @@
+---
+description: What’s involved? What’s expected? What’s in it for me?
+---
+
 # Ambassador Program
-
-## Flipside Ambassador Program
-
-_What’s involved? What’s expected? What’s in it for me?_
 
 ### Executive Summary
 

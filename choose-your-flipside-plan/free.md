@@ -12,11 +12,11 @@ To get started, simply create a free account [here](https://flipsidecrypto.com).
 
 ***
 
-### Earn and educate
+### Earn and Educate
 
 The more analysts create dashboards to help keep the industry informed, the better off we all are together. To that end, we also offer many ways to earn for sharing the insights you find.
 
-Programs like Leaderboard Rewards, direct-to-analyst bounties, and more can help you build your portfolio and your bags 💰
+Programs like Top Dashboards, Direct-to-Analyst Comissions, and more can help you build your portfolio and your bags 💰
 
 See [Earn with Flipside](../earn/flipside-earn.md) to learn more.
 

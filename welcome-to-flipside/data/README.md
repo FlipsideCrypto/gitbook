@@ -25,12 +25,12 @@ Want Flipside's entire database in your stack? We can do that. Just [reach out](
 
 ### Important Things to Know
 
-* All our data is accessible via SQL queries, and you'll use the [Snowflake SQL](../../products/data-studio-sql-analysts/query-editor/using-snowflake-sql.md) dialect to access it.
-* Our core app is brand new (launched Feb 2023) and some [documentation](../../products/data-studio-sql-analysts/) is available — we're actively building this out, including both text and video content — if you have questions that aren't answered here, please reach out in [Discord](https://discord.gg/ZmU3jQuu6W).
+* All our data is accessible via SQL queries, and you'll use the [Snowflake SQL](../../data/data-products/data-studio-sql-analysts/studio-in-depth/query-editor/using-snowflake-sql.md) dialect to access it.
+* Our core app is brand new (launched Feb 2023) and some [documentation](../../data/data-products/data-studio-sql-analysts/) is available — we're actively building this out, including both text and video content — if you have questions that aren't answered here, please reach out in [Discord](https://discord.gg/ZmU3jQuu6W).
 * Our data structures are and designed for ease of use and efficient querying, and are [extensively documented](../../data/flipside-data/data-table-documentation.md). We regularly update our data structures to optimize efficiency.
 * Latency varies from table to table, but typically lags either 1 hour or 1 day at most. [Here's our latency targets for each blockchain](https://docs.flipsidecrypto.xyz/data/flipside-data/table-freshness-targets).
-* If you run into difficulty getting your queries to run, we provide [a guide for efficient query writing](../../products/data-studio-sql-analysts/query-editor/writing-efficient-queries.md). Need more assistance? Get help anytime in our [Discord](https://discord.gg/ZmU3jQuu6W).
-* Learn more about [contract decoding](../../data/contribute-to-our-data/contract-decoding-and-abis.md), and adding ABIs.
+* If you run into difficulty getting your queries to run, we provide [a guide for efficient query writing](../../data/data-products/data-studio-sql-analysts/studio-in-depth/query-editor/writing-efficient-queries.md). Need more assistance? Get help anytime in our [Discord](https://discord.gg/ZmU3jQuu6W).
+* Learn more about [contract decoding](../../data/flipside-data/contribute-to-our-data/contract-decoding-and-abis.md), and adding ABIs.
 
 ### What blockchains and projects does Flipside have data on?
 

@@ -30,7 +30,7 @@ There are 10 label types within any blockchain.
 10. [**token** (Token Contracts)](token-label-type.md)
 11. [**flotsam** (Junk or Other)](flotsam-label-type.md)
 
-See [the Crosschain schema](../../archive/tables/crosschain-tables/crosschain-address-labels.md) for the table containing all labeled addresses.&#x20;
+See [the Crosschain schema](broken-reference) for the table containing all labeled addresses.&#x20;
 
 Flipside applies a 2-level hierarchy to all labeled addresses using 4 field attributes.&#x20;
 

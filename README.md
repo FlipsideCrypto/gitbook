@@ -1,5 +1,7 @@
 ---
-description: Flipside supports crypto analysts by providing the best onchain data.
+description: >-
+  Flipside empowers web3 analysts and enthusiasts with the best onchain data and
+  activation programs.
 ---
 
 # Welcome to Flipside
@@ -12,6 +14,6 @@ Use the best onchain data for your project. Get started for free or [find the ri
 
 Play grail, participate in quests, or build dashboards to earn real crypto.
 
-## 👥 [Community](flipside-community/get-started.md)
+## 👥 [Community](<flipside-community/get-started (1).md>)
 
 Join the thousands of crypto analysts building on Flipside.

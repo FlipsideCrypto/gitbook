@@ -1,12 +1,8 @@
----
-description: The following can be tuned/adjusted.
----
-
 # Table Freshness Targets
 
 Flipside's tables target the following latency schedule from Chain Head. The following can be tuned based on use cases/needs. Please reach out if you have a specific use case that requires a latency closer to the chain head and our team would be happy to discuss solutions with you.
 
-Flipside refreshes data across three dimensions fact tables, dim tables, and ez tables.
+Flipside refreshes data across three dimensions: `fact` tables, `dim` tables, and `ez` tables.
 
 | Blockchain | Category      | Target Latency from Chain Head |
 | ---------- | ------------- | ------------------------------ |
