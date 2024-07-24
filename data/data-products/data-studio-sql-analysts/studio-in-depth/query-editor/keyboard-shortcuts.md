@@ -6,7 +6,7 @@ description: >-
 
 # Keyboard Shortcuts
 
-Note: not _all_ of these have been tested, so please use with caution. If you notice something not working as expected, or out of place, please let us know in [Discord](https://discord.gg/ZmU3jQuu6W).
+Note: not _all_ of these have been tested, so please use with caution. If you notice something not working as expected, or out of place, please let us know in [opening a ticket](../../../../../support/open-a-ticket.md).
 
 | Function                                         | Windows                               | Linux                                 | Mac                                   | Notes                                                                                                                |
 | ------------------------------------------------ | ------------------------------------- | ------------------------------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
