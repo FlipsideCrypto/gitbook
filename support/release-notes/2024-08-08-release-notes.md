@@ -43,7 +43,7 @@ Check out these updates and the rest of the release notes below.
 Two new views to help make tracking bridge activity easier. We’ve designed these views so that the column names match our standards across other blockchains.
 
 * flow.defi.ez\_bridge\_activity&#x20;
-* flow.defi.fact\_bridge\_activity\\
+* flow.defi.fact\_bridge\_activity
 
 {% hint style="warning" %}
 **Table Deprecation:** _ez\_bridge\_transactions_ is deprecating on 9/1.
