@@ -1,8 +1,8 @@
 ---
 description: >-
-  This update includes EVM chain swaps USD value improvements, new Avalanche
-  Dexalot trace data, Ethereum NFT lending support for Arcade XYZ, and new Lava
-  staking models.
+  New bridging activity and Dex swaps tables for Flow, improved query speeds for
+  Solana CORE, DEFI, and PRICE tables, and enhanced NFT sales data on Magic Eden
+  AMM.
 layout:
   title:
     visible: true
@@ -16,61 +16,71 @@ layout:
     visible: true
 ---
 
-# 2024-08-21 | Release Notes
+# 2024-08-08 | Release Notes
 
 ## Highlights
 
-This release brings updates across multiple blockchains. EVM chain swaps tables now include USD values for native assets, even when one side of the swap is NULL, effective **August 26, 2024**. Avalanche gets a new table for Dexalot's internal contract trace data, and Ethereum's NFT lending tables now support Arcade XYZ. Additionally, Lava introduces two new models to enhance staking and staking rewards tracking, and we’ve added a Farcaster table for Warpcast power users.
+Today, we’re excited to introduce new bridging activity and Dex swaps tables for Flow, making tracking easier and more standardized.&#x20;
+
+**Note that `ez_bridge_transactions` and `ez_swaps` will be deprecated by 9/1.**&#x20;
+
+On Solana, we’ve improved query speeds for CORE, DEFI, and PRICE tables and added complete NFT sales data from Magic Eden AMM to `solana.nft.fact_nft_sales`. Explore these updates and enjoy faster, more comprehensive data!
 
 {% hint style="warning" %}
-**Reminder:** Flow `ez_swaps` and `ez_bridge_transactions` is deprecating on 9/1. \
-**Please update your queries to reference the** [**new swaps and bridging tables Flow**](https://docs.flipsidecrypto.xyz/support/release-notes/2024-08-08-release-notes#flow)**.**
+**Reminder regarding our Solana Jupiter Swaps data.**&#x20;
+
+Starting August 15, the existing solana.defi.fact\_swaps and solana.defi.ez\_dex\_swaps tables will no longer include aggregated Jupiter swaps data. Instead this data can will be stored in two new tables (available now) that better capture Jupiter’s swap transaction structure: solana.defi.fact\_swaps\_jupiter\_inner, solana.defi.fact\_swaps\_jupiter\_summary
+
+* Please update your queries to use the new tables by August 15th.
 {% endhint %}
 
 Check out these updates and the rest of the release notes below.
 
-### All EVM Chains
+### Flow
 
-**Updated Tables - EVM Chain Swaps Tables**
+**New Tables - Bridging Activity**
 
-Updates `amount_in_usd` and `amount_out_usd` to have USD values for the native chain's asset, even if the other side of the swap is NULL. Previously, both `amount_in_usd` and `amount_out_usd` were set to NULL if any side of the swap had a NULL USD value. This is put in place to avoid overstating volumes on low-liquidity swaps. **Going live August 26, 2024.**&#x20;
+Two new views to help make tracking bridge activity easier. We’ve designed these views so that the column names match our standards across other blockchains.
 
-* _**CHAIN**.defi.ez\_dex\_swaps_
+* flow.defi.ez\_bridge\_activity&#x20;
+* flow.defi.fact\_bridge\_activity
 
-### Avalanche
+{% hint style="warning" %}
+**Table Deprecation:** _ez\_bridge\_transactions_ is deprecating on 9/1.
+{% endhint %}
 
-**New Table - Avalanche Subnet - Dexalot**&#x20;
+**New Tables - Dex Swaps**
 
-This table contains flattened trace data for internal contract calls on the Dexalot Blockchain. Hex encoded fields can be decoded to integers by using the `utils.udf_hex_to_int()` function.
+Two new views to help make tracking swaps activity easier. We’ve designed these views so that the column names match our standards across other blockchains.
 
-* _avalanche.dexalot.fact\_traces_
+* flow.defi.ez\_dex\_swaps&#x20;
+* flow.defi.fact\_dex\_swaps
 
-### Ethereum
+{% hint style="warning" %}
+**Table Deprecation:** _ez\_swaps_ is deprecating on 9/1.
+{% endhint %}
 
-**Updated Tables - Bridging Activity**
+### Solana
 
-The team updated three NFT lending tables to include Arcade XYZ DeFi protocol curation.
+**Updated Tables - Query Speed Improvements**
 
-* _ethereum.nft.ez\_lending\_loans_
-* _ethereum.nft.ez\_lending\_repayments_
-* _ethereum.nft.ez\_lending\_liquidations_
+Tables in the CORE/DEFI/PRICE schema have been updated to significantly improve querying speeds. Queries on these tables now run much more efficiently, and users can expect faster results with less time-outs.
 
-### External (Studio Only)
+* solana.core
+* solana.defi
+* solana.price
 
-**New Table - Farcaster Warpcast Power Users**
+**Updated Table - NFT Sales**
 
-Represents data associated with power users, based on Warpcast power badges.
+`fact_nft_sales` now contains complete data for NFT sales performed through the Magic Eden AMM marketplace.
 
-* _external.farcaster.fact\_warpcast\_power\_users_
+* solana.nft.fact\_nft\_sales
 
-### Lava
+#### 🚨Important Update
 
-**New Tables - Staking**
+With the release of these two new Jupiter swaps tables, the standard solana.defi.fact\_swaps table and solana.defi.ez\_dex\_swaps will no longer contain aggregated Jupiter swaps data. To query Jupiter swaps, please use the two new Jupiter tables instead.
 
-Two new curated models for both staking and staking rewards. Lava staking is non-standard due to the functionality of staking to providers.
-
-* _lava.gov.fact\_staking_
-* _lava.gov.fact\_staking\_rewards_
+Please update your queries to reference the two new tables by August 15, at which point the standard swaps tables will no longer contain aggregated Jupiter swaps data.
 
 ### Useful Resources
 
@@ -78,4 +88,6 @@ Request a smart contract ABI to be decoded:[ https://science.flipsidecrypto.xyz/
 
 Request a Solana IDL to be decoded:[ https://science.flipsidecrypto.xyz/idl-requestor](https://science.flipsidecrypto.xyz/idl-requestor)
 
-Add labels:[ https://science.flipsidecrypto.xyz/add-a-label](https://science.flipsidecrypto.xyz/add-a-label)\
+Add labels:[ https://science.flipsidecrypto.xyz/add-a-label](https://science.flipsidecrypto.xyz/add-a-label)
+
+\
