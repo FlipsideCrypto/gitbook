@@ -10,7 +10,7 @@ description: What’s involved? What’s expected? What’s in it for me?
 * Ambassadors have **four primary tasks**:
   1. Handle stellar direct-to-analyst work that delights partners.
   2. Create a powerful social media “center of gravity” that draws in users & attracts projects.
-  3. Work closely with the Flipside team to improve our data, Data Studio, and community programs (such as Top 30 and analyst upskilling).
+  3. Work closely with the Flipside team to improve our data, Data Studio, and community programs (such as Top Dashboards and analyst upskilling).
   4. Become data experts in a particular ecosystem, e.g. Solana, Avalanche.
 * Ambassadors also serve as exemplars of the Flipside community:
   * They represent Flipside to the world and showcase data-driven storytelling.
@@ -41,9 +41,7 @@ These methods are rare, but they do occur. The standard process is listed below.
 
 ### Ambassador Selection
 
-During the February 2024 Selection Window, we are opening \~6 Ambassador slots! _To learn more about participating, visit the Announcements channel in our_ [_Discord server_](https://discord.com/invite/flipside)_._
-
-In this selection window, the Flipside Community and Ecosystem teams carefully candidates who meet the following **five criteria**:&#x20;
+When selecting new Ambassadors, the Flipside Community and Ecosystem teams carefully considers candidates who meet the following **five criteria**:&#x20;
 
 1. **Qualifying Threshold:** match the average [monthly impressions](https://science.flipsidecrypto.xyz/flipside\_analysts/) of existing Ambassadors during the preceding three-month period. As of February 2024, this means achieving the following within any single 6-month period:
    * Achieve at least 1 month of 100,000+ impressions, without using bots.
@@ -66,18 +64,19 @@ If you are wondering how you stack up, we strongly encourage you to contact us t
 The following are expected of all Ambassador candidates and are a key part of the role:
 
 * **Professionalism**: friendly, courteous, clear communication, & raising problems and challenges politely; being a positive presence for all fellow analysts; setting a standard for creative & original work and providing credit to others whose work is used.
-* **Timeliness**: Speed of delivery & meeting timelines for Direct-to-Analyst work.
+* **Timeliness**: speed of delivery & meeting timelines for Direct-to-Analyst work.
+* **New Insights**: being a prolific, current voice in your ecosystem; **consistently producing new data-driven insights** on current topics in this ecosystem.
 * **Learning Mindset**: willingness to work with & learn from mentors/senior Ambassadors and to strive to constantly improve your own work.
 * **Integrity**: we expect all Ambassadors to possess no black marks - concerns about bot activity, improper citation, or tearing down the reputation of other community members - for a period of 6 months prior to formally being appointed.
-  * Evidence of bot activity, plagiarism, or improperly citing the work of other analysts is grounds for expulsion from the Ambassador program!&#x20;
+  * **Evidence of bot activity, plagiarism, or improperly citing the work of other analysts is grounds for expulsion from the Ambassador program!**&#x20;
 * **Community Engagement**: be engaged in our Discord community and partner communities: asking questions, sending thoughtful messages, responding to others, and being a center of knowledge and energy for your ecosystem.
 * **Ecosystem Knowledge**: doing deep research on selected ecosystem, networking with projects and influencers in that ecosystem, being active on Twitter and in project Discord.
-* **Ecosystem Thought Leadership**: When choosing topics for analysis, prioritizing topics and methodologies that achieve some or all of the following:
+* **Ecosystem Thought Leadership**: when choosing topics for analysis, prioritizing topics and methodologies that achieve some or all of the following:
   * Ask and answer analytical questions in new and interesting ways.
   * Articulate findings in a way that captures the attention of readers at several levels of web3 familiarity (from total beginners to that ecosystem's experts, and everyone in-between).&#x20;
   * Contribute to key existing public conversations in and about that ecosystem, or kickstart new ones.&#x20;
-  * Use innovative methodologies (and explain their significance in terms that are easy for others to understand)
-* **Flipside Team Feedback**: Provide regular feedback on product & data to Flipside teams and occasionally assist the Marketing team by promoting major reports & releases.
+  * Use innovative methodologies (and explain their significance in terms that are easy for others to understand).
+* **Flipside Team Feedback**: provide regular feedback on product & data to Flipside teams and occasionally assist the Marketing team by promoting major reports & releases.
 
 ### Responsibilities
 
@@ -95,6 +94,11 @@ The specific Ambassador responsibilities are as follows:
   * **Product & Analytics**: Each month, provide feedback as needed to the Flipside team on issues & improvements in the Data Studio.
   * **Marketing**: Upon request, assist the Marketing team with promoting occasional Flipside thought leadership pieces and releases.
   * **Community**: Collaborate with the Community team to share your knowledge, to enable some of the most driven community analysts to grow and follow in your footsteps.
+* Uphold all **Ambassador Values**.&#x20;
+  * It is especially important that you maintain **Professionalism** **when you use others' work** as a starting point for your analysis. This includes two steps:
+    * Provide ample **citation**: Name the author and link their work. Explain which part of their work is used in which part of your work. Explain why you decided to use it.
+    * If you use someone's work as a starting point, **ensure that your analysis adds a meaningful original contribution**. Just copying queries, rearranging them, minor changes (e.g. copying someone's analysis but on another chain) is plagiarism and not a meaningful original addition.&#x20;
+    * **Starting September 1, 2024, a zero-tolerance plagiarism policy is in effect for Ambassadors and Top Dashboards. Plagiarism can be: using someone's work without attribution, not enough attribution **_**(Which queries were copied? Why? Where are they used in your analysis? )**_**, and/or a lack of a meaningful original contribution. The first instance of plagiarism leads to immediate exclusion from analyst incentives, such as Ambassador impression incentives and Top Dashboards rewards.**
 * Learn as much as you can about your chosen ecosystem and regularly engage on Twitter, Telegram, and Discord with members of key projects, builders, and community members.
 * Work with Reviewers to constantly improve and update your signature work, as well as your analytical techniques.
 * Maintain and update the **Flipside Ecosystem Maps** to keep a current list of the hottest projects and trends within your ecosystem.

@@ -49,6 +49,14 @@ To find out what boosts are currently active and coming up:&#x20;
 * check our [**Discord**](https://discord.gg/flipside) #announcements channel
 * visit this month's leaderboard (link on the [**homepage**](https://flipsidecrypto.xyz/)).
 
+### Decay
+
+New insights that are relevant to current discussion topics in web3 take precedence. A decay function gradually reduces rewards on older Top Dashboards, although it never takes rewards to 0 if the rank is still eligible for earning.&#x20;
+
+### Timeouts and Bans
+
+Dashboards and users who violate [**Top Dashboard Guidelines**](https://docs.flipsidecrypto.xyz/flipside-community/community-analytics-guidelines) are disqualified from rewards temporarily or permanently without notice. &#x20;
+
 ## Claim Rewards
 
 Rewards are claimable on an hourly basis in [**Flipside Earn**](../../../choose-your-flipside-plan/).&#x20;
