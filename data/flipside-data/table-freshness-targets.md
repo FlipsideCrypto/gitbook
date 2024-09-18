@@ -13,11 +13,13 @@ Flipside refreshes data across three dimensions: `fact` tables, `dim` tables, an
 | Axelar     | Core/Non-Core | 1 hour/2 hours                 |
 | Base       | Core/Non-Core | 1 hour/2 hours                 |
 | Bitcoin    | Core/Non-Core | 1 hour/2 hours                 |
+| Blast      | Core/Non-Core | 30 Minutes/1 Hour              |
 | BSC        | Core/Non-Core | 1 hour/2 hours                 |
 | Cosmos     | Core/Non-Core |                                |
 | Ethereum   | Core/Non-Core | 30 minutes/1 hour              |
 | Flow       | Core/Non-Core | 1 hour/2 hours                 |
 | Gnosis     | Core/Non-Core | 1 hour/2 hours                 |
+| Kaia       | Core/Non-Core | 30 Minutes/1 Hour              |
 | NEAR       | All Models    | 2 hours                        |
 | Optimism   | Core/Non-Core | 1 hour/2 hours                 |
 | Osmosis    | Core/Non-Core |                                |
