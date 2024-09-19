@@ -1,8 +1,7 @@
 ---
 description: >-
-  New Polymarket, Flow, and Solana tables, Polygon's MATIC-to-POL update, and
-  Ethereum/Optimism lending tables deprecated by Oct 12th, 2024, consolidating
-  in DeFi.
+  The latest update adds Flow EVM core models, new Lava pricing tables, and
+  Thorchain Rune Pool event tracking tables.
 layout:
   title:
     visible: true
@@ -16,68 +15,43 @@ layout:
     visible: true
 ---
 
-# 2024-09-19 | Release Notes
+# 2024-09-05 | Release Notes
 
 ## Highlights
 
-This release enhances blockchain data coverage with updates across multiple ecosystems. A new Polymarket table in Crosschain integrates detailed outcome mappings, while Flow adds transaction actor tagging to improve analytics. Polygon’s NFT sales table now reflects the transition from MATIC to POL, and Solana’s Jupiter swaps table identifies DCA routed swaps with their initiating wallets. Additionally, several Ethereum and Optimism lending tables are deprecated and will be removed by **October 12th, 2024**, consolidating data in the DeFi schema.
-
-{% hint style="warning" %}
-**Please Note -** Several tables in the [Ethereum and Optimism schemas are deprecated](2024-09-05-release-notes.md#deprecated-tables) and will be removed by October 12th, 2024, consolidating lending data within the defi schema.
-{% endhint %}
-
-### **Studio Updates**
-
-In addition to all the data updates we just released 3 new features to the Data Studio. There are two new chart types: heatmap and candlestick, and you can now add comments to dashboards. Give fellow analysts some praise or leave a question directly on their boards!
+This release introduces new Flow EVM core models for the Crescendo network upgrade, including blocks, transactions, and event logs tables. Lava now has four new pricing tables aligned with our standard blockchain pricing models. Thorchain gains two new tables to track deposit and withdrawal events for the Rune Pool product. These updates enhance data coverage and analysis across Flow, Lava, and Thorchain networks.
 
 Check out these updates and the rest of the release notes below.
 
-### Crosschain - Studio Only
-
-**New Table** - Polymarket mapping outcome tokens
-
-This new table contains curated Polymarket orders combined with Polymarket CLOB API data to map outcome tokens to their human readable descriptions - Question, Outcome, Conditions etc.
-
-* `crosschain.defi.ez_prediction_market_orders`
-
 ### Flow
 
-**New Tables** - Transaction actor extraction and tagging
+**New Tables - Flow’s Crescendo Network Upgrade**
 
-A new model that extracts and tags the actors in a transaction. An actor is an address that is involved within the event execution of a transaction, for example as one of the actors in an NFT Sale, or as a recipient of commission. This model aligns with the new Actor tag on Flowdiver for more enhanced transaction analytics.
+New core models supporting EVM on Flow with Flow's Crescendo network upgrade.
 
-* `flow.core.ez_transaction_actors`
+* flow.core\_evm.fact\_blocks
+* flow.core\_evm.fact\_transactions
+* flow.core\_evm.fact\_event\_logs
 
-### Polygon
+### Lava
 
-**Updated Table** - Polygon symbol change
+**New Table - Pricing Tables**
 
-All references to MATIC (as a currency address and symbol) since September 4th, 2024 has been changed to POL to match the change made by the Polygon ecosystem.
+Four new pricing tables for Lava were released. These new tables follow our standard pricing models for most blockchains.&#x20;
 
-* `polygon.nft.ez_nft_sales`
+* lava.price.ez\_asset\_metadata
+* lava.price.fact\_prices\_ohlc\_hourly
+* lava.price.ez\_prices\_hourly
+* lava.price.dim\_asset\_metadata
 
-### Solana
+### Thorchain
 
-**Updated Table** - Jupiter swaps Dollar Cost Average (DCA)
+**New Tables - Pool Events**
 
-Jupiter swaps can now be identified as being a part of a Dollar Cost Average (DCA) routed swap, and also shows the original user/wallet that initiated the swap.
+Two new tables to track deposit and withdrawal events for Rune Pool product.
 
-* `solana.defi.fact_swaps_jupiter_summary`
-
-### Deprecated Tables
-
-The following tables are deprecated and will be removed by October 12th, 2024. This data is not gone – you can query it in the DeFi schema for the respective chain:
-
-* `ethereum.compound.<tables>`
-  * Deprecating all tables in the ethereum.compound schema by October 12. All lending related data (borrows, deposits, etc) of Compound can already be found in the defi schema.
-* `ethereum.aave.<tables>`
-  * Deprecating all tables in the ethereum.aave schema by October 12. All lending related data (borrows, deposits, etc) of Aave can already be found in the defi schema
-* `ethereum.synthetix.ez_snx_staking`
-  * Deprecating the synthetix staking table along with the synthetix schema.
-* `ethereum.maker.<ez_tables>`
-  * Deprecating the ez tables in the ethereum.maker schema by Oct 12. All lending related data (borrows, deposits, etc) of Maker can already be found in the defi schema. All Maker fact tables will remain in the schema.
-* `optimism.velodrome.<tables>`
-  * Deprecating all tables in the optimism.velodrome schema by October 9th, 2024. All lending related data (borrows, deposits, etc) of Velodrome can already be found in the defi schema
+* thorchain.defi.fact\_rune\_pool\_deposit\_events
+* thorchain.defi.fact\_rune\_pool\_withdraw\_events
 
 ### Useful Resources
 
