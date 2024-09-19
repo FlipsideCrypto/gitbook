@@ -1,8 +1,8 @@
 ---
 description: >-
-  Introducing Crosschain Polymarket orders, Flow transaction actor tables,
-  changes to Polygon symbols, and Solana updates to the Jupiter fact_swaps
-  table. Several tabes will be remove October 12th, 2024
+  New Polymarket, Flow, and Solana tables, Polygon's MATIC-to-POL update, and
+  Ethereum/Optimism lending tables deprecated by Oct 12th, 2024, consolidating
+  in DeFi.
 layout:
   title:
     visible: true
@@ -20,7 +20,7 @@ layout:
 
 ## Highlights
 
-This release introduces new and updated tables across multiple blockchain ecosystems to enhance data coverage and analytics. In the Crosschain database, the `crosschain.defi.ez_prediction_market_orders` table integrates curated Polymarket orders with CLOB API data for detailed outcome mappings. The Flow module adds the `flow.core.ez_transaction_actors` table, which tags actors in transactions to improve analytics. Polygon updates the `polygon.nft.ez_nft_sales` table by changing all MATIC references to POL, and Solana's solana.defi.fact\_swaps\_jupiter\_summary table now identifies DCA routed swaps and original initiating wallets.
+This release enhances blockchain data coverage with updates across multiple ecosystems. A new Polymarket table in Crosschain integrates detailed outcome mappings, while Flow adds transaction actor tagging to improve analytics. Polygon’s NFT sales table now reflects the transition from MATIC to POL, and Solana’s Jupiter swaps table identifies DCA routed swaps with their initiating wallets. Additionally, several Ethereum and Optimism lending tables are deprecated and will be removed by **October 12th, 2024**, consolidating data in the DeFi schema.
 
 {% hint style="warning" %}
 **Please Note -** Several tables in the [Ethereum and Optimism schemas are deprecated](2024-09-05-release-notes.md#deprecated-tables) and will be removed by October 12th, 2024, consolidating lending data within the defi schema.
