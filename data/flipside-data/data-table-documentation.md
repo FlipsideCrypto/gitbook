@@ -20,6 +20,7 @@ Our DBT data documentation is kept up to date _as changes are deployed_, so chec
 * [Ethereum](https://flipsidecrypto.github.io/ethereum-models/#!/overview)
 * [Flow](https://flipsidecrypto.github.io/flow-models/#!/overview)&#x20;
 * [Gnosis](https://flipsidecrypto.github.io/gnosis-models/#!/overview)
+* [Kaia](https://flipsidecrypto.github.io/kaia-models/#!/overview/kaia\_models)
 * [Near](https://flipsidecrypto.github.io/near-models/#!/overview)  
 * [Optimism](https://flipsidecrypto.github.io/optimism-models/#!/overview)
 * [Osmosis](https://flipsidecrypto.github.io/osmosis-models/#!/overview)&#x20;
