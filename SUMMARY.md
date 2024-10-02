@@ -154,6 +154,7 @@
     * [Actions for API Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/actions-for-api-users.md)
     * [Action for Data Share Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/action-for-data-share-users.md)
 * [🗒️ Release Notes](support/release-notes/README.md)
+  * [2024-10-03 | Release Notes](support/release-notes/2024-10-03-or-release-notes.md)
   * [2024-09-19 | Release Notes](support/release-notes/2024-09-19-release-notes.md)
   * [2024-09-05 | Release Notes](support/release-notes/2024-09-05-release-notes.md)
   * [2024-08-22 | Release Notes](support/release-notes/2024-08-22-release-notes.md)
@@ -171,6 +172,7 @@
   * [2024-03-05 | Release Notes](release-notes/2024-03-05-data-updates.md)
   * [2024-02-20 | Release Notes](release-notes/2024-02-20-data-updates.md)
   * [2024-02-05 | Release Notes](release-notes/2024-02-05-data-updates.md)
+* [Page](support/page.md)
 
 ## Flipside Community
 
