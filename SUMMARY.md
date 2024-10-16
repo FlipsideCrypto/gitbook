@@ -53,10 +53,10 @@
     * [Studio in Depth](data/data-products/data-studio-sql-analysts/studio-in-depth/README.md)
       * [Query Editor](data/data-products/data-studio-sql-analysts/studio-in-depth/query-editor/README.md)
         * [Pro Tips for Querying](data/data-products/data-studio-sql-analysts/studio-in-depth/query-editor/pro-tips-for-querying.md)
-        * [Advanced Visualization](data/data-products/data-studio-sql-analysts/studio-in-depth/query-editor/advanced-visualization.md)
         * [Keyboard Shortcuts](data/data-products/data-studio-sql-analysts/studio-in-depth/query-editor/keyboard-shortcuts.md)
         * [Hex-to-Integer Function](data/data-products/data-studio-sql-analysts/studio-in-depth/query-editor/hex-to-integer-function.md)
-      * [Create a Chart](data/data-products/data-studio-sql-analysts/studio-in-depth/create-a-chart.md)
+      * [Create a Chart](data/data-products/data-studio-sql-analysts/studio-in-depth/create-a-chart/README.md)
+        * [Advanced Visualization](data/data-products/data-studio-sql-analysts/studio-in-depth/create-a-chart/advanced-visualization.md)
       * [Build a Dashboard](data/data-products/data-studio-sql-analysts/studio-in-depth/dashboard-editor/README.md)
         * [Markdown Reference](data/data-products/data-studio-sql-analysts/studio-in-depth/dashboard-editor/markdown-reference.md)
       * [Dashboard V2 (Beta)](data/data-products/data-studio-sql-analysts/studio-in-depth/dashboard-v2-beta.md)
@@ -172,7 +172,7 @@
   * [2024-03-05 | Release Notes](release-notes/2024-03-05-data-updates.md)
   * [2024-02-20 | Release Notes](release-notes/2024-02-20-data-updates.md)
   * [2024-02-05 | Release Notes](release-notes/2024-02-05-data-updates.md)
-* [Page](support/page.md)
+* [📊 Studio Change log](support/studio-change-log.md)
 
 ## Flipside Community
 

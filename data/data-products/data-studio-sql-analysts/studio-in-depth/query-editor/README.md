@@ -80,4 +80,4 @@ Note: While adding "Table" as a chart type brings exciting customization options
 
 #### **Unmatched Customization**
 
-For the ultimate power users, dive into the chart's JSON object for complete control. This [advanced editing](advanced-visualization.md) mode allows granular customization of every visual aspect, from colors and fonts to intricate chart behaviors.
+For the ultimate power users, dive into the chart's JSON object for complete control. This [advanced editing](../create-a-chart/advanced-visualization.md) mode allows granular customization of every visual aspect, from colors and fonts to intricate chart behaviors.
