@@ -11,7 +11,7 @@ description: >-
 This release introduces new tables for Blast and Eclipse, allowing users to track DEX swaps, liquidity pools, and token mint and burn events. A new Sei table enables analysts to map Sei cosmos addresses to Sei EVM addresses, while Solana's updated swaps table now includes Raydium CPMM swaps.
 
 {% hint style="warning" %}
-**As a reminder** several Ethereum and Optimism lending tables were deprecated on October 12th, 2024, with their data consolidated into the DeFi schema. These updates improve tracking and analysis across multiple blockchains.
+**As a reminder s**everal tables in the [Ethereum and Optimism schemas are deprecated](https://docs.flipsidecrypto.xyz/support/release-notes/2024-09-19-release-notes#deprecated-tables)[ ](2024-10-17-release-notes.md#deprecated-tables)and were removed on October 12th, 2024, consolidating lending data within the defi schema.
 {% endhint %}
 
 Check out these updates and the rest of the release notes below.
