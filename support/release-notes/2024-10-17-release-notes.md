@@ -50,20 +50,20 @@ Updating the fact\_swaps table to include Raydium CPMM swaps
 
 * `solana.defi.fact_swaps`
 
-## Deprecated Tables
+### Reminder - Deprecated Tables
 
-The following tables are deprecated and were removed October 12th, 2024. **This data is not gone** – you can query it in the DeFi schema for the respective chain:
+As a reminder, the following tables were deprecated on October 12th, 2024. This data is not gone – you can query it in the DeFi schema for the respective chain:
 
 * `ethereum.compound.{tables}`
-  * Deprecating all tables in the ethereum.compound schema by October 12. All lending related data (borrows, deposits, etc) of Compound can already be found in the defi schema.
+  * Deprecated all tables in the ethereum.compound schema on October 12. All lending related data (borrows, deposits, etc) of Compound can already be found in the defi schema.
 * `ethereum.aave.{tables}`
-  * Deprecating all tables in the ethereum.aave schema by October 12. All lending related data (borrows, deposits, etc) of Aave can already be found in the defi schema
+  * Deprecated all tables in the ethereum.aave schema on October 12. All lending related data (borrows, deposits, etc) of Aave can already be found in the defi schema
 * `ethereum.synthetix.ez_snx_staking`
-  * Deprecating the synthetix staking table along with the synthetix schema.
+  * Deprecated the synthetix staking table along with the synthetix schema.
 * `ethereum.maker.{ez_tables}`
-  * Deprecating the ez tables in the ethereum.maker schema by October 12. All lending related data (borrows, deposits, etc) of Maker can already be found in the defi schema. All Maker fact tables will remain in the schema.
+  * Deprecated the ez tables in the ethereum.maker schema on October 12. All lending related data (borrows, deposits, etc) of Maker can already be found in the defi schema. All Maker fact tables will remain in the schema.
 * `optimism.velodrome.{tables}`
-  * Deprecating all tables in the optimism.velodrome schema by October 12. All lending related data (borrows, deposits, etc) of Velodrome can already be found in the defi schema
+  * Deprecated all tables in the optimism.velodrome schema on October 12. All lending related data (borrows, deposits, etc) of Velodrome can already be found in the defi schema.
 
 ### Useful Resources
 
