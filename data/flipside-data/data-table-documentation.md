@@ -6,6 +6,7 @@ description: Looking for specific database, schema, and table details? Look no f
 
 Our DBT data documentation is kept up to date _as changes are deployed_, so check here for the very latest details on each of our covered chains:
 
+* [Aleo](https://flipsidecrypto.github.io/aleo-models/#!/overview/eclipse\_models)
 * [Aptos](https://flipsidecrypto.github.io/aptos-models/#!/overview)
 * [Arbitrum](https://flipsidecrypto.github.io/arbitrum-models/#!/overview)
 * [Aurora](https://flipsidecrypto.github.io/aurora-models/#!/overview)
@@ -15,12 +16,15 @@ Our DBT data documentation is kept up to date _as changes are deployed_, so chec
 * [Bitcoin](https://flipsidecrypto.github.io/bitcoin-models/)
 * [Binance Smart Chain](https://flipsidecrypto.github.io/bsc-models/#!/overview)
 * [Blast](https://flipsidecrypto.github.io/blast-models/#!/overview)
+* [Core](https://flipsidecrypto.github.io/core-models/#!/overview/eclipse\_models)
 * [Cosmos](https://flipsidecrypto.github.io/cosmos-models/#!/overview)&#x20;
 * [Crosschain Data](https://flipsidecrypto.github.io/crosschain-models/#!/overview)
+* [Eclipse](https://flipsidecrypto.github.io/eclipse-models/#!/overview/eclipse\_models)
 * [Ethereum](https://flipsidecrypto.github.io/ethereum-models/#!/overview)
 * [Flow](https://flipsidecrypto.github.io/flow-models/#!/overview)&#x20;
 * [Gnosis](https://flipsidecrypto.github.io/gnosis-models/#!/overview)
 * [Kaia](https://flipsidecrypto.github.io/kaia-models/#!/overview/kaia\_models)
+* [Lava](https://flipsidecrypto.github.io/lava-models/#!/overview/eclipse\_models)
 * [Near](https://flipsidecrypto.github.io/near-models/#!/overview)  
 * [Optimism](https://flipsidecrypto.github.io/optimism-models/#!/overview)
 * [Osmosis](https://flipsidecrypto.github.io/osmosis-models/#!/overview)&#x20;
