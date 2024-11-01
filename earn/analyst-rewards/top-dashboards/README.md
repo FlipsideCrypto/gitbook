@@ -2,46 +2,45 @@
 
 ## How It Works
 
-Make dashboards in our app, publish and promote them, and if your dashboard trends in Top Dashboards you get paid.
+Make dashboards in our app, publish and promote them, and if your dashboard trends in Top Dashboards you get paid. Maximize your rewards by creating relevant, interesting data-driven content that is in demand in web3 ecosystems.&#x20;
 
 Trending dashboard rankings on our [**Insights**](https://flipsidecrypto.xyz/insights/dashboards) page are based on:
 
-👍 likes on our website\
+📍engaging with key voices and core audiences in an ecosystem\
 📈 social media engagement and shares across X and Warpcast\
 👀 views/website engagement\
-🌐 shares across the web\
+🌐 organic shares across relevant web3 ecosystems\
 🤫 other factors
 
 ## Earn Rewards
 
-Rewards are assigned based on a dashboard's rank on [**Flipside's trending insights page**](https://flipsidecrypto.xyz/insights/dashboards) and the League the analyst is in.
+Rewards are assigned based on a dashboard's rank on [**Flipside's trending insights page**](https://flipsidecrypto.xyz/insights/dashboards).
 
 To be eligible, dashboards must follow [**Top Dashboard Guidelines**](https://docs.flipsidecrypto.xyz/earn/analyst-rewards/top-dashboards/top-dashboard-guidelines).
 
-### Gold League
+### Top Dashboards
 
-Gold League represents the highest quality trending insights by our community.&#x20;
+Top Dashboards represent the highest quality trending insights by our community.&#x20;
 
-| Gold League Dashboard Rank | Reward     |
-| -------------------------- | ---------- |
-| 1-10                       | $1.50/hour |
-| 11-40                      | $1/hour    |
+Top Dashboards will be evaluated for quality, accuracy, and originality, and **rewards can be adjusted at the team's discretion**. This applies to all 50 spots, but especially to Top 10.
 
-### Silver League
+_(As of November 2024, there are no separate leagues and everyone competes on one leaderboard. Silver League is currently on pause, instead everyone who follows the above Guidelines is eligible to rank on the same leaderboard.)_
 
-Silver League is an opportunity to earn while you learn. As a newer or upskilling analyst, you can earn rewards without the pressure of competing with Gold League dashboards.&#x20;
-
-Silver League includes accounts created less than 3 months ago, accounts with <10 hours in the Gold League, and accounts added to Silver League for accelerated upskilling.&#x20;
-
-The maximum duration of being eligible is 3 months. It is possible to advance to Gold League at any point, or at the end of this period. Advancing is based on the strength of the Peer Reviews of your outputs that our experienced community Reviewers continuously conduct, and also on not violating [**Top Dashboard Guidelines**](https://docs.flipsidecrypto.xyz/earn/analyst-rewards/top-dashboards/top-dashboard-guidelines).
-
-| Silver League Dashboard Rank | Reward     |
-| ---------------------------- | ---------- |
-| 1-30                         | $0.50/hour |
+| Dashboard Rank | Reward      |
+| -------------- | ----------- |
+| **1-5**        | **$3/hour** |
+| **6-10**       | **$2/hour** |
+| 11-15          | $1.50/hour  |
+| 16-20          | $1/hour     |
+| 21-30          | $0.75/hour  |
+| 31-40          | $0.50/hour  |
+| 41-50          | $0.25/hour  |
 
 ### Boosts
 
-Boosts are limited-time reward multipliers in the Gold League that apply to dashboards on certain ecosystems or topics during specific time periods.&#x20;
+Boosts are limited-time reward multipliers that apply to Top Dashboards on certain ecosystems or topics during specific time periods.&#x20;
+
+The best way to participate in a Boost is to uncover a **relevant, interesting, timely narrative** happening at that time in a boosted ecosystem. Recap dashboards (weekly, monthly, and other stats), template dashboards, and others that don't bring timely and interesting insights can be disqualified from rewards.&#x20;
 
 To find out what boosts are currently active and coming up:&#x20;
 
@@ -51,11 +50,11 @@ To find out what boosts are currently active and coming up:&#x20;
 
 ### Decay
 
-New insights that are relevant to current discussion topics in web3 take precedence. A decay function gradually reduces rewards on older Top Dashboards, although it never takes rewards to 0 if the rank is still eligible for earning.&#x20;
+New insights that are relevant to current topics in web3 take precedence. A decay function gradually reduces rewards on older Top Dashboards, although it never takes rewards to 0 if the dashboard is still eligible for earning.&#x20;
 
 ### Timeouts and Bans
 
-Dashboards and users who violate [**Top Dashboard Guidelines**](https://docs.flipsidecrypto.xyz/flipside-community/community-analytics-guidelines) are disqualified from rewards temporarily or permanently without notice. &#x20;
+Dashboards and users who violate [**Top Dashboard Guidelines**](https://docs.flipsidecrypto.xyz/flipside-community/community-analytics-guidelines) or do not meet quality expectations are disqualified from rewards temporarily or permanently without notice.  _**Our Community and Moderator team will not be able to comment on specific instances of disqualification.**_
 
 ## Claim Rewards
 
@@ -75,6 +74,7 @@ Go to your Pending Rewards and click View Rewards to open your right-side reward
 
 Some of our best tips to succeed in Top Dashboards:
 
+* Create relevant, interesting data-driven content that is in demand with communities, teams, and key public voices in your chosen blockchain or protocol ecosystem
 * Ship quick-to-read, valuable data insights [**https://bit.ly/fs-quick-tweet**](https://bit.ly/fs-quick-tweet)
 * Find comprehensive resources on social media for analysts in our [**Flipside Skill Tree**](https://teamflipside.notion.site/Flipside-Crypto-Skill-Tree-07ba97789c8e4ffc96634369c5e684b6?p=33955bb351f84271a39ede0c6a0ea0e9\&pm=c).
 
