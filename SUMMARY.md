@@ -3,6 +3,7 @@
 ## Welcome to Flipside!
 
 * [Welcome to Flipside](README.md)
+* [Growth Services](welcome-to-flipside/growth-services.md)
 * [Data](welcome-to-flipside/data/README.md)
   * [Choose your Flipside plan](choose-your-flipside-plan/README.md)
     * [Free](choose-your-flipside-plan/free.md)
