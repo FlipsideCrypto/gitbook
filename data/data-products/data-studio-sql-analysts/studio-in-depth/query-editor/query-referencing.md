@@ -20,9 +20,10 @@ This section will cover:
 ### How to reference a query?
 
 1. **Identify the Query:**
-   1. Navigate to the desired query and click **"Copy Reference"** button to obtain the query ID.&#x20;
-   2. \[screenshot]
-   3.  To reference your own query, find the query you want to reference under "My Work". Click the 3-dot menu, and select "Add to Query".
+   1.  Navigate to the desired query and click **"Copy Reference"** button to obtain the query ID.&#x20;
+
+       <figure><img src="../../../../../.gitbook/assets/Screenshot 2024-11-20 at 10.16.34 AM.png" alt=""><figcaption></figcaption></figure>
+   2.  To reference your own query, find the query you want to reference under "My Work". Click the 3-dot menu, and select "Add to Query".
 
        <figure><img src="../../../../../.gitbook/assets/ezgif.com-video-to-gif-converter (1).gif" alt=""><figcaption></figcaption></figure>
 2. **Reference the Query:**
