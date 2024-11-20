@@ -4,11 +4,11 @@ description: >-
   create richer, more interactive narratives!
 ---
 
-# Dashboard V2 (Beta)
+# Build a Dashboard
 
-### Learning the basics of the new builder&#x20;
+### Learning the basics of dashboard builder&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-07-22 at 3.18.43 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-07-22 at 3.18.43 PM.png" alt=""><figcaption></figcaption></figure>
 
 #### **New UX pattern with the dual panel builder**
 
@@ -27,16 +27,16 @@ description: >-
 
 **Scoped Parameters:** parameters are now specific to individual layouts, ensuring your audiences know exactly which visualizations the parameters apply to.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-07-23 at 9.48.37 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-07-23 at 9.48.37 AM.png" alt=""><figcaption></figcaption></figure>
 
 **Custom dashboard thumbnails:** Upload custom thumbnails for your dashboards, giving them a unique visual identity that reflects their content.&#x20;
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-07-24 at 6.15.57 AM.png" alt="" width="268"><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-07-24 at 6.15.57 AM.png" alt="" width="268"><figcaption></figcaption></figure>
 
 </div>
 
 **Streamlined Workflow:** you can now directly edit the details of any chart within the dashboard builder itself. This eliminates the need to jump back and forth between the chart builder and the dashboard,
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2024-07-24 at 6.25.01 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/Screenshot 2024-07-24 at 6.25.01 AM.png" alt=""><figcaption></figcaption></figure>

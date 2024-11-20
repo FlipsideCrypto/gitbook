@@ -73,7 +73,7 @@ order by sales_count desc
 limit 8
 ```
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2023-12-11 at 9.51.25 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-11-20 at 9.59.06 AM.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -81,11 +81,11 @@ limit 8
 
 Steps:
 
-1. Click "Add Chart" right below the query panel.&#x20;
+1. Click "Create Visualization" button right next to your query title.&#x20;
 2. Choose the chart type that best captures your data's essence. Bar, line, pie?&#x20;
 3. Define the data points by setting your X and Y axes.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/Screenshot 2023-12-11 at 9.49.47 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2024-11-20 at 10.00.41 AM.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
