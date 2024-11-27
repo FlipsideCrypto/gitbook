@@ -33,7 +33,7 @@ This release brings comprehensive data coverage to the Aleo ecosystem with new c
 
 ### 📊 Data Latency Updates
 
-We're updating the latency for our non-core tables across multiple blockchains to improve data reliability. Tables in non-core schemas like defi/nft/gov/stats/etc. that are not _\[db].core.\[table]_ are subject to changes in their latency.
+We're updating the latency for our non-core tables across multiple blockchains to improve data reliability. Tables in non-core schemas like defi/nft/gov/stats/etc. that are not _\[db].core.\[table]_ are subject to changes in their latency. See the full list of blockchains and their freshness targets [here](../../data/flipside-data/table-freshness-targets.md).
 
 | Blockchain | Current Latency | New Latency |
 | ---------- | --------------- | ----------- |
