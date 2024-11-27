@@ -79,9 +79,9 @@ Core network metrics now available in the stats schema. Aleo metrics integrated 
 
 ### Solana
 
-**Updated Tables** - Jupiter Swap Data Organization
+**Updated Tables -** Jupiter Swap Data Organization
 
-The Jupiter V4 and V5 swap data is being restructured for better analysis:
+The Jupiter V4 and V5 swap data is being restructured for better analysis and added to Jupiter-specific tables:
 
 * `solana.defi.fact_swaps_jupiter_summary`
   * Aggregated view of Jupiter V4/V5 swaps
@@ -89,10 +89,12 @@ The Jupiter V4 and V5 swap data is being restructured for better analysis:
   * Detailed routes for individual swaps
 
 {% hint style="warning" %}
-**Important Note:** Jupiter V4 and V5 swaps will be removed from `fact_swaps`. To query these swaps, use `fact_swaps_jupiter_summary` with the following program IDs:
+**Important Note:** Jupiter V4 and V5 swaps will be removed from `fact_swaps` on December 9th. To query these swaps, use `fact_swaps_jupiter_summary` with the following program IDs:
 
 * Jupiter V4: 'JUP4Fb2cqiRUcaTHdrPC8h2gNsA2ETXiPDD33WcGuJB'
 * Jupiter V5: 'JUP5pEAZeHdHrLxh5UCwAbpjGwYKKoquCpda2hfP4u8' and 'JUP5cHjnnCx2DppVsufsLrXs8EBZeEZzGtEK9Gdz6ow'
+
+Since these swaps will exist in both `fact_swaps` and `fact_swaps_jupiter_summary` until December 9th, any union between these tables should exclude the previously mentioned program ID’s from `fact_swaps` to avoid duplicates.
 {% endhint %}
 
 ### ⚠️ Deprecated Tables - Action Required
