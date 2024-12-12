@@ -155,6 +155,7 @@
     * [Actions for API Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/actions-for-api-users.md)
     * [Action for Data Share Users](product-special-releases/2024-05-01-or-improvements-to-pricing-data/action-for-data-share-users.md)
 * [🗒️ Release Notes](support/release-notes/README.md)
+  * [2024-12-12 | Release Notes](support/release-notes/2024-12-12-release-notes.md)
   * [2024-11-27 | Release Notes](support/release-notes/2024-11-27-release-notes.md)
   * [2024-11-14 | Release Notes](support/release-notes/2024-11-14-release-notes.md)
   * [2024-10-31 | Release Notes](support/release-notes/2024-10-31-release-notes.md)
