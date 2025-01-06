@@ -58,7 +58,7 @@ Our Ethereum tables are up to speed with the Dencun upgrade! A new table got add
 **Updated Tables:**
 
 * _core.fact\_blocks_: new columns `excess_blob_gas` and `blob_gas_used`
-* _core.fact\_transaction_s: new columns `blob_versioned_hashes`, `max_fee_per_blob_gas`, `blob_gas_used`, `blob_gas_price`
+* _core.fact\_transactio&#x6E;_&#x73;: new columns `blob_versioned_hashes`, `max_fee_per_blob_gas`, `blob_gas_used`, `blob_gas_price`
 * _beacon\_chain.fact\_blocks_: new columns `blob_kzg_commitments`, `blob_gas_used`, `excess_blob_gas`
 
 ### [NEAR](https://flipsidecrypto.github.io/near-models/#!/overview)
@@ -77,7 +77,7 @@ We updated the `tx_fee` calculation, making our L1 fees data compatible with the
 
 * _core.fact\_transactions_
 
-### [Vertex](https://flipsidecrypto.github.io/arbitrum-models/#!/model/model.arbitrum\_models.vertex\_\_dim\_products)
+### [Vertex](https://flipsidecrypto.github.io/arbitrum-models/#!/model/model.arbitrum_models.vertex__dim_products)
 
 Delve into DeFi analytics with these newly added Vertex protocol tables.
 

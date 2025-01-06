@@ -43,7 +43,7 @@ These methods are rare, but they do occur. The standard process is listed below.
 
 When selecting new Ambassadors, the Flipside Community and Ecosystem teams carefully considers candidates who meet the following **five criteria**:&#x20;
 
-1. **Qualifying Threshold:** match the average [monthly impressions](https://science.flipsidecrypto.xyz/flipside\_analysts/) of existing Ambassadors during the preceding three-month period. As of February 2024, this means achieving the following within any single 6-month period:
+1. **Qualifying Threshold:** match the average [monthly impressions](https://science.flipsidecrypto.xyz/flipside_analysts/) of existing Ambassadors during the preceding three-month period. As of February 2024, this means achieving the following within any single 6-month period:
    * Achieve at least 1 month of 100,000+ impressions, without using bots.
    * Achieve at least 2 additional months of 75,000 impressions, without using bots.
 2. Display a repeated track record of expertise in a _specific_ ecosystem.
@@ -98,7 +98,7 @@ The specific Ambassador responsibilities are as follows:
   * It is especially important that you maintain **Professionalism** **when you use others' work** as a starting point for your analysis. This includes two steps:
     * Provide ample **citation**: Name the author and link their work. Explain which part of their work is used in which part of your work. Explain why you decided to use it.
     * If you use someone's work as a starting point, **ensure that your analysis adds a meaningful original contribution**. Just copying queries, rearranging them, minor changes (e.g. copying someone's analysis but on another chain) is plagiarism and not a meaningful original addition.&#x20;
-    * **Starting September 1, 2024, a zero-tolerance plagiarism policy is in effect for Ambassadors and Top Dashboards. Plagiarism can be: using someone's work without attribution, not enough attribution **_**(Which queries were copied? Why? Where are they used in your analysis? )**_**, and/or a lack of a meaningful original contribution. The first instance of plagiarism leads to immediate exclusion from analyst incentives, such as Ambassador impression incentives and Top Dashboards rewards.**
+    * **Starting September 1, 2024, a zero-tolerance plagiarism policy is in effect for Ambassadors and Top Dashboards. Plagiarism can be: using someone's work without attribution, not enough attribution&#x20;**_**(Which queries were copied? Why? Where are they used in your analysis? )**_**, and/or a lack of a meaningful original contribution. The first instance of plagiarism leads to immediate exclusion from analyst incentives, such as Ambassador impression incentives and Top Dashboards rewards.**
 * Learn as much as you can about your chosen ecosystem and regularly engage on Twitter, Telegram, and Discord with members of key projects, builders, and community members.
 * Work with Reviewers to constantly improve and update your signature work, as well as your analytical techniques.
 * Maintain and update the **Flipside Ecosystem Maps** to keep a current list of the hottest projects and trends within your ecosystem.

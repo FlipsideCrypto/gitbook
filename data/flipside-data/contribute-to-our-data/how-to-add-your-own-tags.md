@@ -33,7 +33,7 @@ Our tags use a 2-level hierarchy, just like our labels. \
 | Celebrity | Mark Cuban    |
 | Celebrity | Justin Bieber |
 
-Using tag_\__type you can pull all celebrities tagged by the Flipside community, or use tag\_name to pull a specific celebrity.
+Using ta&#x67;_\__&#x74;ype you can pull all celebrities tagged by the Flipside community, or use tag\_name to pull a specific celebrity.
 
 ## The tags table
 
