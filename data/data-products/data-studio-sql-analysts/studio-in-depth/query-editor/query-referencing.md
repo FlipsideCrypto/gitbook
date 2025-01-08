@@ -13,7 +13,7 @@ This section will cover:
 1. [How to reference a query?](query-referencing.md#syntax)
 2. [How to leverage query referencing to speed up parameter runs?](query-referencing.md#leveraging-query-referencing-for-performance-optimization)
 3. [How to decide which query to reference?](query-referencing.md#how-to-decide-which-query-to-reference)
-4. How to troubleshoot errors?
+4. [How to troubleshoot errors?](query-referencing.md#troubleshooting-errors)
 5. [Limitations](query-referencing.md#limitations)
 
 ***
