@@ -13,7 +13,8 @@ This section will cover:
 1. [How to reference a query?](query-referencing.md#syntax)
 2. [How to leverage query referencing to speed up parameter runs?](query-referencing.md#leveraging-query-referencing-for-performance-optimization)
 3. [How to decide which query to reference?](query-referencing.md#how-to-decide-which-query-to-reference)
-4. [Limitations](query-referencing.md#limitations)
+4. How to troubleshoot errors?
+5. [Limitations](query-referencing.md#limitations)
 
 ***
 
@@ -125,6 +126,26 @@ Since all public queries can be referenced, make sure you trace query dependenci
 
 
 {% endhint %}
+
+***
+
+### Troubleshooting Errors&#x20;
+
+#### Error: `Result for query {ID} has expired.`
+
+This error occurs when the results of a referenced query has expired.&#x20;
+
+How to resolve:
+
+1.  **If you own the referenced query:**
+
+    1. Set a refresh rate of at least once every 24 hours on the referenced query. This ensures that its results are consistently available to access.&#x20;
+
+
+2. If you _**do NOT**_ own the referenced query:
+   1. Hover over the query ID in your SQL to see the details of the referenced query, click on the query title to open it.&#x20;
+   2. Fork the referenced query to create a copy under your ownership and set a refresh rate of at least once every 24 hours.
+   3. Update the query ID in your current query with the ID of the forked query to ensure uninterrupted access to the results.
 
 ***
 
