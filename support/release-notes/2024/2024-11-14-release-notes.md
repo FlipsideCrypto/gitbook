@@ -11,7 +11,7 @@ description: >-
 
 We're thrilled to announce a transformative moment at Flipside with the launch of our new brand identity and website experience! This refresh reflects our deepened commitment to fostering blockchain growth through the power of data science and analytics. Our new look embodies our mission of enabling limitless growth for blockchains while continuing to empower the analysts, builders, and users who drive innovation in web3.&#x20;
 
-<figure><img src="../../.gitbook/assets/1731528003209.jpg" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1731528003209.jpg" alt="" width="563"><figcaption></figcaption></figure>
 
 > **Take a look at** [**https://flipsidecrypto.xyz**](https://flipsidecrypto.xyz)&#x20;
 
