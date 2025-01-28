@@ -51,6 +51,7 @@
   * [Data Studio (SQL Analysts)](data/data-products/data-studio-sql-analysts/README.md)
     * [Get Started](data/data-products/data-studio-sql-analysts/get-started/README.md)
       * [Write/fork your first query](data/data-products/data-studio-sql-analysts/get-started/write-fork-your-first-query.md)
+    * [Flipside AI](data/data-products/data-studio-sql-analysts/flipside-ai.md)
     * [Studio in Depth](data/data-products/data-studio-sql-analysts/studio-in-depth/README.md)
       * [Query Editor](data/data-products/data-studio-sql-analysts/studio-in-depth/query-editor/README.md)
         * [Query Referencing](data/data-products/data-studio-sql-analysts/studio-in-depth/query-editor/query-referencing.md)
