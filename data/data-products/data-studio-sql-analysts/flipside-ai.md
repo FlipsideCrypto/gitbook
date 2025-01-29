@@ -42,3 +42,8 @@ In addition to AI summaries, dashboards now include an AI chat panel that helps 
 * Request explanations of data relationships
 * Investigate patterns or anomalies
 * Get clarification on dashboard components
+
+{% hint style="info" %}
+Note: you'll be limited to 3 chats per day until you login or sign up. Once you do, you'll unlock unlimited chats!
+{% endhint %}
+
