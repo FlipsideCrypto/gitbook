@@ -151,7 +151,7 @@
   * [That email doesn't look quite right](support/open-a-ticket/that-email-doesnt-look-quite-right.md)
 * [🌟 Product Special Releases](support/product-special-releases/README.md)
   * [2025](support/product-special-releases/2025/README.md)
-    * [2025-02-06 | EVM BlockchainStandardization](support/product-special-releases/2025/02-06-evm-blockchain-standardization/README.md)
+    * [2025-02-06 | EVM Blockchain Standardization](support/product-special-releases/2025/02-06-evm-blockchain-standardization/README.md)
       * [Table Change Overview](support/product-special-releases/2025/02-06-evm-blockchain-standardization/table-change-overview.md)
   * [2024](support/product-special-releases/2024/README.md)
     * [2024-06-13 | Solana native and wrapped addresses](support/product-special-releases/2024/2024-06-13-solana-native-wrapped-addresses.md)
