@@ -9,7 +9,6 @@ description: Get paid for participating in web3 ecosystems
 Get paid to use top protocols and level up your onchain score.
 
 * [Quests](onchain-rewards/quests.md)
-* [Grail Game](broken-reference)
 
 ## 🌲Analyst Rewards
 
