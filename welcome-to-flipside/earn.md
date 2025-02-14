@@ -9,7 +9,7 @@ description: Get paid for your work
 Get paid to use top protocols and level up your onchain score.
 
 * [Quests](../earn/onchain-rewards/quests.md)
-* [Grail Game](../earn/onchain-rewards/grail-game-guide/)
+* [Grail Game](broken-reference)
 
 ## 🌲Analyst Rewards
 
