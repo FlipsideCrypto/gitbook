@@ -30,7 +30,7 @@ Our DBT data documentation is kept up to date _as changes are deployed_, so chec
 * [Optimism](https://flipsidecrypto.github.io/optimism-models/#!/overview)
 * [Osmosis](https://flipsidecrypto.github.io/osmosis-models/#!/overview)&#x20;
 * [Polygon](https://flipsidecrypto.github.io/polygon-models/#!/overview)
-* [Ronin](https://flipsidecrypto.github.io/aleo-models/#!/overview/ronin_models)
+* [Ronin](https://flipsidecrypto.github.io/ronin-models/#!/overview/ronin_models)
 * [Sei](https://flipsidecrypto.github.io/sei-models/#!/overview)
 * [Solana](https://flipsidecrypto.github.io/solana-models/#!/overview) &#x20;
 * [Stellar](https://flipsidecrypto.github.io/stellar-models/#!/overview/stellar_models)
