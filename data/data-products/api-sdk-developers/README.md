@@ -10,7 +10,7 @@ Flipside's flexible API allows users to execute complex SQL queries on Flipside'
 
 ### Get Your API Key
 
-Get your free API Key to the most comprehensive data in cypto [here](https://flipsidecrypto.xyz/settings/api-keys).
+Get your free API Key to the most comprehensive data in cypto [here](https://flipsidecrypto.xyz/settings/api).
 
 ### Key Features
 
