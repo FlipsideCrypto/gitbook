@@ -12,7 +12,7 @@ This week we released enhanced label support for Ronin & Ink, and comprehensive 
 
 #### New Testnet Blockchain data available - Monad!
 
-We're excited to announce new Monad testnet data with `blocks`, `transactions`_,_ `event_logs`_,_ `traces`_,_ and `contracts` tables. Start querying this data now in the studio.
+We're excited to announce new Monad testnet data with `blocks`, `transactions`_,_ `event_logs`_,_ `traces`_,_ and `contracts` tables. Start querying this data now in the [studio](https://flipsidecrypto.xyz/studio).
 
 Check out these updates and the rest of the release notes below.
 
