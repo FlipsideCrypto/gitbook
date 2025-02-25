@@ -28,7 +28,7 @@ Dashboards can be disqualified from participating in Earn rewards at the team’
 
 ## 4. Building on the work of others & giving credit
 
-* [**👉 How to use others' work? Don't plagiarize, give credit instead. 👈**](https://flipsidecrypto.xyz/piper/how-to-use-other-s-work-don-t-plagiarize-give-credit-instead...-9\_Vyj1)  Read this – it summarizes the **minimum expectations** you must follow when you **use and cite** (all or part of) **the work of others**.
+* [**👉 How to use others' work? Don't plagiarize, give credit instead. 👈**](https://flipsidecrypto.xyz/piper/how-to-use-other-s-work-don-t-plagiarize-give-credit-instead...-9_Vyj1)  Read this – it summarizes the **minimum expectations** you must follow when you **use and cite** (all or part of) **the work of others**.
 * You can leverage others’ past analytics as your starting point, then add your original contributions.
 * Do not simply copy someone else's work without giving them credit or adding your own value. **You are always required to cite the author** appropriately, and **add something meaningful of your own** instead of just copying or changing small things. Otherwise your work will be **disqualified from rewards.**&#x20;
 * _See a dashboard that copies others' analysis without giving credit to the source and without adding one’s own value and ideas? Let us know on Discord._
@@ -45,12 +45,12 @@ Dashboards can be disqualified from participating in Earn rewards at the team’
 * Do not use duplicate or sybil accounts on Flipside, X (formerly Twitter), or other platforms to attempt to gain an unfair advantage in our Earn program.&#x20;
 * _See a dashboard or post that benefits from non-genuine engagement? Let us know on Discord._
 
-## 7. Professionalism
+## 7. T\&C and Professionalism
 
-* **Remain professional and respectful** in all analytics you build, all content you create, and all public and private communication with our community and team members.
+* **Remain professional and respectful** in all analytics you build, all content you create, and all public and private communication with our community and team members. To be eligible for rewards you must always comply with Flipside Terms and Conditions, and ensure that your content and public presence reflect the same spirit. Outputs and users can be disqualified from rewards for these and other reasons at Flipside's discretion.
 
 ## Troubleshooting
 
-* **Is your dashboard trending on X but is not** [**picked up**](https://science.flipsidecrypto.xyz/flipside\_analysts/) **by our data pipeline?** [**Submit it here**](https://science.flipsidecrypto.xyz/missing-tweet/) so it's picked up automatically. It takes up to 2 hours for your submission to take effect.
-* **Do we** [**have all the raw data**](https://science.flipsidecrypto.xyz/flipside\_analysts/) **about your dashboard and tweet, but you think it should rank higher on the leaderboard?** Updates to the Top Dashboards algorithm took effect on November 1, 2024. There are [many factors](https://docs.flipsidecrypto.xyz/earn/analyst-rewards/top-dashboards#how-it-works) that determine ranks, in addition to total impressions on X.&#x20;
+* **Is your dashboard trending on X but is not** [**picked up**](https://science.flipsidecrypto.xyz/flipside_analysts/) **by our data pipeline?** [**Submit it here**](https://science.flipsidecrypto.xyz/missing-tweet/) so it's picked up automatically. It takes up to 2 hours for your submission to take effect.
+* **Do we** [**have all the raw data**](https://science.flipsidecrypto.xyz/flipside_analysts/) **about your dashboard and tweet, but you think it should rank higher on the leaderboard?** Updates to the Top Dashboards algorithm took effect on November 1, 2024. There are [many factors](https://docs.flipsidecrypto.xyz/earn/analyst-rewards/top-dashboards#how-it-works) that determine ranks, in addition to total impressions on X.&#x20;
   * _**We appreciate reports of missing data and do our best to reconcile them. But if all data is ingested correctly, our team cannot address rank questions, because of the number of factors involved.**_
