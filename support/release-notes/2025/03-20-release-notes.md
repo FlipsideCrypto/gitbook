@@ -7,7 +7,7 @@ description: >-
 
 # 2025-03-20 | Release Notes
 
-This release unlocks new data realms across the Solana and Avalanche ecosystems while streamlining access patterns. We're introducing intuitive EZ tables for Solana NFTs and DeFi, plus expanding our coverage through external data partnerships.&#x20;
+This release unlocks new data realms across the Solana and Avalanche ecosystems while streamlining access patterns. We're introducing intuitive EZ tables for Solana NFTs and DeFi, plus expanding our Avalanche coverage with data from Ava Labs.&#x20;
 
 ### Highlights
 
