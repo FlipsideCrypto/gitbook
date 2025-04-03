@@ -1,69 +1,42 @@
 ---
 description: >-
-  New Solana tables for NFT sales and liquidity pool actions, plus
-  external.avalanche schema with Ava Labs data. Legacy Solana tables will be
-  deprecated on April 15, 2025.
+  Movement mainnet support with 6 new core tables and Mezo testnet data
+  launching today!
 ---
 
-# 2025-03-20 | Release Notes
+# 2025-04-03 | Release Notes
 
-This release unlocks new data realms across the Solana and Avalanche ecosystems while streamlining access patterns. We're introducing intuitive EZ tables for Solana NFTs and DeFi, plus expanding our Avalanche coverage with data from Ava Labs.&#x20;
+This release introduces core tables for the Movement blockchain. With these additions, you can now explore and analyze transactions, blocks, and events on the Movement mainnet, unlocking new opportunities for insights into this ecosystem. We're also excited to announce that testnet data for Mezo is launching today!
 
 ### Highlights
 
-* **New Solana NFT Sales Table**: Access comprehensive NFT sales data across multiple marketplaces with enriched metadata and pricing information
-* **Enhanced DeFi Liquidity Pool Analytics**: New convenience table for Raydium, Orca, and Meteora liquidity pool actions with simplified data structure
-* **Avalanche Expansion**: New `external.avalanche` schema with data from Ava Labs
-* **Important Deprecation Notice**: Two legacy Solana tables will be deprecated on April 15, 2025
+* **Movement Mainnet Support**: Six new core tables enabling comprehensive data exploration of the Movement blockchain
+* **Launching Today**: Mezo testnet data is being released
 
-### ⚠️ Special Notices
+### Blockchain Updates
 
-**DEPRECATION NOTICE - Action Required by April 15, 2025**
-
-The following Solana tables will be deprecated on April 15, 2025. Please update your queries to use the new tables before this date:
-
-* `solana.nft.fact_nft_sales` → Replace with `solana.nft.ez_nft_sales`
-* `solana.defi.fact_liquidity_pool_actions` → Replace with `solana.defi.ez_liquidity_pool_actions`
-
-### Solana
+### Movement
 
 **New Tables**
 
-New convenience tables for Solana to enhance data access and usability, offering a more intuitive structure for analyzing DeFi and NFT activities.
+We're excited to announce comprehensive support for Movement's mainnet with the addition of six new core tables.
 
-* **solana.nft.ez\_nft\_sales**\
-  A convenience table containing NFT sales across multiple marketplaces, with comprehensive information on metadata, USD prices, and marketplace details. This table simplifies querying NFT market activity with additional columns for deeper insights.
-* **solana.defi.ez\_liquidity\_pool\_actions**\
-  Convenience table capturing actions for liquidity pools in Raydium, Orca, and Meteora. This includes deposit and withdrawal events with a significantly improved data structure that consolidates related token information. _Key improvements:_
-  * Single actions are represented in a single row, instead of separate records for each mint
-  * Contains data for both tokens (A and B) in a single record with properties like `token_a_mint`, `token_b_mint`, `token_a_amount`, `token_b_amount`, etc.
-  * Focuses specifically on withdraw and deposit actions for cleaner analysis
+* `movement.core.fact_blocks`
+* `movement.core.fact_changes`
+* `movement.core.fact_events`
+* `movement.core.fact_transactions`
+* `movement.core.fact_transactions_block_metadata`
+* `movement.core.fact_transactions_state_checkpoint`
 
-**Deprecated Tables**
+With these tables, you can now track activity across the Movement ecosystem, identify patterns in transaction behavior, and build comprehensive dashboards that illuminate this new blockchain's dynamics.
 
-The following tables are deprecated in favor of the new models above:
 
-* **solana.fact\_nft\_sales**\
-  &#xNAN;_&#x52;eplaced with:_ solana.nft.ez\_nft\_sales\
-  &#xNAN;_&#x4E;ote:_ No change is required from users as the main difference is additional columns in the new table.
-* **solana.fact\_liquidity\_pool\_actions**\
-  &#xNAN;_&#x52;eplaced with:_ solana.defi.ez\_liquidity\_pool\_actions\
-  &#xNAN;_&#x4E;ote:_ The new ez table contains only withdraw and deposit actions (the previous table had mint/burn actions). Data structure has been improved with single-row representation instead of separate records for each token. _Example:_ For a Meteora deposit:
-  * The new EZ table represents the action as one record containing data for both tokens
-  * The deprecated table has 2 separate records: one for token A and one for token B
 
-**Deprecation Date: 2025-04-15**
+### Launching Today
 
-### Avalanche
+We're excited to announce that support for the following testnet data is available starting today:
 
-**New Tables**
-
-New external schema with tables shared from Ava Labs:
-
-*   **avalanche.external.avalanche**\
-    A new schema in our external database filled with tables shared directly from Ava Labs. This addition significantly expands our Avalanche ecosystem coverage with authoritative data.&#x20;
-
-    * _Important Note:_ This data is sourced directly from Ava Labs. For technical questions about this dataset, please refer to the Ava Labs Discord community.
+* **Mezo Testnet**: Core tables for the Mezo blockchain testnet are now available
 
 
 
