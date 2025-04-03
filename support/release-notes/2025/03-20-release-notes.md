@@ -36,7 +36,7 @@ With these tables, you can now track activity across the Movement ecosystem, ide
 
 We're excited to announce that support for the following testnet data is available starting today:
 
-* **Mezo Testnet**: Core tables for the Mezo blockchain testnet are now available
+* **Mezo Testnet**: Core tables for the Mezo testnet are now available
 
 
 
