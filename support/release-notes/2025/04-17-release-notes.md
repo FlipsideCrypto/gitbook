@@ -7,7 +7,7 @@ description: >-
 
 # 2025-04-17 | Release Notes
 
-This release expands our data coverage with new Rise testnet tables, Movement blockchain metrics, and enhanced stablecoin tracking. We've also updated Solana DEX coverage and included important EVM standardization timeline updates that require your attention.
+This release adds tables for the Rise testnet, Movement blockchain, stablecoin tracking, and expands Solana DEX coverage. It also includes important information about the EVM standardization timeline with specific deprecation dates that require your attention.
 
 ## Highlights
 
