@@ -10,7 +10,7 @@ This release launches support for TON blockchain data with 15 new tables, introd
 
 ## Highlights
 
-* **15 New TON Tables**: Core blockchain data, DeFi activity, and NFT ecosystem
+* **15 New TON Tables**: covering core blockchain data, DeFi activity, and NFT ecosystem
 * **Ethereum L2 Schema**: New dedicated schema with tables for state validation and data availability
 * **Solana Staking Data**: Enhanced coverage for moveLamports and moveStake events
 * **Aptos Token Metadata**: Improved token data and transfers tracking
