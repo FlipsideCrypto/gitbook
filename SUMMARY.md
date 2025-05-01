@@ -156,6 +156,7 @@
       * [Action for Data Share Users](support/product-special-releases/2024/2024-05-01-or-improvements-to-pricing-data/action-for-data-share-users.md)
 * [🗒️ Release Notes](support/release-notes/README.md)
   * [2025](support/release-notes/2025/README.md)
+    * [2025-05-01 | Release Notes](support/release-notes/2025/05-01-release-notes.md)
     * [2025-04-17 | Release Notes](support/release-notes/2025/04-17-release-notes.md)
     * [2025-04-03 | Release Notes](support/release-notes/2025/04-03-release-notes.md)
     * [2025-03-20 | Release Notes](support/release-notes/2025/03-20-release-notes.md)
