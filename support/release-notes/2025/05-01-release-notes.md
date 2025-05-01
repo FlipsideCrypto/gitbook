@@ -6,7 +6,7 @@ description: >-
 
 # 2025-05-01 | Release Notes
 
-This release launches support for TON blockchain data with 15 new tables, introduces Ethereum L2 schema, enhances Solana staking data, and improves Aptos token tracking. Our EVM standardization efforts continues. Please note the important upcoming deprecation of legacy data shares scheduled for May 15th, which will require action for users still utilizing these resources.
+This release launches support for TON blockchain data with 15 new tables, introduces Ethereum L2 schema, enhances Solana staking data, and improves Aptos token tracking. Our EVM standardization efforts continues. Please note the important upcoming deprecation of legacy data shares scheduled for May 15th.
 
 ## Highlights
 
@@ -21,7 +21,7 @@ This release launches support for TON blockchain data with 15 new tables, introd
 
 ### Deprecating legacy Data Shares
 
-Legacy data shares (with `FLIPSIDE_` prefix) will be deprecated on May 15th, 2025. If your data share contains only the blockchain name without this prefix, no action is required.
+We updated our data shares about 1 year ago to improve access and performance. We'll officially deprecate the legacy data shares on May 15th, 2025.
 
 **How to identify legacy shares**: Legacy shares have the prefix `FLIPSIDE_` (e.g., `FLIPSIDE_SOLANA`). If your data share only contains the name of the blockchain without the prefix (e.g., `SOLANA`), you're already on the latest shares and no action is required.
 
