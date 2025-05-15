@@ -11,7 +11,7 @@ This release introduces a new schema for UnifAi in our Crosschain database, Unis
 ## Highlights
 
 * **New UnifAi Schema**: Introducing crosschain.unifai schema with dedicated tables for tracking crosschain swaps and purchases.
-* **Uniswap v4 Support**: Enhanced Ethereum DeFi tables now include Uniswap v4 curation.
+* **Uniswap v4 Integration**: Enhanced Ethereum DeFi tables now include Uniswap v4.
 * **NEAR Bridge Improvements**: Added bridge activity tracking with Omni bridge contracts as Omni bridge is replacing Rainbow as NEAR's primary bridge protocol.
 * **Solana Transaction Enhancements**: Improved transaction ordering and expanded DEX coverage.
 
@@ -38,16 +38,12 @@ Introducing a new schema in the Crosschain database for UnifAi, containing table
 * `solana.core.fact_swaps`
 * `solana.defi.ez_dex_swaps`
 
-
-
 ### Ethereum
 
-**Uniswap v4 Integration** — these DeFi tables now include Uniswap v4 curation
+**Uniswap v4 Integration** — these DeFi tables now include Uniswap v4&#x20;
 
 * `ethereum.defi.ez_dex_swaps`
 * `ethereum.defi.dim_dex_liquidity_pools`
-
-
 
 ### NEAR
 
