@@ -6,12 +6,15 @@ description: >-
 
 # 2025-05-29 | Release Notes
 
-This week brings enhanced guidance for navigating Solana's complex swap ecosystem and an exciting announcement about accessing Flipside's core blockchain data completely free on Snowflake. These developments reinforce our commitment to making blockchain data more accessible and actionable for analysts across the ecosystem.
+This week brings enhanced guidance for navigating Solana's complex swap ecosystem, completion of our major EVM standardization initiative, and an exciting announcement about accessing Flipside's core blockchain data completely free on Snowflake. These developments reinforce our commitment to making blockchain data more accessible and actionable for analysts across the ecosystem.
 
 ### Highlights
 
 * **New Solana Swaps Documentation**: Comprehensive guide and video tutorial explain how to effectively analyze swap data across Solana's multi-aggregator landscape
+* **EVM Standardization Complete**: Our major initiative to standardize EVM blockchain data models across all supported chains is now fully implemented
 * **Free Core Data on Snowflake**: Flipside's curated blockchain data from 35+ chains is now available completely free through Snowflake Marketplace
+
+
 
 #### 🎯 **Major Announcement: Free Core Data on Snowflake**
 
@@ -23,6 +26,25 @@ We're transforming how teams access blockchain data by offering our curated Core
 * Instant, unlimited access to production-ready blockchain data
 * Zero licensing costs, maximizing your analytics budget
 * Enterprise-grade reliability and performance
+
+***
+
+### Platform Updates
+
+#### EVM Standardization Initiative Complete
+
+We're excited to announce the completion of our comprehensive EVM standardization project, a multi-month initiative that has transformed how blockchain data is structured and accessed across all EVM-compatible chains in Flipside.
+
+This standardization ensures consistent data models, naming conventions, and schema structures across Ethereum, Polygon, Arbitrum, Optimism, Avalanche C-Chain, and all other EVM networks. The result is a more intuitive, reliable experience for analysts working with multi-chain data.
+
+**Key Benefits:**
+
+* Unified data models across all EVM chains
+* Consistent table structures and naming conventions
+* Improved query performance and reliability
+* Enhanced cross-chain analysis capabilities
+
+For complete details about the changes and migration guidance, visit our [EVM Standardization documentation](https://docs.flipsidecrypto.xyz/support/product-special-releases/2025/02-06-evm-blockchain-standardization).
 
 ***
 
