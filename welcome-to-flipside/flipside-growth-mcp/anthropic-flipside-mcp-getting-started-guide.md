@@ -14,7 +14,18 @@ For this example we'll be using Anthropic's `claude-sonnet-4` model.&#x20;
 
 ## Here's how to add the Flipside MCP to your Pro Claude Account
 
-**Claude Pro/Max**
+#### **Claude Enterprise and Team (Owners and Primary Owners)**
+
+_Note:_ While anyone can build and host integrations using remote MCP, only Primary Owners or Owners can enable it on Claude for Work plans (Team and Enterprise). Once an integration has been configured on a Team or Enterprise account, users individually authenticate into the integration. This ensures that Claude can only access tools and data that the individual user has access to.
+
+1. Navigate to[ Settings > Integrations](https://claude.ai/settings/integrations)
+2. Toggle to “Organization integrations” at the top of the page
+3. Locate the “Integrations” section
+4. Click “Add custom integration” at the bottom of the section
+5. Add your integration’s remote MCP server URL
+6. Finish configuring your integration by clicking “Add”
+
+#### **Claude Pro/Max**
 
 1. Navigate to [Settings > Integrations](https://claude.ai/settings/integrations)
 2. Locate the “Integrations” section
