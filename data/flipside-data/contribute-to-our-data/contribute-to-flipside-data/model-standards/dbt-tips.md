@@ -20,14 +20,13 @@ A table is materialized as incremental via the model config. Flipside does this 
 ```
 
 * [`materialized`](https://docs.getdbt.com/reference/resource-configs/materialized) sets the type of model
-* [`incremental_strategy`](https://docs.getdbt.com/docs/build/incremental-models#about-incremental\_strategy) determines the build approach. On Snowflake, the default is `merge` but you may also see `delete+insert`
-* [`unique_key`](https://docs.getdbt.com/reference/resource-configs/unique\_key) is a required parameter, regardless of incremental or table, but is used in the `incremental_strategy` to identify records.
+* [`incremental_strategy`](https://docs.getdbt.com/docs/build/incremental-models#about-incremental_strategy) determines the build approach. On Snowflake, the default is `merge` but you may also see `delete+insert`
+* [`unique_key`](https://docs.getdbt.com/reference/resource-configs/unique_key) is a required parameter, regardless of incremental or table, but is used in the `incremental_strategy` to identify records.
 
 When creating models with incremental materialization, we need to write an incremental logic within the model. It is important for the incremental logic to be based on `_inserted_timestamp` and not on the `block_timestamp`_._ This is important especially when the data encounters gaps on certain dates. This enables the model to heal itself because gaps are associated with `block_timestamp` and when they get-inserted later, they get captured by _`_inserted_timestamp`._
 
 ```sql
- {% raw %}
-{% if is_incremental() %}
+ {% if is_incremental() %}
 WHERE _inserted_timestamp >= (
     SELECT
         MAX(_inserted_timestamp) :: DATE - 1
@@ -35,6 +34,5 @@ WHERE _inserted_timestamp >= (
         {{ this }}
 )
 {% endif %}
-{% endraw %}
 ```
 

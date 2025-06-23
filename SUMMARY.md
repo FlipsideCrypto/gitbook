@@ -18,7 +18,8 @@
       * [Mounting a Snowflake Data Share](choose-your-flipside-plan/snowflake-data-shares/mounting-a-snowflake-data-share.md)
 * [Earn](welcome-to-flipside/earn.md)
 * [Community](<flipside-community/get-started (1).md>)
-* [Flipside Growth MCP](welcome-to-flipside/flipside-growth-mcp.md)
+* [Flipside Growth MCP](welcome-to-flipside/flipside-growth-mcp/README.md)
+  * [🪿 Goose Flipside MCP Getting Started Guide](welcome-to-flipside/flipside-growth-mcp/goose-flipside-mcp-getting-started-guide.md)
 
 ## Data&#x20;
 
