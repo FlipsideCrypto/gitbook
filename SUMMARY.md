@@ -20,6 +20,7 @@
 * [Community](<flipside-community/get-started (1).md>)
 * [Flipside Growth MCP](welcome-to-flipside/flipside-growth-mcp/README.md)
   * [🪿 Goose Flipside MCP Getting Started Guide](welcome-to-flipside/flipside-growth-mcp/goose-flipside-mcp-getting-started-guide.md)
+  * [🤖 Anthropic Flipside MCP Getting Started Guide](welcome-to-flipside/flipside-growth-mcp/anthropic-flipside-mcp-getting-started-guide.md)
 
 ## Data&#x20;
 

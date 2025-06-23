@@ -45,4 +45,4 @@ For this example we'll be using Anthropic's `claude-sonnet-4` model.&#x20;
 4. Click 'Add Extension'
 5. Click 'Back' and start playing around!&#x20;
 
-Need inspiration on what to ask? See the[.](./ "mention") page for more details.
+That's it! Need inspiration on what to ask? See the[.](./ "mention") page for more details.
