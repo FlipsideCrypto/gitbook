@@ -16,7 +16,7 @@ For this example we'll be using Anthropic's `claude-sonnet-4` model.&#x20;
 
 ### ![:inbox\_tray:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f4e5.png) Download & Install Goose Desktop
 
-1. Go to [https://block.github.io/goose/docs/quickstart](https://block.github.io/goose/docs/quickstart) and download Goose Desktop for your OS
+1. Go to [https://block.github.io/goose/docs/getting-started/installation](https://block.github.io/goose/docs/getting-started/installation) and download Goose Desktop for your OS
 2. Install and launch the application
 
 ### ![:gear:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/2699-fe0f.png) Configure LLM Provider
