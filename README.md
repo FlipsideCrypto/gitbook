@@ -11,6 +11,10 @@ description: >-
 
 Discover data-driven strategies to grow your market cap.
 
+## Flipside Growth MCP
+
+Analyze blockchain activity like a pro analyst without writing a single line of SQL
+
 ## 📊 [Onchain Data](welcome-to-flipside/data/)
 
 Build with or analyze the best onchain data available. Get started for free or [find the right plan](choose-your-flipside-plan/) for you.
