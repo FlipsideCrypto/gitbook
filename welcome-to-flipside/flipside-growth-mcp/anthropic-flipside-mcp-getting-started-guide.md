@@ -9,7 +9,7 @@ For this example we'll be using Anthropic's `claude-sonnet-4` model.&#x20;
 #### Requirements before you get started
 
 1. A Claude Pro account
-2. A unique Flipside MCP URL and API Key.
+2. A unique Flipside MCP API Key.
    1. Don't have one? [Request one here.](https://flipsidecrypto.xyz/fc/flipside-mcp-interest)
 
 ## Here's how to add the Flipside MCP to your Pro Claude Account
@@ -23,6 +23,7 @@ _Note:_ While anyone can build and host integrations using remote MCP, only Prim
 3. Locate the “Integrations” section
 4. Click “Add custom integration” at the bottom of the section
 5. Add your integration’s remote MCP server URL
+   1. &#x20;`https://mcp.flipsidecrypto.xyz/beta/sse?apiKey=[YOUR-API-KEY]`
 6. Finish configuring your integration by clicking “Add”
 
 #### **Claude Pro/Max**
@@ -31,6 +32,7 @@ _Note:_ While anyone can build and host integrations using remote MCP, only Prim
 2. Locate the “Integrations” section
 3. Click “Add custom integration” at the bottom of the section
 4. Add your integration’s remote MCP server URL
+   1. &#x20;`https://mcp.flipsidecrypto.xyz/beta/sse?apiKey=[YOUR-API-KEY]`
 5. Finish configuring your integration by clicking “Add”
 
 That's it! Need inspiration on what to ask? See the[.](./ "mention") page for more details.

@@ -9,7 +9,7 @@ For this example we'll be using Anthropic's `claude-sonnet-4` model.&#x20;
 #### Requirements before you get started
 
 1. Either an Anthropic or Google Gemini API Key
-2. A unique Flipside MCP URL and API Key.
+2. A unique Flipside MCP API Key.
    1. Don't have one? [Request one here.](https://flipsidecrypto.xyz/fc/flipside-mcp-interest)
 
 ## Here's how to add the Flipside MCP with Goose
@@ -37,7 +37,7 @@ For this example we'll be using Anthropic's `claude-sonnet-4` model.&#x20;
 3. Under 'Extenstions' click 'Add custom extension'
    1. Extension name: `flipsidemcp` (can be whatever you want but no spaces)
    2. Type: `SSE`
-   3. Endpoint: _Your unique URL_
+   3. Endpoint: `https://mcp.flipsidecrypto.xyz/beta/sse?apiKey=[YOUR-API-KEY]`
    4.  Timeout: `300000` \
 
 
