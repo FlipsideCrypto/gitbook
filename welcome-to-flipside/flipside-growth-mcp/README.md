@@ -4,6 +4,12 @@
 
 Flipside Growth Intelligence is an AI-powered blockchain analytics system that helps you understand, optimize, and grow blockchain ecosystems. Instead of wrestling with complex data queries, you simply ask questions in plain English and get data-driven insights, strategic recommendations, and actionable growth plans.
 
+{% hint style="info" %}
+Not familiar with Model Context Protocols? [Learn more about MCPs here](https://modelcontextprotocol.io/introduction).
+{% endhint %}
+
+### <a href="goose-flipside-mcp-getting-started-guide.md" class="button primary">Integrate with Goose</a>         <a href="anthropic-flipside-mcp-getting-started-guide.md" class="button primary">Integrate with Claude</a>
+
 ### What You Can Do
 
 #### 🔍 Ecosystem Health Analysis
