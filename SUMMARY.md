@@ -133,9 +133,6 @@
 * [Flipside Earn](earn/flipside-earn.md)
 * [Onchain Rewards](earn/onchain-rewards/README.md)
   * [Quests](earn/onchain-rewards/quests.md)
-* [Analyst Rewards](earn/analyst-rewards/README.md)
-  * [Ambassador Program](earn/analyst-rewards/ambassador-program.md)
-  * [Direct to Analyst Commissions](earn/analyst-rewards/direct-to-analyst-commissions.md)
 * [Wallet Management](earn/wallet-management.md)
 * [Tax Center](earn/tax-center.md)
 
@@ -146,6 +143,7 @@
   * [That email doesn't look quite right](support/open-a-ticket/that-email-doesnt-look-quite-right.md)
 * [🌟 Product Special Releases](support/product-special-releases/README.md)
   * [2025](support/product-special-releases/2025/README.md)
+    * [2025-06-20 | Deprecating Studio, Dashboards, API, SDK](support/product-special-releases/2025/2025-06-20-or-deprecating-studio-dashboards-api-sdk.md)
     * [2025-02-06 | EVM Blockchain Standardization](support/product-special-releases/2025/02-06-evm-blockchain-standardization/README.md)
       * [Table Change Overview](support/product-special-releases/2025/02-06-evm-blockchain-standardization/table-change-overview.md)
   * [2024](support/product-special-releases/2024/README.md)
@@ -196,6 +194,3 @@
 ## Flipside Community
 
 * [Get Started](flipside-community/get-started.md)
-* [Ambassador Program](flipside-community/ambassador-program.md)
-* [Join Our Discord](https://discord.gg/flipside)
-* [Join Our Guild](https://guild.xyz/flipside-crypto)

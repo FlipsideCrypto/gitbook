@@ -21,8 +21,8 @@ Build with or analyze the best onchain data available. Get started for free or [
 
 ## 🤑 [Earn](welcome-to-flipside/earn.md)
 
-Build your bags — Play grail, participate in quests, or build dashboards to earn real crypto.
+Build your bags — participate in journeys and quests to earn real crypto.
 
 ## 👥 [Community](<flipside-community/get-started (1).md>)
 
-Join the thousands of crypto analysts building on Flipside.
+Join the intelligence-driven growth community.

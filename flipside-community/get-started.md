@@ -1,3 +1,3 @@
 # Get Started
 
-### [Get started in our community of blockchain data analysts, builders, data-driven projects, and enthusiasts.](https://docs.flipsidecrypto.xyz/welcome-to-flipside/flipside-community-overview)
+Intelligent blockchain growth has a community. Join the [G² Growth Collective](https://t.me/gsquaredgrowth) to connect with the premier web3 growth minds.&#x20;
