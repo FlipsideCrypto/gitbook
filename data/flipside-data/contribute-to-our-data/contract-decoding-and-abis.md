@@ -4,7 +4,7 @@
 
 To add a contract for decoding, please visit [here](https://science.flipsidecrypto.xyz/abi-requestor/).
 
-Assuming the submitted ABI is valid, records will be decoded within 24 hours. If records are not decoded within 24 hours, or for any ABI updates, please submit a ticket within our Discord.
+Assuming the submitted ABI is valid, records will be decoded within 24 hours. If records are not decoded within 24 hours, or for any ABI updates, please submit a [support ticket](https://docs.flipsidecrypto.xyz/support/support).
 
 #### General Process Overview <a href="#general-process-overview" id="general-process-overview"></a>
 

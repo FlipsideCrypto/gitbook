@@ -4,9 +4,7 @@
 
 ### **Snowflake**
 
-Community curators are granted access to a dev environment for testing and development of a data model. A member of Flipside's analytics team will need to grant you access, so please ask in the [# 🌲 | community-curation](https://discord.com/channels/784442203187314689/1053086214615466095) channel on Discord something along the lines of:
-
-> Hi , I’m interested in doing data curation for Flipside, could you give me snowflake access please? I’d like my username to be:  `community_<insert_username>`
+Community curators are granted access to a dev environment for testing and development of a data model.&#x20;
 
 {% hint style="warning" %}
 Access to Snowflake is granted for the sole purpose of community curation and testing your models. This password is not to be shared with anyone. If you know someone who would like to contribute as well, we will credential them separately. If you would like to work with Flipside data in a Snowflake environment, please see the section on [Data Shares](broken-reference) and reach out separately.
@@ -48,7 +46,7 @@ We have included a Dockerfile in eligible repositories to handle the installatio
    1. Run `dbt debug` to check installation.
    2. Run `dbt deps` to install dependencies listed in the [`packages.yml`](https://github.com/FlipsideCrypto/ethereum-models/blob/main/packages.yml).
    3. Run `dbt test -s core__fact_blocks` to run a set of tests on the `<chain>.core.fact_blocks` model in the community curation database to check your connection and credentials.
-   4. If you run into any errors, reach out for assistance in the [Discord channel](https://discord.com/channels/784442203187314689/1053086214615466095)!
+   4. If you run into any errors, submit a [support ticket](https://docs.flipsidecrypto.xyz/support/support).
 
 #### Docker on Windows
 

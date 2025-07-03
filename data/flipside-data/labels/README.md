@@ -12,7 +12,7 @@ How are labels different from tags? Labels are a "source of truth" added by Flip
 
 ## Contribute to our labels
 
-To contribute to our labels, go to our [label submission form](https://science.flipsidecrypto.xyz/add-a-label/) and follow the steps there to submit a label. We will review all submitted labels and add accurate labels to our tables. Be sure to add a discord handle so we can reach out to you if there are any questions!
+To contribute to our labels, go to our [label submission form](https://science.flipsidecrypto.xyz/add-a-label/) and follow the steps there to submit a label. We will review all submitted labels and add accurate labels to our tables. Be sure to add your contact information so we can reach out to you if there are any questions!
 
 ## Label Types
 

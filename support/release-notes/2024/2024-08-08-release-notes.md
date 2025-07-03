@@ -3,17 +3,6 @@ description: >-
   New bridging activity and Dex swaps tables for Flow, improved query speeds for
   Solana CORE, DEFI, and PRICE tables, and enhanced NFT sales data on Magic Eden
   AMM.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # 2024-08-08 | Release Notes

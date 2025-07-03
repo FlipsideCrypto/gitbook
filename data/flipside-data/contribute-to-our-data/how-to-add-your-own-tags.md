@@ -71,7 +71,7 @@ Please see our [Github](https://github.com/FlipsideCrypto/crosschain-models) for
 \
 **3. I know what I want but I don't know how to tag**\
 \
-Flipside has a very active community and extraordinarily helpful employees. Reach out to the community, or to @gto, in Discord and someone will help you set up your tags.&#x20;
+Please reach out via a [support ticket](https://docs.flipsidecrypto.xyz/support/support) or our Telegram [community](https://t.me/gsquaredgrowth).
 
 
 

@@ -47,7 +47,7 @@ Flipside Quests are tailored for crypto users who are eager to deepen their know
 
 ## User Support
 
-* **Support Channels**: Users can [reach out to support via the app or join](https://docs.flipsidecrypto.xyz/support/open-a-ticket) the Flipside Discord for assistance and community support.
+* **Support Channels**: If you are experiencing issues, please submit a [support ticket](https://docs.flipsidecrypto.xyz/support/support).
 
 ## Additional Information
 

@@ -3,17 +3,6 @@ description: >-
   This update includes EVM chain swaps USD value improvements, new Avalanche
   Dexalot trace data, Ethereum NFT lending support for Arcade XYZ, and new Lava
   staking models.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # 2024-08-22 | Release Notes

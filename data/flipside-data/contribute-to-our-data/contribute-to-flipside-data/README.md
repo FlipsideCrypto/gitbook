@@ -33,4 +33,4 @@ Community contributions do not need to be full-blown models. Protocols are const
 
 #### Note
 
-This guide will be updated as the community curation process evolves. Please feel free to provide feedback to us on Discord!
+This guide will be updated as the community curation process evolves.&#x20;

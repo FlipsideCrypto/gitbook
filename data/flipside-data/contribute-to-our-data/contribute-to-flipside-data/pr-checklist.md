@@ -17,4 +17,3 @@ A `yml` file must accompany every `sql` model with tests and documentation for t
   * [ ] The dbt command to run, default is likely `dbt run -s <model name>+`
   * [ ] Output of the dbt run showing success.
   * [ ] Output of a dbt test showing success.
-* [ ] Post in the Discord channel that your PR is ready for review and tag your Flipside contact to review.

@@ -3,17 +3,6 @@ description: >-
   New Polymarket, Flow, and Solana tables, Polygon's MATIC-to-POL update, and
   Ethereum/Optimism lending tables deprecated by Oct 12th, 2024, consolidating
   in DeFi.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # 2024-09-19 | Release Notes

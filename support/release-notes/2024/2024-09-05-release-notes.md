@@ -2,17 +2,6 @@
 description: >-
   The latest update adds Flow EVM core models, new Lava pricing tables, and
   Thorchain Rune Pool event tracking tables.
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # 2024-09-05 | Release Notes

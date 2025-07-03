@@ -57,7 +57,7 @@ except QueryRunExecutionError as e:
 
 ### **Server Error**
 
-`ServerError` - occurs when there is a server-side error that cannot be resolved. This typically indicates an issue with Flipside Crypto's query engine API. If the issue persists please contact support in the Flipside Crypto discord server.
+`ServerError` - occurs when there is a server-side error that cannot be resolved. This typically indicates an issue with Flipside Crypto's query engine API. If the issue persists please contact [support](https://docs.flipsidecrypto.xyz/support/support).
 
 {% tabs %}
 {% tab title="Python SDK" %}

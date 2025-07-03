@@ -123,8 +123,7 @@
         * [\[ARCHIVED\] JS/TS SDK](data/data-products/api-sdk-developers/get-started/archive/js-ts-sdk.md)
         * [ShroomDK Migration Guide](data/data-products/api-sdk-developers/get-started/archive/shroomdk-migration-guide.md)
         * [\[LEGACY\] R](data/data-products/api-sdk-developers/get-started/archive/r.md)
-    * [Tutorials](data/data-products/api-sdk-developers/python-r-templates-video-tutorials/README.md)
-      * [Have Questions?](data/data-products/api-sdk-developers/python-r-templates-video-tutorials/have-questions.md)
+    * [Tutorials](data/data-products/api-sdk-developers/python-r-templates-video-tutorials.md)
     * [Get Inspired](data/data-products/api-sdk-developers/community-showcase.md)
 * [Insights and Tools](data/insights-and-tools.md)
 
