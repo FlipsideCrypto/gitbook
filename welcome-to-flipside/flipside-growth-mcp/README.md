@@ -8,7 +8,7 @@ Flipside Growth Intelligence is an AI-powered blockchain analytics system that h
 Not familiar with Model Context Protocols? [Learn more about MCPs here](https://modelcontextprotocol.io/introduction).
 {% endhint %}
 
-### <a href="broken-reference" class="button primary">Integrate with Goose</a>         <a href="anthropic-flipside-mcp-getting-started-guide.md" class="button primary">Integrate with Claude</a>
+&#x20;  <a href="anthropic-flipside-mcp-getting-started-guide.md" class="button primary">Integrate with Claude</a>
 
 ### What You Can Do
 
