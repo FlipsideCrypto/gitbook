@@ -25,4 +25,4 @@ Build your bags — participate in journeys and quests to earn real crypto.
 
 ## 👥 [Community](<flipside-community/get-started (1).md>)
 
-Join the intelligence-driven growth community..
+Join the intelligence-driven growth community.
