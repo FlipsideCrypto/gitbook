@@ -16,6 +16,8 @@ Our DBT data documentation is kept up to date _as changes are deployed_, so chec
 * [Bitcoin](https://flipsidecrypto.github.io/bitcoin-models/)
 * [Binance Smart Chain](https://flipsidecrypto.github.io/bsc-models/#!/overview)
 * [Blast](https://flipsidecrypto.github.io/blast-models/#!/overview)
+* [Boba](https://flipsidecrypto.github.io/boba-models/#!/overview)
+* [Bob](https://flipsidecrypto.github.io/bsc-models/#!/overview)
 * [Core](https://flipsidecrypto.github.io/core-models/#!/overview/eclipse_models)
 * [Cosmos](https://flipsidecrypto.github.io/cosmos-models/#!/overview)&#x20;
 * [Eclipse](https://flipsidecrypto.github.io/eclipse-models/#!/overview/eclipse_models)
