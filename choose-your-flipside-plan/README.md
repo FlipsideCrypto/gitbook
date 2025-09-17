@@ -1,5 +1,6 @@
 ---
 description: Free, Builder, and Pro plans designed for your success in web3.
+hidden: true
 ---
 
 # Choose your Flipside plan
